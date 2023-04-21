@@ -4,7 +4,10 @@
 
 ## Integrantes del equipo
 
-[Nombres, apellidos, y usuario GitHub de los integrantes del equipo.]
+Pablo Hernández Hoyas (Usuario: Pablo2h10)
+Diego Rodríguez Martín (Usuario: )
+Miquel de Zavala Prats (Usuario: )
+Yeray Muñoz García (Usuario: )
 
 ## Objetivos del trabajo
 
