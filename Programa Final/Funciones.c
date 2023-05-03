@@ -73,6 +73,7 @@ void printEnergias(){
 }
 
 
+
 void printTiposEnergias(){
     int seleccion;
 
@@ -112,6 +113,7 @@ void printTiposEnergias(){
 } // Cierre printTiposEnergias
 
 
+
 void printTiposEnergiasNoRenovables(){
     int modalidad;
 
@@ -145,6 +147,7 @@ void printTiposEnergiasNoRenovables(){
         } // Cierre switch modalidad
 
 } // Cierre printTiposEnergiasNoRenovables
+
 
 
 void printNuclear(){
@@ -199,6 +202,7 @@ limpio. La unica parte donde se produce contaminacion, es en el proceso de desul
         } // Cierre switch seleccion
 
 } //Cierre printNuclear
+
 
 
 void printMotoresDiesel(){
@@ -299,6 +303,8 @@ void printTiposEnergiasRenovables(){
 
 } // Cierre TiposEnergiasRenovables
 
+
+
 void printHidraulica(){
     int seleccion;
 
@@ -350,6 +356,7 @@ void printHidraulica(){
         } // Cierre switch seleccion
 
 } //Cierre printHidraulica
+
 
 
 void printHidroeolica(){
@@ -405,6 +412,7 @@ void printHidroeolica(){
 } //Cierre printHidroeolica
 
 
+
 void printEolica(){
     int seleccion;
 
@@ -456,6 +464,7 @@ void printEolica(){
         } // Cierre switch seleccion
 
 } //Cierre printEolica
+
 
 
 void printSolarFotovoltaica(){
@@ -511,6 +520,7 @@ void printSolarFotovoltaica(){
 } //Cierre printFotovoltaica
 
 
+
 void printSolarTermica(){
      int seleccion;
 
@@ -562,6 +572,7 @@ void printSolarTermica(){
         } // Cierre switch seleccion
 
 } //Cierre printSolarTermica
+
 
 
 void printOtrasEnergiasRenovables(){
@@ -616,6 +627,7 @@ void printOtrasEnergiasRenovables(){
 } //Cierre printOtrasEnergiasRenovables
 
 
+
 void printResiduos(){
     int modalidad;
 
@@ -665,6 +677,7 @@ void printResiduos(){
         } // Cierre switch modalidad
 
 } //Cierre printResiduos
+
 
 
 void printGeneracionTotal(){
@@ -764,6 +777,7 @@ void printCombustiblesFosiles(){
 } // Cierre printCombustiblesFosiles
 
 
+
 void printCarbon(){
     int modalidad;
 
@@ -816,6 +830,7 @@ void printCarbon(){
         } // Cierre switch modalidad
 
 } //Cierre printCarbon
+
 
 
 void printFuelGas(){
@@ -874,6 +889,7 @@ void printFuelGas(){
 } //Cierre printFuelGas
 
 
+
 void printTurbinaGas(){
     int modalidad;
 
@@ -927,6 +943,7 @@ void printTurbinaGas(){
 
 
 } //Cierre printTurbinaGas
+
 
 
 void printTurbinaVapor(){
@@ -987,6 +1004,7 @@ void printTurbinaVapor(){
 } //Cierre printTurbinaVapor
 
 
+
 void printCicloCombinado(){
     int modalidad;
 
@@ -1039,9 +1057,6 @@ void printCicloCombinado(){
 
 
 } //Cierre printCicloCombinado
-
-
-
 
 
 
