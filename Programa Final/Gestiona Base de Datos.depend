@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1683069151 source:c:\users\pablo\desktop\informática\ejercicios clase\ejercicios ficheros\gestiona base de datos\inicio.c
+	<stdio.h>
+	"Funciones.h"
+
+1683073850 c:\users\pablo\desktop\informática\ejercicios clase\ejercicios ficheros\gestiona base de datos\funciones.h
+
+1683083402 source:c:\users\pablo\desktop\trabajo informática\gestiona base de datos\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"Funciones.h"
+
+1683084178 c:\users\pablo\desktop\trabajo informática\gestiona base de datos\funciones.h
+
+1683074931 source:c:\users\pablo\desktop\trabajo informática\gestiona base de datos\inicio.c
+	<stdio.h>
+	<stdlib.h>
+	"Funciones.h"
+
