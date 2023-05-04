@@ -1,0 +1,125 @@
+//NUEVAS ESTRUCTURAS 04/05/2023
+
+typedef struct
+{
+    char tipo[20];
+    float datos[23]; //porque hay dos años, es decir 24 meses
+    //float fecha[]; //luego la añado
+}Energia;  //vector de estructuras (LO TENGO QUE DECLARAR EN LA FUNCION VOID)
+
+
+
+
+void menuPrincipal();
+void printEnergias();
+void printTiposEnergias();
+void printTiposEnergiasNoRenovables();
+void printCombustiblesFosiles();
+void printNuclear();
+void printMotoresDiesel();
+void printTiposEnergiasRenovables();
+void printHidraulica();
+void printHidroeolica();
+void printEolica();
+void printSolarFotovoltaica();
+void printSolarTermica();
+void printOtrasEnergiasRenovables();
+void printGeneracionTotal();
+void printResiduos();
+void printGeneracionTotal();
+void printCombustiblesFosiles();
+void printCarbon();
+void printFuelGas();
+void printTurbinaGas();
+void printTurbinaVapor();
+void printCicloCombinado();
+void printMayorValorDiaHidraulica();
+void printMayorValorMesHidraulica();
+void printPeorValorDiaHidraulica();
+void printPeorValorMesHidraulica();
+void printMediaAnualHidraulica2021();
+void printMediaAnualHidraulica2022();
+void printMayorValorDiaHidroeolica();
+void printMayorValorMesHidroeolica();
+void printPeorValorDiaHidroeolica();
+void printPeorValorMesHidroeolica();
+void printMediaAnualHidroeolica2021();
+void printMediaAnualHidroeolica2022();
+void printMayorValorDiaEolica();
+void printMayorValorMesEolica();
+void printPeorValorDiaEolica();
+void printPeorValorMesEolica();
+void printMediaAnualEolica2021();
+void printMediaAnualEolica2022();
+void printMayorValorDiaFotovoltaica();
+void printMayorValorMesFotovoltaica();
+void printPeorValorDiaFotovoltaica();
+void printPeorValorMesFotovoltaica();
+void printMediaAnualFotovoltaica2021();
+void printMediaAnualFotovoltaica2022();
+void printMayorValorDiaSolarTermica();
+void printMayorValorMesSolarTermica();
+void printPeorValorDiaSolarTermica();
+void printPeorValorMesSolarTermica();
+void printMediaAnualSolarTermica2021();
+void printMediaAnualSolarTermica2022();
+void printMayorValorDiaOtrasRenovables();
+void printMayorValorMesOtrasRenovables();
+void printPeorValorDiaOtrasRenovables();
+void printPeorValorMesOtrasRenovables();
+void printMediaAnualOtrasRenovables2021();
+void printMediaAnualOtrasRenovables2022();
+void printMayorValorDiaCarbon();
+void printMayorValorMesCarbon();
+void printPeorValorDiaCarbon();
+void printPeorValorMesCarbon();
+void printMediaAnualCarbon2021();
+void printMediaAnualCarbon2022();
+void printMayorValorDiaFuelGas();
+void printMayorValorMesFuelGas();
+void printPeorValorDiaFuelGas();
+void printPeorValorMesFuelGas();
+void printMediaAnualFuelGas2021();
+void printMediaAnualFuelGas2022();
+void printMayorValorDiaTurbinaGas();
+void printMayorValorMesTurbinaGas();
+void printPeorValorDiaTurbinaGas();
+void printPeorValorMesTurbinaGas();
+void printMediaAnualTurbinaGas2021();
+void printMediaAnualTurbinaGas2022();
+void printMayorValorDiaTurbinaVapor();
+void printMayorValorMesTurbinaVapor();
+void printPeorValorDiaTurbinaVapor();
+void printPeorValorMesTurbinaVapor();
+void printMediaAnualTurbinaVapor2021();
+void printMediaAnualTurbinaVapor2022();
+void printMayorValorDiaCicloCombinado();
+void printMayorValorMesCicloCombinado();
+void printPeorValorDiaCicloCombinado();
+void printPeorValorMesCicloCombinado();
+void printMediaAnualCicloCombinado2021();
+void printMediaAnualCicloCombinado2022();
+void printMayorValorDiaMotoresDiesel();
+void printMayorValorMesMotoresDiesel();
+void printPeorValorDiaMotoresDiesel();
+void printPeorValorMesMotoresDiesel();
+void printMediaAnualMotoresDiesel2021();
+void printMediaAnualMotoresDiesel2022();
+void printMayorValorDiaResiduos();
+void printMayorValorMesResiduos();
+void printPeorValorDiaResiduos();
+void printPeorValorMesResiduos();
+void printMediaAnualResiduos2021();
+void printMediaAnualResiduos2022();
+void printMayorValorDiaGeneracionTotal();
+void printMayorValorMesGeneracionTotal();
+void printPeorValorDiaGeneracionTotal();
+void printPeorValorMesGeneracionTotal();
+void printMediaAnualGeneracionTotal2021();
+void printMediaAnualGeneracionTotal2022();
+
+
+
+//NUEVAS FUNCIONES 04/05/2023
+void Fichero1(int a);
+
