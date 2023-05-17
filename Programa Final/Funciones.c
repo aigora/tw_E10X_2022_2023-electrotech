@@ -8,7 +8,7 @@ void menuPrincipal(){
     int seleccion;
 
     do{
-    printf("\n¡Bienvenido a la Base de Datos!\nElija una de las opciones siguientes:\n\n");
+    printf("\nÂ¡Bienvenido a la Base de Datos!\nElija una de las opciones siguientes:\n\n");
     printf("\t1. Tipos Energias.\n\t2. Futura Idea.\n\t3. Futura Idea.\n\t4. Futura Idea.\n\t5. Salir de la Base de Datos.\n");
     scanf("%i", &seleccion);
     system("cls");
@@ -154,7 +154,7 @@ void printNuclear(){
     int seleccion;
 
     do{
-        printf("\n¡Usted ha seleccionado Energia Nuclear!\n\n");
+        printf("\nÂ¡Usted ha seleccionado Energia Nuclear!\n\n");
         printf("Como curiosidad usted debe saber... que la energia nuclear se divide en dos procesos distintos, uno, la fusion nuclear y,\
  el otro, la fision nuclear. El mas empleado es la fision nuclear que consiste en la desintegracion de ciertos atomos\
  con neutrones. Esta reaccion libera una gran cantidad de energia utilitaria. El proceso de fision nuclear es un proceso\
@@ -187,7 +187,7 @@ limpio. La unica parte donde se produce contaminacion, es en el proceso de desul
             break;
 
             case 5:
-                //printMediaAnualNuclear2021();
+                printMediaAnualNuclear2021();
             break;
 
             case 6:
@@ -209,7 +209,7 @@ void printMotoresDiesel(){
     int seleccion;
 
     do{
-        printf("\n¡Usted ha seleccionado Motores Diesel!\n\n");
+        printf("\nÂ¡Usted ha seleccionado Motores Diesel!\n\n");
         printf("Como curiosidad usted debe saber... FALTA INFOOOOOOOOOO!!!\n\n");
 
         printf("\nSeleccione que mas desea conocer sobre los Motores Diesel:\n");
@@ -309,10 +309,24 @@ void printHidraulica(){
     int seleccion;
 
     do{
-        printf("\n¡Usted ha seleccionado la Energia Hidraulica!\n\n");
+        printf("\nÂ¡Usted ha seleccionado la Energia Hidraulica!\n\n");
         printf("Como curiosidad usted debe saber... La Energia Hidraulica es aquella que aprovecha la velocidad (energia cinetica) y la\
  altura (energia potencial) de las corrientes de agua en un punto de caude del rio para convertirlo en energia mecanica\
  (debido a una turbina hidraulica) y, posteriormente, en electricidad con un generador.\n\n");
+
+ //VOY A TOCAR DESDE AQUI
+
+/* 04/05/2023
+
+ printf("Los datos de la energÃ­a hidrÃ¡ulica son los siguientes:\n");
+
+ Fichero1(1); //Te lee el fichero y almacena los datos...
+
+ printf("Los datos de %s son los siguientes", Energia.Energias[0]);
+
+ */
+
+
 
         printf("\nSeleccione que mas desea conocer sobre la Energia Hidraulica:\n");
         printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
@@ -341,7 +355,7 @@ void printHidraulica(){
             break;
 
             case 5:
-                //printMediaAnualHidraulica2021();
+                printMediaAnualHidraulica2021();
             break;
 
             case 6:
@@ -363,7 +377,7 @@ void printHidroeolica(){
     int seleccion;
 
     do{
-        printf("\n¡Usted ha seleccionado la Energia Hidroeolica!\n\n");
+        printf("\nÂ¡Usted ha seleccionado la Energia Hidroeolica!\n\n");
         printf("Como curiosidad usted debe saber... La Energia Hidroeolica combina el uso de aerogeneradores y turbinas hidraulicas\
  para aprovechar tanto la energia del viento como la del agua en movimiento. Esta forma de generacion de energia se utiliza principalmente\
  en zonas costeras o en el mar, donde hay vientos fuertes y corrientes de agua constantes.\n\n");
@@ -395,7 +409,7 @@ void printHidroeolica(){
             break;
 
             case 5:
-                //printMediaAnualHidroeolica2021();
+                printMediaAnualHidroeolica2021();
             break;
 
             case 6:
@@ -417,7 +431,7 @@ void printEolica(){
     int seleccion;
 
     do{
-        printf("\n¡Usted ha seleccionado la Energia Eolica!\n\n");
+        printf("\nÂ¡Usted ha seleccionado la Energia Eolica!\n\n");
         printf("Como curiosidad usted debe saber... La Energia Eolica transforma la energia cinetica del viento en energia mecanica mediante\
  las turbinas eolicas. Dicha energia mecanica aplicada a un alternador convierte la energia en energia electrica. Existe la energia eolica\
      terrestre y marina. A esta ultima se le conoce como 'offshore'.\n\n");
@@ -449,7 +463,7 @@ void printEolica(){
             break;
 
             case 5:
-                //printMediaAnualEolica2021();
+                printMediaAnualEolica2021();
             break;
 
             case 6:
@@ -471,7 +485,7 @@ void printSolarFotovoltaica(){
     int seleccion;
 
     do{
-        printf("\n¡Usted ha seleccionado la Energia Fotovoltaica!\n\n");
+        printf("\nÂ¡Usted ha seleccionado la Energia Fotovoltaica!\n\n");
         printf("Como curiosidad usted debe saber... La Energia Fotovoltaica sufre una transformacion directa de la radiacion solar en energia\
  electrica mediante el efecto fotoelectrico, que consiste en la emision de electrones de un material cuando se ilumina\
  con la radiacion solar.\n\n");
@@ -503,7 +517,7 @@ void printSolarFotovoltaica(){
             break;
 
             case 5:
-                //printMediaAnualFotovoltaica2021();
+                printMediaAnualFotovoltaica2021();
             break;
 
             case 6:
@@ -525,7 +539,7 @@ void printSolarTermica(){
      int seleccion;
 
     do{
-        printf("\n¡Usted ha seleccionado la Energia Solar Termica!\n\n");
+        printf("\nÂ¡Usted ha seleccionado la Energia Solar Termica!\n\n");
         printf("Como curiosidad usted debe saber... La Energia Solar Termica genera electricidad a partir de la energia recogida en un fluido\
  que se calienta mediante la energia solar. Si el fluido caliente es vapor o aire, debemos de tener en cuenta que el agua se evapora\
  gracias a la energia solar y dicho vapor es enviado a una turbina conectada a un generador, produciendo energia electrica.\n\n");
@@ -557,7 +571,7 @@ void printSolarTermica(){
             break;
 
             case 5:
-                //printMediaAnualSolarTermica2021();
+                printMediaAnualSolarTermica2021();
             break;
 
             case 6:
@@ -579,7 +593,7 @@ void printOtrasEnergiasRenovables(){
      int seleccion;
 
     do{
-        printf("\n¡Usted ha seleccionado otras Energias Renovables!\n\n");
+        printf("\nÂ¡Usted ha seleccionado otras Energias Renovables!\n\n");
         printf("Como curiosidad usted debe saber... Cuando nos referimos a otras Energias Renovables podemos englobar energias como\
  la geotermica, mareomotriz, energias procedentes de biomasa o biocombustibles.\n\n");
 
@@ -610,7 +624,7 @@ void printOtrasEnergiasRenovables(){
             break;
 
             case 5:
-                //printMediaAnualOtrasRenovables2021();
+                printMediaAnualOtrasRenovables2021();
             break;
 
             case 6:
@@ -632,7 +646,7 @@ void printResiduos(){
     int modalidad;
 
     do{
-        printf("\n¡Usted ha seleccionado la fuente de energia primaria Residuos!\n\n");
+        printf("\nÂ¡Usted ha seleccionado la fuente de energia primaria Residuos!\n\n");
         printf("Como curiosidad usted debe saber... FALTA INFOOOOOOOO!!!!!\n\n");
 
         printf("\nSeleccione que mas desea conocer sobre la fuente de energia a partir de Residuos:\n");
@@ -684,7 +698,7 @@ void printGeneracionTotal(){
 int modalidad;
 
     do{
-        printf("\n¡Usted ha seleccionado la Generacion Total!\n\n");
+        printf("\nÂ¡Usted ha seleccionado la Generacion Total!\n\n");
         printf("Como curiosidad usted debe saber... En este punto se recoge la suma de todas y cada una de las fuentes de generacion distintas\
  que se registran por Red Electrica Espanola (No Renovables, Renovables, Otra Renovables y Residuos).\n\n");
 
@@ -782,7 +796,7 @@ void printCarbon(){
     int modalidad;
 
     do{
-        printf("\n¡Usted ha seleccionado la fuente de energia primaria Carbon!\n\n");
+        printf("\nÂ¡Usted ha seleccionado la fuente de energia primaria Carbon!\n\n");
         printf("Como curiosidad usted debe saber... que el carbon es el combustible fosil mas sucio y ;a gran parte de su consumo mundial\
  se utiliza para la fundicion del hierro y como componente esencial del acero. Tambien se usa con gran frecuencia en la\
  industria quimica y petroquimica. EEUU es uno de los paises con mayores reservas de carbon junto con Asia. El carbon mas\
@@ -837,7 +851,7 @@ void printFuelGas(){
     int modalidad;
 
     do{
-        printf("\n¡Usted ha seleccionado la fuente de energia primaria Petroleo y Gas Natural!\n\n");
+        printf("\nÂ¡Usted ha seleccionado la fuente de energia primaria Petroleo y Gas Natural!\n\n");
         printf("Como curiosidad usted debe saber... que el petroleo una mezcla de hidrocarburos saturados en estado solido, liquido\
  o gaseoso que se encuentran en yacimientos naturales. El petroleo se lleva a un proceso de destilacion fraccionada\
  para obetener distintos tipos de carburantes. Las mayores reservas de petroleo las podemos encontrar Oriente medio.\
@@ -894,7 +908,7 @@ void printTurbinaGas(){
     int modalidad;
 
     do{
-        printf("\n¡Usted ha seleccionado la obtencion de energia a partir de la Turbina de Gas!\n\n");
+        printf("\nÂ¡Usted ha seleccionado la obtencion de energia a partir de la Turbina de Gas!\n\n");
         printf("Como curiosidad usted debe saber... primero se usa un combustible fosil para realizar una conversion de energia quimica\
  , por ejemplo, del carbon en energia termica. Para ello, se introduce el carbon en el interio de un horno y dicho vapor\
  o gas generado se hace pasar por una turbina que se encargara de la conversion de energia termica en energia mecanica.\
@@ -950,7 +964,7 @@ void printTurbinaVapor(){
     int modalidad;
 
     do{
-        printf("\n¡Usted ha seleccionado la obtencion de energia a partir de la Turbina de Vapor!\n\n");
+        printf("\nÂ¡Usted ha seleccionado la obtencion de energia a partir de la Turbina de Vapor!\n\n");
         printf("Como curiosidad usted debe saber... la turbina de vapor compone el ciclo de Rankine. Dicho ciclo podemos separarlo en 4 etapas.\
  La etapa 1-2 donde se produce una compresion isoentropica de agua liquida en la bomba. La presion del agua aumenta\
  para ser introducida en la caldera. En la etapa 2-3, manteniendp la presion, el agua se calienta hasta la temperatura\
@@ -1009,7 +1023,7 @@ void printCicloCombinado(){
     int modalidad;
 
     do{
-        printf("\n¡Usted ha seleccionado la obtencion de energia a partir de un Ciclo Combinado!\n\n");
+        printf("\nÂ¡Usted ha seleccionado la obtencion de energia a partir de un Ciclo Combinado!\n\n");
         printf("Como curiosidad usted debe saber... En este ciclo se decide sumar a la central termica una turbina de gas para producir\
  energia adicional a aprtir de los gases obtenidos en la combustion de los combustibles fosiles. Es decir, juntamos\
  una turbina de gas y una turbina de vapor. En este ciclo el rendimiento que obtenemos es del 45%.\n\n");
@@ -1061,3 +1075,1602 @@ void printCicloCombinado(){
 
 
 
+void printMediaAnualNuclear2021()
+
+{
+
+//int main()
+//{
+    char aux0, aux1, aux2, x;
+    int i=0, j, k;
+    int numerodefilas=0;
+    int numerodeenergias=0;
+
+    //Energia Energias[numerodeenergias];
+
+
+    FILE *pf;
+
+    pf = fopen("generacion_por_tecnologias_21_22_puntos.csv", "r");
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+            return (-1);
+        }
+    else
+    {
+
+     while(fscanf(pf, "%c", &aux0) != EOF)
+     {
+         if(aux0 == '\n')
+            numerodefilas++;
+
+     }
+
+
+     fclose(pf);
+    }
+
+    numerodefilas++;
+
+    //AHORA LO ABRIMOS POR SEGUNDA VEZ
+
+
+    pf = fopen("generacion_por_tecnologias_21_22_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+            return (-1);
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        //printf("%c", aux1); //este printf es para comprobar que copia los caracteres
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+  //AQUI TENGO QUE LEER LAS FECHAS
+
+  //HASTA AQUI LEE LAS 5 PRIMERAS FILAS (INCLUIDO LAS FECHAS)
+
+    numerodeenergias=numerodefilas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+        //fscanf(pf, "%c", &aux2); //TE COGE BIEN LA H
+        //printf("%c", aux2);
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+
+        //ahora recorro toda la linea hasta el caracter \n
+
+
+
+        //fscanf(pf, "%c", &aux2);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+    //printMediaAnualNuclear2021();
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[2].datos[j]+suma;  //LA NUCLEAR ES LA 2
+    }
+
+    promedio=suma/12.0;
+
+    printf("La suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+return 0;
+
+}
+
+
+//LAS QUE ME QUEDAN POR HACER
+
+void printMediaAnualHidraulica2021()
+{
+    char aux0, aux1, aux2, x;
+    int i=0, j, k;
+    int numerodefilas=0;
+    int numerodeenergias=0;
+
+    //Energia Energias[numerodeenergias];
+
+
+    FILE *pf;
+
+    pf = fopen("generacion_por_tecnologias_21_22_puntos.csv", "r");
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+            return (-1);
+        }
+    else
+    {
+
+     while(fscanf(pf, "%c", &aux0) != EOF)
+     {
+         if(aux0 == '\n')
+            numerodefilas++;
+
+     }
+
+
+     fclose(pf);
+    }
+
+    numerodefilas++;
+
+    //AHORA LO ABRIMOS POR SEGUNDA VEZ
+
+
+    pf = fopen("generacion_por_tecnologias_21_22_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+            return (-1);
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        //printf("%c", aux1); //este printf es para comprobar que copia los caracteres
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+  //AQUI TENGO QUE LEER LAS FECHAS
+
+  //HASTA AQUI LEE LAS 5 PRIMERAS FILAS (INCLUIDO LAS FECHAS)
+
+    numerodeenergias=numerodefilas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+        //fscanf(pf, "%c", &aux2); //TE COGE BIEN LA H
+        //printf("%c", aux2);
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+
+        //ahora recorro toda la linea hasta el caracter \n
+
+
+
+        //fscanf(pf, "%c", &aux2);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+    //printMediaAnualNuclear2021();
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[0].datos[j]+suma;  //LA NUCLEAR ES LA 2
+    }
+
+    promedio=suma/12.0;
+
+    printf("La suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+return 0;
+
+}
+
+
+
+void printMediaAnualHidraulica2022();
+
+void printMediaAnualHidroeolica2021()
+{
+    char aux0, aux1, aux2, x;
+    int i=0, j, k;
+    int numerodefilas=0;
+    int numerodeenergias=0;
+
+    //Energia Energias[numerodeenergias];
+
+
+    FILE *pf;
+
+    pf = fopen("generacion_por_tecnologias_21_22_puntos.csv", "r");
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+            return (-1);
+        }
+    else
+    {
+
+     while(fscanf(pf, "%c", &aux0) != EOF)
+     {
+         if(aux0 == '\n')
+            numerodefilas++;
+
+     }
+
+
+     fclose(pf);
+    }
+
+    numerodefilas++;
+
+    //AHORA LO ABRIMOS POR SEGUNDA VEZ
+
+
+    pf = fopen("generacion_por_tecnologias_21_22_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+            return (-1);
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        //printf("%c", aux1); //este printf es para comprobar que copia los caracteres
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+  //AQUI TENGO QUE LEER LAS FECHAS
+
+  //HASTA AQUI LEE LAS 5 PRIMERAS FILAS (INCLUIDO LAS FECHAS)
+
+    numerodeenergias=numerodefilas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+        //fscanf(pf, "%c", &aux2); //TE COGE BIEN LA H
+        //printf("%c", aux2);
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+
+        //ahora recorro toda la linea hasta el caracter \n
+
+
+
+        //fscanf(pf, "%c", &aux2);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+    //printMediaAnualNuclear2021();
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[9].datos[j]+suma;  //LA hidroelica es la , en el vector es 10
+    }
+
+    promedio=suma/12.0;
+
+    printf("La suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+return 0;
+
+}
+
+void printMediaAnualHidroeolica2022();
+
+void printMediaAnualEolica2021()
+{
+    char aux0, aux1, aux2, x;
+    int i=0, j, k;
+    int numerodefilas=0;
+    int numerodeenergias=0;
+
+    //Energia Energias[numerodeenergias];
+
+
+    FILE *pf;
+
+    pf = fopen("generacion_por_tecnologias_21_22_puntos.csv", "r");
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+            return (-1);
+        }
+    else
+    {
+
+     while(fscanf(pf, "%c", &aux0) != EOF)
+     {
+         if(aux0 == '\n')
+            numerodefilas++;
+
+     }
+
+
+     fclose(pf);
+    }
+
+    numerodefilas++;
+
+    //AHORA LO ABRIMOS POR SEGUNDA VEZ
+
+
+    pf = fopen("generacion_por_tecnologias_21_22_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+            return (-1);
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        //printf("%c", aux1); //este printf es para comprobar que copia los caracteres
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+  //AQUI TENGO QUE LEER LAS FECHAS
+
+  //HASTA AQUI LEE LAS 5 PRIMERAS FILAS (INCLUIDO LAS FECHAS)
+
+    numerodeenergias=numerodefilas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+        //fscanf(pf, "%c", &aux2); //TE COGE BIEN LA H
+        //printf("%c", aux2);
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+
+        //ahora recorro toda la linea hasta el caracter \n
+
+
+
+        //fscanf(pf, "%c", &aux2);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+    //printMediaAnualNuclear2021();
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[10].datos[j]+suma;  //LA eolica es la 11
+    }
+
+    promedio=suma/12.0;
+
+    printf("La suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+return 0;
+
+}
+
+void printMediaAnualEolica2022();
+
+void printMediaAnualFotovoltaica2021()
+{
+    char aux0, aux1, aux2, x;
+    int i=0, j, k;
+    int numerodefilas=0;
+    int numerodeenergias=0;
+
+    //Energia Energias[numerodeenergias];
+
+
+    FILE *pf;
+
+    pf = fopen("generacion_por_tecnologias_21_22_puntos.csv", "r");
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+            return (-1);
+        }
+    else
+    {
+
+     while(fscanf(pf, "%c", &aux0) != EOF)
+     {
+         if(aux0 == '\n')
+            numerodefilas++;
+
+     }
+
+
+     fclose(pf);
+    }
+
+    numerodefilas++;
+
+    //AHORA LO ABRIMOS POR SEGUNDA VEZ
+
+
+    pf = fopen("generacion_por_tecnologias_21_22_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+            return (-1);
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        //printf("%c", aux1); //este printf es para comprobar que copia los caracteres
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+  //AQUI TENGO QUE LEER LAS FECHAS
+
+  //HASTA AQUI LEE LAS 5 PRIMERAS FILAS (INCLUIDO LAS FECHAS)
+
+    numerodeenergias=numerodefilas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+        //fscanf(pf, "%c", &aux2); //TE COGE BIEN LA H
+        //printf("%c", aux2);
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+
+        //ahora recorro toda la linea hasta el caracter \n
+
+
+
+        //fscanf(pf, "%c", &aux2);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+    //printMediaAnualNuclear2021();
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[11].datos[j]+suma;  //LA FOTO ES 12
+    }
+
+    promedio=suma/12.0;
+
+    printf("La suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+return 0;
+
+}
+
+
+void printMediaAnualFotovoltaica2022();
+
+void printMediaAnualSolarTermica2021()
+{
+    char aux0, aux1, aux2, x;
+    int i=0, j, k;
+    int numerodefilas=0;
+    int numerodeenergias=0;
+
+    //Energia Energias[numerodeenergias];
+
+
+    FILE *pf;
+
+    pf = fopen("generacion_por_tecnologias_21_22_puntos.csv", "r");
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+            return (-1);
+        }
+    else
+    {
+
+     while(fscanf(pf, "%c", &aux0) != EOF)
+     {
+         if(aux0 == '\n')
+            numerodefilas++;
+
+     }
+
+
+     fclose(pf);
+    }
+
+    numerodefilas++;
+
+    //AHORA LO ABRIMOS POR SEGUNDA VEZ
+
+
+    pf = fopen("generacion_por_tecnologias_21_22_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+            return (-1);
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        //printf("%c", aux1); //este printf es para comprobar que copia los caracteres
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+  //AQUI TENGO QUE LEER LAS FECHAS
+
+  //HASTA AQUI LEE LAS 5 PRIMERAS FILAS (INCLUIDO LAS FECHAS)
+
+    numerodeenergias=numerodefilas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+        //fscanf(pf, "%c", &aux2); //TE COGE BIEN LA H
+        //printf("%c", aux2);
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+
+        //ahora recorro toda la linea hasta el caracter \n
+
+
+
+        //fscanf(pf, "%c", &aux2);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+    //printMediaAnualNuclear2021();
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[12].datos[j]+suma;  //LA solar termica es la 13
+    }
+
+    promedio=suma/12.0;
+
+    printf("La suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+return 0;
+
+
+}
+
+//void printMediaAnualSolarTermica2022();
+
+void printMediaAnualOtrasRenovables2021()
+{
+    char aux0, aux1, aux2, x;
+    int i=0, j, k;
+    int numerodefilas=0;
+    int numerodeenergias=0;
+
+    //Energia Energias[numerodeenergias];
+
+
+    FILE *pf;
+
+    pf = fopen("generacion_por_tecnologias_21_22_puntos.csv", "r");
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+            return (-1);
+        }
+    else
+    {
+
+     while(fscanf(pf, "%c", &aux0) != EOF)
+     {
+         if(aux0 == '\n')
+            numerodefilas++;
+
+     }
+
+
+     fclose(pf);
+    }
+
+    numerodefilas++;
+
+    //AHORA LO ABRIMOS POR SEGUNDA VEZ
+
+
+    pf = fopen("generacion_por_tecnologias_21_22_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+            return (-1);
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        //printf("%c", aux1); //este printf es para comprobar que copia los caracteres
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+  //AQUI TENGO QUE LEER LAS FECHAS
+
+  //HASTA AQUI LEE LAS 5 PRIMERAS FILAS (INCLUIDO LAS FECHAS)
+
+    numerodeenergias=numerodefilas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+        //fscanf(pf, "%c", &aux2); //TE COGE BIEN LA H
+        //printf("%c", aux2);
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+
+        //ahora recorro toda la linea hasta el caracter \n
+
+
+
+        //fscanf(pf, "%c", &aux2);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+    //printMediaAnualNuclear2021();
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[13].datos[j]+suma;  //LAs otras son la 14
+    }
+
+    promedio=suma/12.0;
+
+    printf("La suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+return 0;
+
+
+}
+//void printMediaAnualOtrasRenovables2022();
+
+void printMediaAnualCarbon2021()
+{
+    char aux0, aux1, aux2, x;
+    int i=0, j, k;
+    int numerodefilas=0;
+    int numerodeenergias=0;
+
+    //Energia Energias[numerodeenergias];
+
+
+    FILE *pf;
+
+    pf = fopen("generacion_por_tecnologias_21_22_puntos.csv", "r");
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+            return (-1);
+        }
+    else
+    {
+
+     while(fscanf(pf, "%c", &aux0) != EOF)
+     {
+         if(aux0 == '\n')
+            numerodefilas++;
+
+     }
+
+
+     fclose(pf);
+    }
+
+    numerodefilas++;
+
+    //AHORA LO ABRIMOS POR SEGUNDA VEZ
+
+
+    pf = fopen("generacion_por_tecnologias_21_22_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+            return (-1);
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        //printf("%c", aux1); //este printf es para comprobar que copia los caracteres
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+  //AQUI TENGO QUE LEER LAS FECHAS
+
+  //HASTA AQUI LEE LAS 5 PRIMERAS FILAS (INCLUIDO LAS FECHAS)
+
+    numerodeenergias=numerodefilas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+        //fscanf(pf, "%c", &aux2); //TE COGE BIEN LA H
+        //printf("%c", aux2);
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+
+        //ahora recorro toda la linea hasta el caracter \n
+
+
+
+        //fscanf(pf, "%c", &aux2);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+    //printMediaAnualNuclear2021();
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[3].datos[j]+suma;  //LA NUCLEAR ES LA 4
+    }
+
+    promedio=suma/12.0;
+
+    printf("La suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+return 0;
+
+
+}
+//void printMediaAnualCarbon2022();
+
+void printMediaAnualFuelGas2021()
+{
+    char aux0, aux1, aux2, x;
+    int i=0, j, k;
+    int numerodefilas=0;
+    int numerodeenergias=0;
+
+    //Energia Energias[numerodeenergias];
+
+
+    FILE *pf;
+
+    pf = fopen("generacion_por_tecnologias_21_22_puntos.csv", "r");
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+            return (-1);
+        }
+    else
+    {
+
+     while(fscanf(pf, "%c", &aux0) != EOF)
+     {
+         if(aux0 == '\n')
+            numerodefilas++;
+
+     }
+
+
+     fclose(pf);
+    }
+
+    numerodefilas++;
+
+    //AHORA LO ABRIMOS POR SEGUNDA VEZ
+
+
+    pf = fopen("generacion_por_tecnologias_21_22_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+            return (-1);
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        //printf("%c", aux1); //este printf es para comprobar que copia los caracteres
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+  //AQUI TENGO QUE LEER LAS FECHAS
+
+  //HASTA AQUI LEE LAS 5 PRIMERAS FILAS (INCLUIDO LAS FECHAS)
+
+    numerodeenergias=numerodefilas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+        //fscanf(pf, "%c", &aux2); //TE COGE BIEN LA H
+        //printf("%c", aux2);
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+
+        //ahora recorro toda la linea hasta el caracter \n
+
+
+
+        //fscanf(pf, "%c", &aux2);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+    //printMediaAnualNuclear2021();
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[4].datos[j]+suma;  //LA del gas es 5, CORREGIR
+    }
+
+    promedio=suma/12.0;
+
+    printf("La suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+return 0;
+
+
+}
+//void printMediaAnualFuelGas2022();
+
+void printMediaAnualTurbinaGas2021()
+{
+    char aux0, aux1, aux2, x;
+    int i=0, j, k;
+    int numerodefilas=0;
+    int numerodeenergias=0;
+
+    //Energia Energias[numerodeenergias];
+
+
+    FILE *pf;
+
+    pf = fopen("generacion_por_tecnologias_21_22_puntos.csv", "r");
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+            return (-1);
+        }
+    else
+    {
+
+     while(fscanf(pf, "%c", &aux0) != EOF)
+     {
+         if(aux0 == '\n')
+            numerodefilas++;
+
+     }
+
+
+     fclose(pf);
+    }
+
+    numerodefilas++;
+
+    //AHORA LO ABRIMOS POR SEGUNDA VEZ
+
+
+    pf = fopen("generacion_por_tecnologias_21_22_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+            return (-1);
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        //printf("%c", aux1); //este printf es para comprobar que copia los caracteres
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+  //AQUI TENGO QUE LEER LAS FECHAS
+
+  //HASTA AQUI LEE LAS 5 PRIMERAS FILAS (INCLUIDO LAS FECHAS)
+
+    numerodeenergias=numerodefilas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+        //fscanf(pf, "%c", &aux2); //TE COGE BIEN LA H
+        //printf("%c", aux2);
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+
+        //ahora recorro toda la linea hasta el caracter \n
+
+
+
+        //fscanf(pf, "%c", &aux2);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+    //printMediaAnualNuclear2021();
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[6].datos[j]+suma;  //LA TURBINA GAS ES LA 7
+
+    promedio=suma/12.0;
+
+    printf("La suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+return 0;
+
+}
+
+
+}
+//void printMediaAnualTurbinaGas2022();
+
+void printMediaAnualTurbinaVapor2021()
+{
+    char aux0, aux1, aux2, x;
+    int i=0, j, k;
+    int numerodefilas=0;
+    int numerodeenergias=0;
+
+    //Energia Energias[numerodeenergias];
+
+
+    FILE *pf;
+
+    pf = fopen("generacion_por_tecnologias_21_22_puntos.csv", "r");
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+            return (-1);
+        }
+    else
+    {
+
+     while(fscanf(pf, "%c", &aux0) != EOF)
+     {
+         if(aux0 == '\n')
+            numerodefilas++;
+
+     }
+
+
+     fclose(pf);
+    }
+
+    numerodefilas++;
+
+    //AHORA LO ABRIMOS POR SEGUNDA VEZ
+
+
+    pf = fopen("generacion_por_tecnologias_21_22_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+            return (-1);
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        //printf("%c", aux1); //este printf es para comprobar que copia los caracteres
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+  //AQUI TENGO QUE LEER LAS FECHAS
+
+  //HASTA AQUI LEE LAS 5 PRIMERAS FILAS (INCLUIDO LAS FECHAS)
+
+    numerodeenergias=numerodefilas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+        //fscanf(pf, "%c", &aux2); //TE COGE BIEN LA H
+        //printf("%c", aux2);
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+
+        //ahora recorro toda la linea hasta el caracter \n
+
+
+
+        //fscanf(pf, "%c", &aux2);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+    //printMediaAnualNuclear2021();
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[7].datos[j]+suma;  //LA TURBINA VAPOR ES LA 8
+    }
+
+    promedio=suma/12.0;
+
+    printf("La suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+return 0;
+
+}
+//void printMediaAnualTurbinaVapor2022();
+
+void printMediaAnualCicloCombinado2021()
+{
+    char aux0, aux1, aux2, x;
+    int i=0, j, k;
+    int numerodefilas=0;
+    int numerodeenergias=0;
+
+    //Energia Energias[numerodeenergias];
+
+
+    FILE *pf;
+
+    pf = fopen("generacion_por_tecnologias_21_22_puntos.csv", "r");
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+            return (-1);
+        }
+    else
+    {
+
+     while(fscanf(pf, "%c", &aux0) != EOF)
+     {
+         if(aux0 == '\n')
+            numerodefilas++;
+
+     }
+
+
+     fclose(pf);
+    }
+
+    numerodefilas++;
+
+    //AHORA LO ABRIMOS POR SEGUNDA VEZ
+
+
+    pf = fopen("generacion_por_tecnologias_21_22_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+            return (-1);
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        //printf("%c", aux1); //este printf es para comprobar que copia los caracteres
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+  //AQUI TENGO QUE LEER LAS FECHAS
+
+  //HASTA AQUI LEE LAS 5 PRIMERAS FILAS (INCLUIDO LAS FECHAS)
+
+    numerodeenergias=numerodefilas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+        //fscanf(pf, "%c", &aux2); //TE COGE BIEN LA H
+        //printf("%c", aux2);
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+
+        //ahora recorro toda la linea hasta el caracter \n
+
+
+
+        //fscanf(pf, "%c", &aux2);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+    //printMediaAnualNuclear2021();
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[8].datos[j]+suma;  //CICLO COMBINADO ES LA 9
+    }
+
+    promedio=suma/12.0;
+
+    printf("La suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+return 0;
+
+}
+//void printMediaAnualCicloCombinado2022();
+/*
+void printMediaAnualMotoresDiesel2021()
+{
+    char aux0, aux1, aux2, x;
+    int i=0, j, k;
+    int numerodefilas=0;
+    int numerodeenergias=0;
+
+    //Energia Energias[numerodeenergias];
+
+
+    FILE *pf;
+
+    pf = fopen("generacion_por_tecnologias_21_22_puntos.csv", "r");
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+            return (-1);
+        }
+    else
+    {
+
+     while(fscanf(pf, "%c", &aux0) != EOF)
+     {
+         if(aux0 == '\n')
+            numerodefilas++;
+
+     }
+
+
+     fclose(pf);
+    }
+
+    numerodefilas++;
+
+    //AHORA LO ABRIMOS POR SEGUNDA VEZ
+
+
+    pf = fopen("generacion_por_tecnologias_21_22_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+            return (-1);
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        //printf("%c", aux1); //este printf es para comprobar que copia los caracteres
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+  //AQUI TENGO QUE LEER LAS FECHAS
+
+  //HASTA AQUI LEE LAS 5 PRIMERAS FILAS (INCLUIDO LAS FECHAS)
+
+    numerodeenergias=numerodefilas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+        //fscanf(pf, "%c", &aux2); //TE COGE BIEN LA H
+        //printf("%c", aux2);
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+
+        //ahora recorro toda la linea hasta el caracter \n
+
+
+
+        //fscanf(pf, "%c", &aux2);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+    //printMediaAnualNuclear2021();
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[5].datos[j]+suma;  //MOTORES DIESEL ES LA 6
+
+    promedio=suma/12.0;
+
+    printf("La suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+return 0;
+
+}
+*/
+//void printMediaAnualMotoresDiesel2022();
+
+//void printMediaAnualResiduos2021()
+//void printMediaAnualResiduos2022();
+
+
+//void printMediaAnualGeneracionTotal2021();
+//void printMediaAnualGeneracionTotal2022();
