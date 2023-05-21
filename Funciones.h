@@ -97,3 +97,9 @@ void printMayorValorDiaResiduos();//no tiene sentido esta funcion
 void printMayorValorMesResiduos();
 void printPeorValorDiaResiduos();//no tiene sentido esta funcion
 void printPeorValorMesResiduos();
+void printMediaAnualResiduos2021();
+void printMediaAnualResiduos2022();
+void printMayorValorDiaGeneracionTotal();//no tiene sentido esta funcion
+void printMayorValorMesGeneracionTotal();
+void printPeorValorDiaGeneracionTotal();//no tiene sentido esta funcion
+void printPeorValorMesGeneracionTotal();
