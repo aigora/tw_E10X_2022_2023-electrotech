@@ -81,3 +81,19 @@ void printPeorValorDiaTurbinaVapor();//no tiene sentido esta funcion
 void printPeorValorMesTurbinaVapor();
 void printMediaAnualTurbinaVapor2021();
 void printMediaAnualTurbinaVapor2022();
+void printMayorValorDiaCicloCombinado();//no tiene sentido esta funcion
+void printMayorValorMesCicloCombinado();
+void printPeorValorDiaCicloCombinado();//no tiene sentido esta funcion
+void printPeorValorMesCicloCombinado();
+void printMediaAnualCicloCombinado2021();
+void printMediaAnualCicloCombinado2022();
+void printMayorValorDiaMotoresDiesel();//no tiene sentido esta funcion
+void printMayorValorMesMotoresDiesel();
+void printPeorValorDiaMotoresDiesel();//no tiene sentido esta funcion
+void printPeorValorMesMotoresDiesel();
+void printMediaAnualMotoresDiesel2021();
+void printMediaAnualMotoresDiesel2022();
+void printMayorValorDiaResiduos();//no tiene sentido esta funcion
+void printMayorValorMesResiduos();
+void printPeorValorDiaResiduos();//no tiene sentido esta funcion
+void printPeorValorMesResiduos();
