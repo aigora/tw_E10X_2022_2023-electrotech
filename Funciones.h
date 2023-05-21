@@ -57,3 +57,27 @@ void printPeorValorDiaOtrasRenovables();//no tiene sentido esta funcion
 void printPeorValorMesOtrasRenovables();
 void printMediaAnualOtrasRenovables2021();
 void printMediaAnualOtrasRenovables2022();
+void printMayorValorDiaCarbon();//no tiene sentido esta funcion
+void printMayorValorMesCarbon();
+void printPeorValorDiaCarbon();//no tiene sentido esta funcion
+void printPeorValorMesCarbon();
+void printMediaAnualCarbon2021();
+void printMediaAnualCarbon2022();
+void printMayorValorDiaFuelGas();//no tiene sentido esta funcion
+void printMayorValorMesFuelGas();
+void printPeorValorDiaFuelGas();//no tiene sentido esta funcion
+void printPeorValorMesFuelGas();
+void printMediaAnualFuelGas2021();
+void printMediaAnualFuelGas2022();
+void printMayorValorDiaTurbinaGas();//no tiene sentido esta funcion
+void printMayorValorMesTurbinaGas();
+void printPeorValorDiaTurbinaGas();//no tiene sentido esta funcion
+void printPeorValorMesTurbinaGas();
+void printMediaAnualTurbinaGas2021();
+void printMediaAnualTurbinaGas2022();
+void printMayorValorDiaTurbinaVapor();//no tiene sentido esta funcion
+void printMayorValorMesTurbinaVapor();
+void printPeorValorDiaTurbinaVapor();//no tiene sentido esta funcion
+void printPeorValorMesTurbinaVapor();
+void printMediaAnualTurbinaVapor2021();
+void printMediaAnualTurbinaVapor2022();
