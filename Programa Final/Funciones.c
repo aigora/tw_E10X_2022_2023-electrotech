@@ -17,7 +17,7 @@ void menuPrincipal(){
     int seleccion;
 
     do{
-    printf("\n¡Bienvenido a la Base de Datos!\nElija una de las opciones siguientes:\n\n");
+    printf("\nBienvenido a la Base de Datos!\nElija una de las siguientes opciones:\n\n");
     printf("\t1. Tipos Energias.\n\t2. Futura Idea.\n\t3. Futura Idea.\n\t4. Futura Idea.\n\t5. Salir de la Base de Datos.\n");
     scanf("%i", &seleccion);
     system("cls");
@@ -59,8 +59,8 @@ void printEnergias(){
     int modalidad;
 
     do{
-    printf("\nDesea continuar con el acceso a distintas Energias:\n\n");
-    printf("\t1. Continuar\n\t2. Salir\n");
+    printf("\nDesea continuar con el acceso a distintas Energias?:\n\n");
+    printf("\t1. Continuar\n\t2. Atras\n");
     scanf("%i", &modalidad);
     fflush(stdin);
     system("cls");
@@ -88,7 +88,7 @@ void printTiposEnergias(){
 
     do{
     printf("\nSeleccione el tipo de Energia de la que desee obtener mayor informacion:\n\n");
-    printf("\t1. No Renovable\n\t2. Renovable\n\t3. Residuos\n\t4. Generacion Total\n\t5. Salir\n");
+    printf("\t1. No Renovable\n\t2. Renovable\n\t3. Residuos\n\t4. Generacion Total\n\t5. Atras\n");
     scanf("%i", &seleccion);
     fflush(stdin);
     system("cls");
@@ -128,7 +128,7 @@ void printTiposEnergiasNoRenovables(){
 
     do{
         printf("\nSeleccione el tipo de Energia No Renovable de la que desee obtener mayor informacion:\n\n");
-        printf("\t1. Combustibles Fosiles\n\t2. Nuclear\n\t3. Motores Diesel\n\t4. Salir\n");
+        printf("\t1. Combustibles Fosiles\n\t2. Nuclear\n\t3. Motores Diesel\n\t4. Atras\n");
         scanf("%i", &modalidad);
         fflush(stdin);
         system("cls");
@@ -171,7 +171,7 @@ limpio. La unica parte donde se produce contaminacion, es en el proceso de desul
 
         printf("\nSeleccione que mas desea conocer sobre la Energia Nuclear:\n");
         printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
-        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Salir\n");
+        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n");
         scanf("%i", &seleccion);
         fflush(stdin);
         system("cls");
@@ -223,7 +223,7 @@ void printMotoresDiesel(){
 
         printf("\nSeleccione que mas desea conocer sobre los Motores Diesel:\n");
         printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
-        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Salir\n");
+        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n");
         scanf("%i", &seleccion);
         fflush(stdin);
         system("cls");
@@ -271,7 +271,7 @@ void printTiposEnergiasRenovables(){
 
     do{
         printf("\nSeleccione el tipo de Energia Renovable de la que desee obtener mayor informacion:\n\n");
-        printf("\t1. Hidraulica\n\t2. Hidroeolica\n\t3. Eolica\n\t4. Solar Fotovoltaica\n\t5. Solar Termica\n\t6. Otras Renovables\n\t7. Salir\n");
+        printf("\t1. Hidraulica\n\t2. Hidroeolica\n\t3. Eolica\n\t4. Solar Fotovoltaica\n\t5. Solar Termica\n\t6. Otras Renovables\n\t7. Atras\n");
         scanf("%i", &modalidad);
         fflush(stdin);
         system("cls");
@@ -339,7 +339,7 @@ void printHidraulica(){
 
         printf("\nSeleccione que mas desea conocer sobre la Energia Hidraulica:\n");
         printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
-        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Salir\n");
+        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n");
         scanf("%i", &seleccion);
         fflush(stdin);
         system("cls");
@@ -393,7 +393,7 @@ void printHidroeolica(){
 
         printf("\nSeleccione que mas desea conocer sobre la Energia Hidroeolica:\n");
         printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
-        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Salir\n");
+        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n");
         scanf("%i", &seleccion);
         fflush(stdin);
         system("cls");
@@ -447,7 +447,7 @@ void printEolica(){
 
         printf("\nSeleccione que mas desea conocer sobre la Energia Eolica:\n");
         printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
-        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Salir\n");
+        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n");
         scanf("%i", &seleccion);
         fflush(stdin);
         system("cls");
@@ -501,7 +501,7 @@ void printSolarFotovoltaica(){
 
         printf("\nSeleccione que mas desea conocer sobre la Energia Fotovoltaica:\n");
         printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
-        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Salir\n");
+        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n");
         scanf("%i", &seleccion);
         fflush(stdin);
         system("cls");
@@ -555,7 +555,7 @@ void printSolarTermica(){
 
         printf("\nSeleccione que mas desea conocer sobre la Energia Solar Termica:\n");
         printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
-        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Salir\n");
+        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n");
         scanf("%i", &seleccion);
         fflush(stdin);
         system("cls");
@@ -608,7 +608,7 @@ void printOtrasEnergiasRenovables(){
 
         printf("\nSeleccione que mas desea conocer sobre otras Energias Renovables:\n");
         printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
-        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Salir\n");
+        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n");
         scanf("%i", &seleccion);
         fflush(stdin);
         system("cls");
@@ -660,7 +660,7 @@ void printResiduos(){
 
         printf("\nSeleccione que mas desea conocer sobre la fuente de energia a partir de Residuos:\n");
         printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
-        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Salir\n");
+        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n");
         scanf("%i", &modalidad);
         fflush(stdin);
         system("cls");
@@ -713,7 +713,7 @@ int modalidad;
 
         printf("\nSeleccione que mas desea conocer sobre la Generacion Total:\n");
         printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
-        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Salir\n");
+        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n");
         scanf("%i", &modalidad);
         fflush(stdin);
         system("cls");
@@ -761,7 +761,7 @@ void printCombustiblesFosiles(){
 
     do{
         printf("\nSeleccione el tipo de Combustible Fosil del que desee obtener mayor informacion:\n\n");
-        printf("\t1. Carbon\n\t2. Fuel + Gas Natural\n\t3. Turbina Gas\n\t4. Turbina Vapor\n\t5. Ciclo Combinado\n\t6. Salir\n");
+        printf("\t1. Carbon\n\t2. Fuel + Gas Natural\n\t3. Turbina Gas\n\t4. Turbina Vapor\n\t5. Ciclo Combinado\n\t6. Atras\n");
         scanf("%i", &seleccion);
         fflush(stdin);
         system("cls");
@@ -813,7 +813,7 @@ void printCarbon(){
 
         printf("\nSeleccione que mas desea conocer sobre el Carbon:\n");
         printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
-        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Salir\n");
+        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n");
         scanf("%i", &modalidad);
         fflush(stdin);
         system("cls");
@@ -869,7 +869,7 @@ void printFuelGas(){
 
         printf("\nSeleccione que mas desea conocer sobre el Petroleo y Gas Natural:\n");
         printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
-        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Salir\n");
+        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n");
         scanf("%i", &modalidad);
         fflush(stdin);
         system("cls");
@@ -925,7 +925,7 @@ void printTurbinaGas(){
 
         printf("\nSeleccione que mas desea conocer sobre la obtencion de energia a partir de la Turbina de Gas:\n");
         printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
-        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Salir\n");
+        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n");
         scanf("%i", &modalidad);
         fflush(stdin);
         system("cls");
@@ -984,7 +984,7 @@ void printTurbinaVapor(){
 
         printf("\nSeleccione que mas desea conocer sobre la obtencion de energia a partir de la Turbina de Vapor:\n");
         printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
-        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Salir\n");
+        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n");
         scanf("%i", &modalidad);
         fflush(stdin);
         system("cls");
@@ -1039,7 +1039,7 @@ void printCicloCombinado(){
 
         printf("\nSeleccione que mas desea conocer sobre la obtencion de energia a partir de un Ciclo Combinado:\n");
         printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
-        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Salir\n");
+        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n");
         scanf("%i", &modalidad);
         fflush(stdin);
         system("cls");
