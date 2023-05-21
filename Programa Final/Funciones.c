@@ -5300,9 +5300,9 @@ void printMayorValorMesGeneracionTotal()
 }
 void printPeorValorMesGeneracionTotal()
 {
-    void printPeorValorMesGeneracionTotal()
-{
-        char aux0, aux1, aux2, x;
+    void printPeorValorMesGeneracionTotal();
+
+    char aux0, aux1, aux2, x;
     int contador=0, i=0, j;
     int numerodefilas=0;
     int numerodeenergias=0, numerodefechas=0;
