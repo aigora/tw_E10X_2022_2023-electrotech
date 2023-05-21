@@ -103,3 +103,5 @@ void printMayorValorDiaGeneracionTotal();//no tiene sentido esta funcion
 void printMayorValorMesGeneracionTotal();
 void printPeorValorDiaGeneracionTotal();//no tiene sentido esta funcion
 void printPeorValorMesGeneracionTotal();
+void printMediaAnualGeneracionTotal2021();
+void printMediaAnualGeneracionTotal2022();
