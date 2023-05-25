@@ -17,7 +17,7 @@ void menuPrincipal(){
     int seleccion;
 
     do{
-    printf("\nBienvenido a la Base de Datos\nElija una de las opciones siguientes:\n\n");
+    printf("\nBienvenido a la Base de Datos!\nElija una de las opciones siguientes:\n\n");
     printf("\t1. Tipos Energias.\n\t2. Futura Idea.\n\t3. Futura Idea.\n\t4. Futura Idea.\n\t5. Salir de la Base de Datos.\n");
     scanf("%i", &seleccion);
     system("cls");
@@ -163,7 +163,7 @@ void printNuclear(){
     int seleccion;
 
     do{
-        printf("\n¡Usted ha seleccionado Energia Nuclear!\n\n");
+        printf("\nUsted ha seleccionado Energia Nuclear!\n\n");
         printf("Como curiosidad usted debe saber... que la energia nuclear se divide en dos procesos distintos, uno, la fusion nuclear y,\
  el otro, la fision nuclear. El mas empleado es la fision nuclear que consiste en la desintegracion de ciertos atomos\
  con neutrones. Esta reaccion libera una gran cantidad de energia utilitaria. El proceso de fision nuclear es un proceso\
@@ -223,7 +223,7 @@ void printMotoresDiesel(){
     int seleccion;
 
     do{
-        printf("\n¡Usted ha seleccionado Motores Diesel!\n\n");
+        printf("\nUsted ha seleccionado Motores Diesel!\n\n");
         printf("Como curiosidad usted debe saber... FALTA INFOOOOOOOOOO!!!\n\n");
 
         printf("\nSeleccione que mas desea conocer sobre los Motores Diesel:\n");
@@ -328,7 +328,7 @@ void printHidraulica(){
     int seleccion;
 
     do{
-        printf("\n¡Usted ha seleccionado la Energia Hidraulica!\n\n");
+        printf("\nUsted ha seleccionado la Energia Hidraulica!\n\n");
         printf("Como curiosidad usted debe saber... La Energia Hidraulica es aquella que aprovecha la velocidad (energia cinetica) y la\
  altura (energia potencial) de las corrientes de agua en un punto de caude del rio para convertirlo en energia mecanica\
  (debido a una turbina hidraulica) y, posteriormente, en electricidad con un generador.\n\n");
@@ -401,7 +401,7 @@ void printHidroeolica(){
     int seleccion;
 
     do{
-        printf("\n¡Usted ha seleccionado la Energia Hidroeolica!\n\n");
+        printf("\nUsted ha seleccionado la Energia Hidroeolica!\n\n");
         printf("Como curiosidad usted debe saber... La Energia Hidroeolica combina el uso de aerogeneradores y turbinas hidraulicas\
  para aprovechar tanto la energia del viento como la del agua en movimiento. Esta forma de generacion de energia se utiliza principalmente\
  en zonas costeras o en el mar, donde hay vientos fuertes y corrientes de agua constantes.\n\n");
@@ -460,7 +460,7 @@ void printEolica(){
     int seleccion;
 
     do{
-        printf("\n¡Usted ha seleccionado la Energia Eolica!\n\n");
+        printf("\nUsted ha seleccionado la Energia Eolica!\n\n");
         printf("Como curiosidad usted debe saber... La Energia Eolica transforma la energia cinetica del viento en energia mecanica mediante\
  las turbinas eolicas. Dicha energia mecanica aplicada a un alternador convierte la energia en energia electrica. Existe la energia eolica\
      terrestre y marina. A esta ultima se le conoce como 'offshore'.\n\n");
@@ -519,7 +519,7 @@ void printSolarFotovoltaica(){
     int seleccion;
 
     do{
-        printf("\n¡Usted ha seleccionado la Energia Fotovoltaica!\n\n");
+        printf("\nUsted ha seleccionado la Energia Fotovoltaica!\n\n");
         printf("Como curiosidad usted debe saber... La Energia Fotovoltaica sufre una transformacion directa de la radiacion solar en energia\
  electrica mediante el efecto fotoelectrico, que consiste en la emision de electrones de un material cuando se ilumina\
  con la radiacion solar.\n\n");
@@ -578,7 +578,7 @@ void printSolarTermica(){
      int seleccion;
 
     do{
-        printf("\n¡Usted ha seleccionado la Energia Solar Termica!\n\n");
+        printf("\nUsted ha seleccionado la Energia Solar Termica!\n\n");
         printf("Como curiosidad usted debe saber... La Energia Solar Termica genera electricidad a partir de la energia recogida en un fluido\
  que se calienta mediante la energia solar. Si el fluido caliente es vapor o aire, debemos de tener en cuenta que el agua se evapora\
  gracias a la energia solar y dicho vapor es enviado a una turbina conectada a un generador, produciendo energia electrica.\n\n");
@@ -637,7 +637,7 @@ void printOtrasEnergiasRenovables(){
      int seleccion;
 
     do{
-        printf("\n¡Usted ha seleccionado otras Energias Renovables!\n\n");
+        printf("\nUsted ha seleccionado otras Energias Renovables!\n\n");
         printf("Como curiosidad usted debe saber... Cuando nos referimos a otras Energias Renovables podemos englobar energias como\
  la geotermica, mareomotriz, energias procedentes de biomasa o biocombustibles.\n\n");
 
@@ -695,10 +695,43 @@ void printResiduos(){
     int modalidad;
 
     do{
-        printf("\n¡Usted ha seleccionado la fuente de energia primaria Residuos!\n\n");
+        printf("\nUsted ha seleccionado la fuente de energia primaria Residuos!\n");
+        printf("\nSeleccione que mas desea conocer sobre la fuente de energia a partir de Residuos:\n");
+        printf("\n\t1. Residuos Renovables\n\t2. Residuos No Renovables\n\t3. Atras\n");
+
+        scanf("%i", &modalidad);
+        fflush(stdin);
+        system("cls");
+    }
+
+    while (modalidad !=  1 && modalidad != 2 && modalidad != 3);
+        switch (modalidad){
+            case 1:
+                printResiduosRenovables();
+            break;
+
+            case 2:
+                printResiduosNoRenovables();
+            break;
+
+            case 3:
+                system("cls");
+                printTiposEnergias();
+            break;
+
+        } // Cierre switch modalidad
+
+} //Cierre printResiduos
+
+
+void printResiduosRenovables(){
+    int modalidad;
+
+    do{
+        printf("\nUsted ha seleccionado la fuente de energia primaria Residuos Renovables!\n\n");
         printf("Como curiosidad usted debe saber... FALTA INFOOOOOOOO!!!!!\n\n");
 
-        printf("\nSeleccione que mas desea conocer sobre la fuente de energia a partir de Residuos:\n");
+        printf("\nSeleccione que mas desea conocer sobre la fuente de energia a partir de Residuos Renovables:\n");
         printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
         printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n\t8. Volver al Menu Principal\n");
         scanf("%i", &modalidad);
@@ -709,32 +742,32 @@ void printResiduos(){
     while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8);
         switch (modalidad){
             case 1:
-                //printMayorValorDiaResiduos();
+                //printMayorValorDiaResiduosRenovables();
             break;
 
             case 2:
-                //printMayorValorMesResiduos();
+                //printMayorValorMesResiduosRenovables();
             break;
 
             case 3:
-                //printPeorValorDiaResiduos();
+                //printPeorValorDiaResiduosRenovables();
             break;
 
             case 4:
-                //printPeorValorMesResiduos();
+                //printPeorValorMesResiduosRenovables();
             break;
 
             case 5:
-                //printMediaAnualResiduos2021();
+                //printMediaAnualResiduos2021Renovables();
             break;
 
             case 6:
-                //printMediaAnualResiduos2022();
+                //printMediaAnualResiduos2022Renovables();
             break;
 
             case 7:
                 system("cls");
-                printTiposEnergias();
+                printResiduos();
             break;
 
             case 8:
@@ -743,16 +776,67 @@ void printResiduos(){
             break;
 
         } // Cierre switch modalidad
+}
 
-} //Cierre printResiduos
+void printResiduosNoRenovables(){
+    int modalidad;
 
+    do{
+        printf("\nUsted ha seleccionado la fuente de energia primaria Residuos No Renovables!\n\n");
+        printf("Como curiosidad usted debe saber... FALTA INFOOOOOOOO!!!!!\n\n");
 
+        printf("\nSeleccione que mas desea conocer sobre la fuente de energia a partir de Residuos No Renovables:\n");
+        printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
+        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n\t8. Volver al Menu Principal\n");
+        scanf("%i", &modalidad);
+        fflush(stdin);
+        system("cls");
+    }
+
+    while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8);
+        switch (modalidad){
+            case 1:
+                //printMayorValorDiaResiduosNoRenovables();
+            break;
+
+            case 2:
+                //printMayorValorMesResiduosNoRenovables();
+            break;
+
+            case 3:
+                //printPeorValorDiaResiduosNoRenovables();
+            break;
+
+            case 4:
+                //printPeorValorMesResiduosNoRenovables();
+            break;
+
+            case 5:
+                //printMediaAnualResiduos2021NoRenovables();
+            break;
+
+            case 6:
+                //printMediaAnualResiduos2022NoRenovables();
+            break;
+
+            case 7:
+                system("cls");
+                printResiduos();
+            break;
+
+            case 8:
+                system("cls");
+                menuPrincipal();
+            break;
+
+        } // Cierre switch modalidad
+}
 
 void printGeneracionTotal(){
 int modalidad;
 
     do{
-        printf("\n¡Usted ha seleccionado la Generacion Total!\n\n");
+        printf("\nUsted ha seleccionado la Generacion Total!\n\n");
         printf("Como curiosidad usted debe saber... En este punto se recoge la suma de todas y cada una de las fuentes de generacion distintas\
  que se registran por Red Electrica Espanola (No Renovables, Renovables, Otra Renovables y Residuos).\n\n");
 
@@ -855,7 +939,7 @@ void printCarbon(){
     int modalidad;
 
     do{
-        printf("\n¡Usted ha seleccionado la fuente de energia primaria Carbon!\n\n");
+        printf("\nUsted ha seleccionado la fuente de energia primaria Carbon!\n\n");
         printf("Como curiosidad usted debe saber... que el carbon es el combustible fosil mas sucio y ;a gran parte de su consumo mundial\
  se utiliza para la fundicion del hierro y como componente esencial del acero. Tambien se usa con gran frecuencia en la\
  industria quimica y petroquimica. EEUU es uno de los paises con mayores reservas de carbon junto con Asia. El carbon mas\
@@ -915,7 +999,7 @@ void printFuelGas(){
     int modalidad;
 
     do{
-        printf("\n¡Usted ha seleccionado la fuente de energia primaria Petroleo y Gas Natural!\n\n");
+        printf("\nUsted ha seleccionado la fuente de energia primaria Petroleo y Gas Natural!\n\n");
         printf("Como curiosidad usted debe saber... que el petroleo una mezcla de hidrocarburos saturados en estado solido, liquido\
  o gaseoso que se encuentran en yacimientos naturales. El petroleo se lleva a un proceso de destilacion fraccionada\
  para obetener distintos tipos de carburantes. Las mayores reservas de petroleo las podemos encontrar Oriente medio.\
@@ -977,7 +1061,7 @@ void printTurbinaGas(){
     int modalidad;
 
     do{
-        printf("\n¡Usted ha seleccionado la obtencion de energia a partir de la Turbina de Gas!\n\n");
+        printf("\nUsted ha seleccionado la obtencion de energia a partir de la Turbina de Gas!\n\n");
         printf("Como curiosidad usted debe saber... primero se usa un combustible fosil para realizar una conversion de energia quimica\
  , por ejemplo, del carbon en energia termica. Para ello, se introduce el carbon en el interio de un horno y dicho vapor\
  o gas generado se hace pasar por una turbina que se encargara de la conversion de energia termica en energia mecanica.\
@@ -1039,7 +1123,7 @@ void printTurbinaVapor(){
     int modalidad;
 
     do{
-        printf("\n¡Usted ha seleccionado la obtencion de energia a partir de la Turbina de Vapor!\n\n");
+        printf("\nUsted ha seleccionado la obtencion de energia a partir de la Turbina de Vapor!\n\n");
         printf("Como curiosidad usted debe saber... la turbina de vapor compone el ciclo de Rankine. Dicho ciclo podemos separarlo en 4 etapas.\
  La etapa 1-2 donde se produce una compresion isoentropica de agua liquida en la bomba. La presion del agua aumenta\
  para ser introducida en la caldera. En la etapa 2-3, manteniendp la presion, el agua se calienta hasta la temperatura\
@@ -1103,7 +1187,7 @@ void printCicloCombinado(){
     int modalidad;
 
     do{
-        printf("\n¡Usted ha seleccionado la obtencion de energia a partir de un Ciclo Combinado!\n\n");
+        printf("\nUsted ha seleccionado la obtencion de energia a partir de un Ciclo Combinado!\n\n");
         printf("Como curiosidad usted debe saber... En este ciclo se decide sumar a la central termica una turbina de gas para producir\
  energia adicional a aprtir de los gases obtenidos en la combustion de los combustibles fosiles. Es decir, juntamos\
  una turbina de gas y una turbina de vapor. En este ciclo el rendimiento que obtenemos es del 45%.\n\n");
@@ -1156,6 +1240,7 @@ void printCicloCombinado(){
 
 
 } //Cierre printCicloCombinado
+
 
 
 
