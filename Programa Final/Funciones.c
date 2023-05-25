@@ -2989,9 +2989,10 @@ return 0;
 //void printMediaAnualGeneracionTotal2021();
 //void printMediaAnualGeneracionTotal2022();
 
-void printMayorValorMesHidraulica()
+
+void printMayorValorMesHidraulica2021()
 {
-        char aux0, aux1, aux2, x;
+    char aux0, aux1, aux2, x;
     int contador=0, i=0, j;
     int numerodefilas=0;
     int numerodeenergias=0, numerodefechas=0;
@@ -3077,20 +3078,22 @@ void printMayorValorMesHidraulica()
                 }
 
 
-                    int i, N;
+                    int i, N, u;
+                    u=0;
                     N=0;
                     float maximo;
 
                     maximo = Energias[N].datos[0];
                     //PARA LOS DOS AÑOS
-                    for (i=0;i<23;i++)
+                    for (i=0;i<11;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
                             maximo=Energias[N].datos[i];
+                            u++;//contador para el mes
                         }
                     }
-                    printf("\n\tEl valor maximo es de %f GWh.\n", maximo);
+                    printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
 }
 void printPeorValorMesHidraulica()
@@ -3198,7 +3201,7 @@ void printPeorValorMesHidraulica()
             }
 
 }
-void printMayorValorMesHidroeolica()
+void printMayorValorMesHidroeolica2021()
 {
         char aux0, aux1, aux2, x;
     int contador=0, i=0, j;
@@ -3286,20 +3289,22 @@ void printMayorValorMesHidroeolica()
                 }
 
 
-                    int i, N;
+                    int i, N, u;
+                    u=0;
                     N=9;
                     float maximo;
 
                     maximo = Energias[N].datos[0];
                     //PARA LOS DOS AÑOS
-                    for (i=0;i<23;i++)
+                    for (i=0;i<11;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
                             maximo=Energias[N].datos[i];
+                            u++;//contador para el mes
                         }
                     }
-                    printf("\n\tEl valor maximo es de %f GWh.\n", maximo);
+                    printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
 }
 void printPeorValorMesHidroeolica()
@@ -3407,7 +3412,7 @@ void printPeorValorMesHidroeolica()
             }
 
 }
-void printMayorValorMesEolica()
+void printMayorValorMesEolica2021()
 {
         char aux0, aux1, aux2, x;
     int contador=0, i=0, j;
@@ -3495,20 +3500,22 @@ void printMayorValorMesEolica()
                 }
 
 
-                    int i, N;
+                    int i, N, u;
+                    u=0;
                     N=10;
                     float maximo;
 
                     maximo = Energias[N].datos[0];
-                    //PARA LOS DOS AÑOS
-                    for (i=0;i<23;i++)
+                    //PARA 2021
+                    for (i=0;i<11;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
                             maximo=Energias[N].datos[i];
+                            u++;//contador para el mes
                         }
                     }
-                    printf("\n\tEl valor maximo es de %f GWh.\n", maximo);
+                    printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
 }
 void printPeorValorMesEolica()
@@ -3616,7 +3623,7 @@ void printPeorValorMesEolica()
             }
 
 }
-void printMayorValorMesFotovoltaica()
+void printMayorValorMesSolarFotovoltaica2021()
 {
         char aux0, aux1, aux2, x;
     int contador=0, i=0, j;
@@ -3704,20 +3711,22 @@ void printMayorValorMesFotovoltaica()
                 }
 
 
-                    int i, N;
+                    int i, N, u;
+                    u=0;
                     N=11;
                     float maximo;
 
                     maximo = Energias[N].datos[0];
                     //PARA LOS DOS AÑOS
-                    for (i=0;i<23;i++)
+                    for (i=0;i<11;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
                             maximo=Energias[N].datos[i];
+                            u++;//contador para el mes
                         }
                     }
-                    printf("\n\tEl valor maximo es de %f GWh.\n", maximo);
+                    printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
 }
 void printPeorValorMesFotovoltaica()
@@ -3825,7 +3834,7 @@ void printPeorValorMesFotovoltaica()
             }
 
 }
-void printMayorValorMesSolarTermica()
+void printMayorValorMesSolarTermica2021()
 {
         char aux0, aux1, aux2, x;
     int contador=0, i=0, j;
@@ -3913,20 +3922,22 @@ void printMayorValorMesSolarTermica()
                 }
 
 
-                    int i, N;
+                    int i, N, u;
+                    u=0;
                     N=12;
                     float maximo;
 
                     maximo = Energias[N].datos[0];
                     //PARA LOS DOS AÑOS
-                    for (i=0;i<23;i++)
+                    for (i=0;i<11;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
                             maximo=Energias[N].datos[i];
+                            u++;//contador para el mes
                         }
                     }
-                    printf("\n\tEl valor maximo es de %f GWh.\n", maximo);
+                    printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
 }
 void printPeorValorMesSolarTermica()
@@ -4034,7 +4045,7 @@ void printPeorValorMesSolarTermica()
             }
 
 }
-void printMayorValorMesOtrasRenovables()
+void printMayorValorMesOtrasEnergiasRenovables2021()
 {
         char aux0, aux1, aux2, x;
     int contador=0, i=0, j;
@@ -4122,20 +4133,22 @@ void printMayorValorMesOtrasRenovables()
                 }
 
 
-                    int i, N;
+                    int i, N, u;
+                    u=0;
                     N=13;
                     float maximo;
 
                     maximo = Energias[N].datos[0];
                     //PARA LOS DOS AÑOS
-                    for (i=0;i<23;i++)
+                    for (i=0;i<11;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
                             maximo=Energias[N].datos[i];
+                            u++;//contador para el mes
                         }
                     }
-                    printf("\n\tEl valor maximo es de %f GWh.\n", maximo);
+                    printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
 }
 void printPeorValorMesOtrasRenovables()
@@ -4243,7 +4256,7 @@ void printPeorValorMesOtrasRenovables()
             }
 
 }
-void printMayorValorMesCarbon()
+void printMayorValorMesCarbon2021()
 {
         char aux0, aux1, aux2, x;
     int contador=0, i=0, j;
@@ -4331,20 +4344,22 @@ void printMayorValorMesCarbon()
                 }
 
 
-                    int i, N;
+                    int i, N, u;
+                    u=0;
                     N=3;
                     float maximo;
 
                     maximo = Energias[N].datos[0];
                     //PARA LOS DOS AÑOS
-                    for (i=0;i<23;i++)
+                    for (i=0;i<11;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
                             maximo=Energias[N].datos[i];
+                            u++;//contador para el mes
                         }
                     }
-                    printf("\n\tEl valor maximo es de %f GWh.\n", maximo);
+                    printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
 }
 void printPeorValorMesCarbon()
@@ -4452,7 +4467,7 @@ void printPeorValorMesCarbon()
             }
 
 }
-void printMayorValorMesFuelGas()
+void printMayorValorMesFuelGas2021()
 {
         char aux0, aux1, aux2, x;
     int contador=0, i=0, j;
@@ -4540,20 +4555,22 @@ void printMayorValorMesFuelGas()
                 }
 
 
-                    int i, N;
+                    int i, N, u;
+                    u=0;
                     N=4;
                     float maximo;
 
                     maximo = Energias[N].datos[0];
                     //PARA LOS DOS AÑOS
-                    for (i=0;i<23;i++)
+                    for (i=0;i<11;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
                             maximo=Energias[N].datos[i];
+                            u++;//contador para el mes
                         }
                     }
-                    printf("\n\tEl valor maximo es de %f GWh.\n", maximo);
+                    printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
 }
 void printPeorValorMesFuelGas()
@@ -4661,7 +4678,7 @@ void printPeorValorMesFuelGas()
             }
 
 }
-void printMayorValorMesTurbinaGas()
+void printMayorValorMesTurbinaGas2021()
 {
         char aux0, aux1, aux2, x;
     int contador=0, i=0, j;
@@ -4749,20 +4766,22 @@ void printMayorValorMesTurbinaGas()
                 }
 
 
-                    int i, N;
+                    int i, N, u;
+                    u=0;
                     N=6;
                     float maximo;
 
                     maximo = Energias[N].datos[0];
                     //PARA LOS DOS AÑOS
-                    for (i=0;i<23;i++)
+                    for (i=0;i<11;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
                             maximo=Energias[N].datos[i];
+                            u++;//contador para el mes
                         }
                     }
-                    printf("\n\tEl valor maximo es de %f GWh.\n", maximo);
+                    printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
 }
 void printPeorValorMesTurbinaGas()
@@ -4870,7 +4889,7 @@ void printPeorValorMesTurbinaGas()
             }
 
 }
-void printMayorValorMesTurbinaVapor()
+void printMayorValorMesTurbinaVapor2021()
 {
         char aux0, aux1, aux2, x;
     int contador=0, i=0, j;
@@ -4958,20 +4977,22 @@ void printMayorValorMesTurbinaVapor()
                 }
 
 
-                    int i, N;
+                    int i, N, u;
+                    u=0;
                     N=7;
                     float maximo;
 
                     maximo = Energias[N].datos[0];
                     //PARA LOS DOS AÑOS
-                    for (i=0;i<23;i++)
+                    for (i=0;i<11;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
                             maximo=Energias[N].datos[i];
+                            u++;//contador para el mes
                         }
                     }
-                    printf("\n\tEl valor maximo es de %f GWh.\n", maximo);
+                    printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
 }
 void printPeorValorMesTurbinaVapor()
@@ -5079,7 +5100,7 @@ void printPeorValorMesTurbinaVapor()
             }
 
 }
-void printMayorValorMesCicloCombinado()
+void printMayorValorMesCicloCombinado2021()
 {
         char aux0, aux1, aux2, x;
     int contador=0, i=0, j;
@@ -5167,20 +5188,22 @@ void printMayorValorMesCicloCombinado()
                 }
 
 
-                    int i, N;
+                    int i, N, u;
+                    u=0;
                     N=8;
                     float maximo;
 
                     maximo = Energias[N].datos[0];
                     //PARA LOS DOS AÑOS
-                    for (i=0;i<23;i++)
+                    for (i=0;i<11;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
                             maximo=Energias[N].datos[i];
+                            u++;//contador para el mes
                         }
                     }
-                    printf("\n\tEl valor maximo es de %f GWh.\n", maximo);
+                    printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
 }
 void printPeorValorMesCicloCombinado()
@@ -5288,7 +5311,7 @@ void printPeorValorMesCicloCombinado()
             }
 
 }
-void printMayorValorMesMotoresDiesel()
+void printMayorValorMesMotoresDiesel2021()
 {
         char aux0, aux1, aux2, x;
     int contador=0, i=0, j;
@@ -5376,20 +5399,22 @@ void printMayorValorMesMotoresDiesel()
                 }
 
 
-                    int i, N;
+                    int i, N, u;
+                    u=0;
                     N=5;
                     float maximo;
 
                     maximo = Energias[N].datos[0];
                     //PARA LOS DOS AÑOS
-                    for (i=0;i<23;i++)
+                    for (i=0;i<11;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
                             maximo=Energias[N].datos[i];
+                            u++;//contador para el mes
                         }
                     }
-                    printf("\n\tEl valor maximo es de %f GWh.\n", maximo);
+                    printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
 }
 void printPeorValorMesMotoresDiesel()
@@ -5499,7 +5524,7 @@ void printPeorValorMesMotoresDiesel()
 }
 void printMayorValorMesResiduos();//HAY QUE DISTINGUIRLOS ENTRE RENOVABLES Y NO RENOVABLES
 void printPeorValorMesResiduos();//HAY QUE DISTINGUIRLOS ENTRE RENOVABLES Y NO RENOVABLES
-void printMayorValorMesGeneracionTotal()
+void printMayorValorMesGeneracionTotal2021()
 {
         char aux0, aux1, aux2, x;
     int contador=0, i=0, j;
@@ -5587,20 +5612,22 @@ void printMayorValorMesGeneracionTotal()
                 }
 
 
-                    int i, N;
+                    int i, N, u;
+                    u=0;
                     N=17;
                     float maximo;
 
                     maximo = Energias[N].datos[0];
                     //PARA LOS DOS AÑOS
-                    for (i=0;i<23;i++)
+                    for (i=0;i<11;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
                             maximo=Energias[N].datos[i];
+                            u++;//contador para el mes
                         }
                     }
-                    printf("\n\tEl valor maximo es de %f GWh.\n", maximo);
+                    printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
 }
 void printPeorValorMesGeneracionTotal()
@@ -5708,3 +5735,4 @@ void printPeorValorMesGeneracionTotal()
             }
 
 }
+
