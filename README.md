@@ -3,9 +3,10 @@
 [Hemos desarrollado una base de datos, que comienza con un Menu de inicio dividido en 5 secciones, estas son: 
 1. Almacenamiento de los datos de diferentes tipos de energias en el periodo de tiempo: 2021-2022
 2. Almacenamiento de los datos de diferentes tipos de energias en el periodo de tiempo:2019-2020
-3. Eleccion de forma Aleatoria de los datos de distintos tipos de Energias 
-4. Comparacion entre los datos de diferentes tipos de energias
-5. Salir de la Base de datos] 
+3. Almacenamiento de los datos de diferentes tipos de energias en el periodo de tiempo:2017-2018
+4. Eleccion de forma Aleatoria de los datos de distintos tipos de Energias 
+5. Comparacion de datos de las energias en distintos periodos de tiempo (Mensuales y Anuales)
+6. Salir de la Base de datos] 
 
 
 ## Integrantes del equipo
