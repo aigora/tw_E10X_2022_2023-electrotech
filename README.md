@@ -11,8 +11,11 @@ En la wiki del trabajo, puedes encontrar con mas detalle el uso de cada funcion.
 ## Integrantes del equipo
 
 Pablo Hernández Hoyas (Usuario: Pablo2h10)
+
 Diego Rodríguez Martín (Usuario: diegormartin)
+
 Miquel de Zavala Prats (Usuario: MIQUELZAVALA)
+
 Yeray Muñoz García (Usuario: yeraymunozupm)
 
 ## Objetivos del trabajo
