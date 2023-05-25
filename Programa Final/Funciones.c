@@ -170,45 +170,54 @@ void printNuclear(){
 limpio. La unica parte donde se produce contaminacion, es en el proceso de desulfuracion del uranio.\n\n");
 
         printf("\nSeleccione que mas desea conocer sobre la Energia Nuclear:\n");
-        printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
-        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n\t8. Volver al Menu Principal\n");
+        printf("\n\t1. Mayor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t3. Mayor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t4. Peor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t5. Peor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t6. Peor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t7. Media Anual 2021\n\t8. Media Anual 2022\n\t9. Atras\n\t10. Volver al Menu Principal\n");
         scanf("%i", &seleccion);
         fflush(stdin);
         system("cls");
     }
 
-    while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8);
+    while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8 && seleccion != 9 && seleccion != 10);
         switch (seleccion){
             case 1:
-                //printMayorValorDiaNuclear();
+                //printMayorValorMesNuclear2021();
             break;
 
             case 2:
-                //printMayorValorMesNuclear();
+                //printMayorValorMesNuclear2022();
             break;
 
             case 3:
-                //printPeorValorDiaNuclear();
+                //printMayorValorMesNuclear2021_2022();
             break;
 
             case 4:
-                //printPeorValorMesNuclear();
+                //printMenorValorMesNuclear2021();
             break;
 
             case 5:
-                printMediaAnualNuclear2021();
+                //printMenorValorMesNuclear2022();
             break;
 
             case 6:
-                //printMediaAnualNuclear2022();
+                 //printPeorValorMesNuclear2021_2022();
             break;
 
             case 7:
+                 //printMediaAnualNuclear2021();
+            break;
+
+            case 8:
+                 //printMediaAnualNuclear2022();();
+            break;
+
+            case 9:
                 system("cls");
                 printTiposEnergiasNoRenovables();
             break;
 
-            case 8:
+            case 10:
                 system("cls");
                 menuPrincipal();
             break;
