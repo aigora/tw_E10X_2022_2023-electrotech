@@ -90,16 +90,14 @@ void printMediaAnualOtrasEnergiasRenovables2022();
 
 void printResiduos();
 void printResiduosRenovables();
-
-void printResiduosNoRenovables();
-void printMayorValorMesResiduosNoRenovables2021();
-void printMayorValorMesResiduosNoRenovables2022();
-void printMayorValorMesResiduosNoRenovables2021_2022();
-void printMenorValorMesResiduosNoRenovables2021();
-void printMenorValorMesResiduosNoRenovables2022();
-void printMenorValorMesResiduosNoRenovables2021_2022();
-void printMediaAnualResiduosNoRenovables2021();
-void printMediaAnualResiduosNoRenovables2022();
+void printMayorValorMesResiduosRenovables2021();
+void printMayorValorMesResiduosRenovables2022();
+void printMayorValorMesResiduosRenovables2021_2022();
+void printMenorValorMesResiduosRenovables2021();
+void printMenorValorMesResiduosRenovables2022();
+void printMenorValorMesResiduosRenovables2021_2022();
+void printMediaAnualResiduosRenovables2021();
+void printMediaAnualResiduosRenovables2022();
 
 void printResiduosNoRenovables();
 void printMayorValorMesResiduosNoRenovables2021();
@@ -171,3 +169,205 @@ void printMenorValorMesCicloCombinado2022();
 void printMenorValorMesCicloCombinado2021_2022();
 void printMediaAnualCicloCombinado2021();
 void printMediaAnualCicloCombinado2022();
+
+void printCogeneracion();
+void printMayorValorMesCogeneracion2021();
+void printMayorValorMesCogeneracion2022();
+void printMayorValorMesCogeneracion2021_2022();
+void printMenorValorMesCogeneracion2021();
+void printMenorValorMesCogeneracion2022();
+void printMenorValorMesCogeneracion2021_2022();
+void printMediaAnualCogeneracion2021();
+void printMediaAnualCogeneracion2022();
+
+
+//Inicio 2019-2020
+void printEnergias2019_2020();
+void printTiposEnergias2019_2020();
+
+void printTiposEnergiasNoRenovables2019_2020();
+void printCombustiblesFosiles2019_2020();
+
+void printNuclear2019_2020();
+void printMayorValorMesNuclear2019();
+void printMayorValorMesNuclear2020();
+void printMayorValorMesNuclear2019_2020();
+void printMenorValorMesNuclear2019();
+void printMenorValorMesNuclear2020();
+void printMenorValorMesNuclear2019_2020();
+void printMediaAnualNuclear2019();
+void printMediaAnualNuclear2020();
+
+void printMotoresDiesel2019_2020();
+void printMayorValorMesMotoresDiesel2019();
+void printMayorValorMesMotoresDiesel2020();
+void printMayorValorMesMotoresDiesel2019_2020();
+void printMenorValorMesMotoresDiesel2019();
+void printMenorValorMesMotoresDiesel2020();
+void printMenorValorMesMotoresDiesel2019_2020();
+void printMediaAnualMotoresDiesel2019();
+void printMediaAnualMotoresDiesel2020();
+
+void printTiposEnergiasRenovables2019_2020();
+
+void printHidraulica2019_2020();
+void printMayorValorMesHidraulica2019();
+void printMayorValorMesHidraulica2020();
+void printMayorValorMesHidraulica2019_2020();
+void printMenorValorMesHidraulica2019();
+void printMenorValorMesHidraulica2020();
+void printMenorValorMesHidraulica2019_2020();
+void printMediaAnualHidraulica2020();
+void printMediaAnualHidraulica2020();
+
+void printHidroeolica2019_2020();
+void printMayorValorMesHidroeolica2019();
+void printMayorValorMesHidroeolica2020();
+void printMayorValorMesHidroeolica2019_2020();
+void printMenorValorMesHidroeolica2019();
+void printMenorValorMesHidroeolica2020();
+void printMenorValorMesHidroeolica2019_2020();
+void printMediaAnualHidroeolica2019();
+void printMediaAnualHidroeolica2020();
+
+void printEolica2019_2020();
+void printMayorValorMesEolica2019();
+void printMayorValorMesEolica2020();
+void printMayorValorMesEolica2019_2020();
+void printMenorValorMesEolica2019();
+void printMenorValorMesEolica2020();
+void printMenorValorMesEolica2019_2020();
+void printMediaAnualEolica2019();
+void printMediaAnualEolica2020();
+
+void printSolarFotovoltaica2019_2020();
+void printMayorValorMesSolarFotovoltaica2019();
+void printMayorValorMesSolarFotovoltaica2020();
+void printMayorValorMesSolarFotovoltaica2019_2020();
+void printMenorValorMesSolarFotovoltaica2019();
+void printMenorValorMesSolarFotovoltaica2020();
+void printMenorValorMesSolarFotovoltaica2019_2020();
+void printMediaAnualSolarFotovoltaica2019();
+void printMediaAnualSolarFotovoltaica2020();
+
+void printSolarTermica2019_2020();
+void printMayorValorMesSolarTermica2019();
+void printMayorValorMesSolarTermica2020();
+void printMayorValorMesSolarTermica2019_2020();
+void printMenorValorMesSolarTermica2019();
+void printMenorValorMesSolarTermica2020();
+void printMenorValorMesSolarTermica2019_2020();
+void printMediaAnualSolarTermica2019();
+void printMediaAnualSolarTermica2020();
+
+void printOtrasEnergiasRenovables2019_2020();
+void printMayorValorMesOtrasEnergiasRenovables2019();
+void printMayorValorMesOtrasEnergiasRenovables2020();
+void printMayorValorMesOtrasEnergiasRenovables2019_2020();
+void printMenorValorMesOtrasEnergiasRenovables2019();
+void printMenorValorMesOtrasEnergiasRenovables2020();
+void printMenorValorMesOtrasEnergiasRenovables2019_2020();
+void printMediaAnualOtrasEnergiasRenovables2019();
+void printMediaAnualOtrasEnergiasRenovables2020();
+
+void printResiduos2019_2020();
+void printResiduosRenovables2019_2020();
+void printMayorValorMesResiduosRenovables2019();
+void printMayorValorMesResiduosRenovables2020();
+void printMayorValorMesResiduosRenovables2019_2020();
+void printMenorValorMesResiduosRenovables2019();
+void printMenorValorMesResiduosRenovables2020();
+void printMenorValorMesResiduosRenovables2019_2020();
+void printMediaAnualResiduosRenovables2019();
+void printMediaAnualResiduosRenovables2020();
+
+void printResiduosNoRenovables2019_2020();
+void printMayorValorMesResiduosNoRenovables2019();
+void printMayorValorMesResiduosNoRenovables2020();
+void printMayorValorMesResiduosNoRenovables2019_2020();
+void printMenorValorMesResiduosNoRenovables2019();
+void printMenorValorMesResiduosNoRenovables2020();
+void printMenorValorMesResiduosNoRenovables2019_2020();
+void printMediaAnualResiduosNoRenovables2019();
+void printMediaAnualResiduosNoRenovables2020();
+
+void printGeneracionTotal2019_2020();
+void printMayorValorMesGeneracionTotal2019();
+void printMayorValorMesGeneracionTotal2020();
+void printMayorValorMesGeneracionTotal2019_2020();
+void printMenorValorMesGeneracionTotal2019();
+void printMenorValorMesGeneracionTotal2020();
+void printMenorValorMesGeneracionTotal2019_2020();
+void printMediaAnualGeneracionTotal2019();
+void printMediaAnualGeneracionTotal2020();
+
+void printCombustiblesFosiles2019_2020();
+void printCarbon2019_2020();
+void printMayorValorMesCarbon2019();
+void printMayorValorMesCarbon2020();
+void printMayorValorMesCarbon2019_2020();
+void printMenorValorMesCarbon2019();
+void printMenorValorMesCarbon2020();
+void printMenorValorMesCarbon2019_2020();
+void printMediaAnualCarbon2019();
+void printMediaAnualCarbon2020();
+
+void printFuelGas2019_2020();
+void printMayorValorMesFuelGas2019();
+void printMayorValorMesFuelGas2020();
+void printMayorValorMesFuelGas2019_2020();
+void printMenorValorMesFuelGas2019();
+void printMenorValorMesFuelGas2020();
+void printMenorValorMesFuelGas2019_2020();
+void printMediaAnualFuelGas2019();
+void printMediaAnualFuelGas2020();
+
+void printTurbinaGas2019_2020();
+void printMayorValorMesTurbinaGas2019();
+void printMayorValorMesTurbinaGas2020();
+void printMayorValorMesTurbinaGas2019_2020();
+void printMenorValorMesTurbinaGas2019();
+void printMenorValorMesTurbinaGas2020();
+void printMenorValorMesTurbinaGas2019_2020();
+void printMediaAnualTurbinaGas2019();
+void printMediaAnualTurbinaGas2020();
+
+void printTurbinaVapor2019_2020();
+void printMayorValorMesTurbinaVapor2019();
+void printMayorValorMesTurbinaVapor2020();
+void printMayorValorMesTurbinaVapor2019_2020();
+void printMenorValorMesTurbinaVapor2019();
+void printMenorValorMesTurbinaVapor2020();
+void printMenorValorMesTurbinaVapor2019_2020();
+void printMediaAnualTurbinaVapor2019();
+void printMediaAnualTurbinaVapor2020();
+
+void printCicloCombinado2019_2020();
+void printMayorValorMesCicloCombinado2019();
+void printMayorValorMesCicloCombinado2020();
+void printMayorValorMesCicloCombinado2019_2020();
+void printMenorValorMesCicloCombinado2019();
+void printMenorValorMesCicloCombinado2020();
+void printMenorValorMesCicloCombinado2019_2020();
+void printMediaAnualCicloCombinado2019();
+void printMediaAnualCicloCombinado2020();
+
+void printCogeneracion2019_2020();
+void printMayorValorMesCogeneracion2019();
+void printMayorValorMesCogeneracion2020();
+void printMayorValorMesCogeneracion2019_2020();
+void printMenorValorMesCogeneracion2019();
+void printMenorValorMesCogeneracion2020();
+void printMenorValorMesCogeneracion2019_2020();
+void printMediaAnualCogeneracion2019();
+void printMediaAnualCogeneracion2020();
+//Final 2019-2020
+
+//Inicio 2017-2018
+void printEnergias2017_2018();
+//Final 2017-2018
+
+void printAleatorioAnualidad();
+void printAleatorioEnergia();
+void printAleatorioEnergia2019_2020();
+void printAleatorioEnergia2017_2018();
