@@ -201,7 +201,7 @@ limpio. La unica parte donde se produce contaminacion, es en el proceso de desul
             break;
 
             case 6:
-                 //printPeorValorMesNuclear2021_2022();
+                 //printMenorValorMesNuclear2021_2022();
             break;
 
             case 7:
@@ -209,7 +209,7 @@ limpio. La unica parte donde se produce contaminacion, es en el proceso de desul
             break;
 
             case 8:
-                 //printMediaAnualNuclear2022();();
+                 //printMediaAnualNuclear2022();
             break;
 
             case 9:
@@ -236,45 +236,54 @@ void printMotoresDiesel(){
         printf("Como curiosidad usted debe saber... FALTA INFOOOOOOOOOO!!!\n\n");
 
         printf("\nSeleccione que mas desea conocer sobre los Motores Diesel:\n");
-        printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
-        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n\t8. Volver al Menu Principal\n");
+        printf("\n\t1. Mayor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t3. Mayor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t4. Peor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t5. Peor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t6. Peor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t7. Media Anual 2021\n\t8. Media Anual 2022\n\t9. Atras\n\t10. Volver al Menu Principal\n");
         scanf("%i", &seleccion);
         fflush(stdin);
         system("cls");
     }
 
-    while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8);
+     while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8 && seleccion != 9 && seleccion != 10);
         switch (seleccion){
             case 1:
-                //printMayorValorDiaMotoresDiesel();
+                //printMayorValorMesMotoresDiesel2021();
             break;
 
             case 2:
-                printMayorValorMesMotoresDiesel();
+                //printMayorValorMesMotoresDiesel2022();
             break;
 
             case 3:
-                //printPeorValorDiaMotoresDiesel();
+                //printMayorValorMesMotoresDiesel2021_2022();
             break;
 
             case 4:
-                printPeorValorMesMotoresDiesel();
+                //printMenorValorMesMotoresDiesel2021();
             break;
 
             case 5:
-                //printMediaAnualMotoresDiesel2021();
+                //printMenorValorMesMotoresDiesel2022();
             break;
 
             case 6:
-                //printMediaAnualMotoresDiesel2022();
+                 //printPeorValorMesMotoresDiesel2021_2022();
             break;
 
             case 7:
+                 //printMediaAnualMotoresDiesel2021();
+            break;
+
+            case 8:
+                 //printMediaAnualMotoresDiesel2022();
+            break;
+
+            case 9:
                 system("cls");
                 printTiposEnergiasNoRenovables();
             break;
 
-             case 8:
+            case 10:
                 system("cls");
                 menuPrincipal();
             break;
@@ -357,45 +366,54 @@ void printHidraulica(){
 
 
         printf("\nSeleccione que mas desea conocer sobre la Energia Hidraulica:\n");
-        printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
-        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n\t8. Volver al Menu Principal\n");
+        printf("\n\t1. Mayor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t3. Mayor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t4. Peor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t5. Peor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t6. Peor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t7. Media Anual 2021\n\t8. Media Anual 2022\n\t9. Atras\n\t10. Volver al Menu Principal\n");
         scanf("%i", &seleccion);
         fflush(stdin);
         system("cls");
     }
 
-    while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8);
+    while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8 && seleccion != 9 && seleccion != 10);
         switch (seleccion){
             case 1:
-                //printMayorValorDiaHidraulica();
+                //printMayorValorMesHidraulica2021();
             break;
 
             case 2:
-                printMayorValorMesHidraulica();
+                //printMayorValorMesHidraulica2022();
             break;
 
             case 3:
-                //printPeorValorDiaHidraulica();
+                //printMayorValorMesHidraulica2021_2022();
             break;
 
             case 4:
-                printPeorValorMesHidraulica();
+                //printMenorValorMesHidraulica2021();
             break;
 
             case 5:
-                printMediaAnualHidraulica2021();
+                //printMenorValorMesHidraulica2022();
             break;
 
             case 6:
-                //printMediaAnualHidraulica2022();
+                 //printMenorValorMesHidraulica2021_2022();
             break;
 
             case 7:
+                 //printMediaAnualHidraulica2021();
+            break;
+
+            case 8:
+                 //printMediaAnualHidraulica2022();
+            break;
+
+            case 9:
                 system("cls");
                 printTiposEnergiasRenovables();
             break;
 
-             case 8:
+            case 10:
                 system("cls");
                 menuPrincipal();
             break;
@@ -416,48 +434,58 @@ void printHidroeolica(){
  en zonas costeras o en el mar, donde hay vientos fuertes y corrientes de agua constantes.\n\n");
 
         printf("\nSeleccione que mas desea conocer sobre la Energia Hidroeolica:\n");
-        printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
-        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n\t8. Volver al Menu Principal\n");
+        printf("\n\t1. Mayor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t3. Mayor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t4. Peor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t5. Peor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t6. Peor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t7. Media Anual 2021\n\t8. Media Anual 2022\n\t9. Atras\n\t10. Volver al Menu Principal\n");
         scanf("%i", &seleccion);
         fflush(stdin);
         system("cls");
     }
 
-    while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8);
+   while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8 && seleccion != 9 && seleccion != 10);
         switch (seleccion){
             case 1:
-                //printMayorValorDiaHidroeolica();
+                //printMayorValorMesHidroeolica2021();
             break;
 
             case 2:
-                printMayorValorMesHidroeolica();
+                //printMayorValorMesHidroeolica2022();
             break;
 
             case 3:
-                //printPeorValorDiaHidroeolica();
+                //printMayorValorMesHidroeolica2021_2022();
             break;
 
             case 4:
-                printPeorValorMesHidroeolica();
+                //printMenorValorMesHidroeolica2021();
             break;
 
             case 5:
-                printMediaAnualHidroeolica2021();
+                //printMenorValorMesHidroeolica2022();
             break;
 
             case 6:
-                //printMediaAnualHidroeolica2022();
+                 //printMenorValorMesHidroeolica2021_2022();
             break;
 
             case 7:
+                 //printMediaAnualHidroeolica2021();
+            break;
+
+            case 8:
+                 //printMediaAnualHidroeolica2022();
+            break;
+
+            case 9:
                 system("cls");
                 printTiposEnergiasRenovables();
             break;
 
-            case 8:
+            case 10:
                 system("cls");
                 menuPrincipal();
             break;
+
 
         } // Cierre switch seleccion
 
@@ -475,45 +503,54 @@ void printEolica(){
      terrestre y marina. A esta ultima se le conoce como 'offshore'.\n\n");
 
         printf("\nSeleccione que mas desea conocer sobre la Energia Eolica:\n");
-        printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
-        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n\t8. Volver al Menu Principal\n");
+        printf("\n\t1. Mayor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t3. Mayor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t4. Peor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t5. Peor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t6. Peor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t7. Media Anual 2021\n\t8. Media Anual 2022\n\t9. Atras\n\t10. Volver al Menu Principal\n");
         scanf("%i", &seleccion);
         fflush(stdin);
         system("cls");
     }
 
-    while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8);
+   while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8 && seleccion != 9 && seleccion != 10);
         switch (seleccion){
             case 1:
-                //printMayorValorDiaEolica();
+                //printMayorValorMesEolica2021();
             break;
 
             case 2:
-                printMayorValorMesEolica();
+                //printMayorValorMesEolica2022();
             break;
 
             case 3:
-                //printPeorValorDiaEolica();
+                //printMayorValorMesEolica2021_2022();
             break;
 
             case 4:
-                printPeorValorMesEolica();
+                //printMenorValorMesEolica2021();
             break;
 
             case 5:
-                printMediaAnualEolica2021();
+                //printMenorValorMesEolica2022();
             break;
 
             case 6:
-                //printMediaAnualEolica2022();
+                 //printMenorValorMesEolica2021_2022();
             break;
 
             case 7:
+                 //printMediaAnualEolica2021();
+            break;
+
+            case 8:
+                 //printMediaAnualEolica2022();
+            break;
+
+            case 9:
                 system("cls");
                 printTiposEnergiasRenovables();
             break;
 
-            case 8:
+            case 10:
                 system("cls");
                 menuPrincipal();
             break;
@@ -533,46 +570,55 @@ void printSolarFotovoltaica(){
  electrica mediante el efecto fotoelectrico, que consiste en la emision de electrones de un material cuando se ilumina\
  con la radiacion solar.\n\n");
 
-        printf("\nSeleccione que mas desea conocer sobre la Energia Fotovoltaica:\n");
-        printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
-        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n\t8. Volver al Menu Principal\n");
+        printf("\nSeleccione que mas desea conocer sobre la Energia Solar Fotovoltaica:\n");
+        printf("\n\t1. Mayor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t3. Mayor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t4. Peor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t5. Peor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t6. Peor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t7. Media Anual 2021\n\t8. Media Anual 2022\n\t9. Atras\n\t10. Volver al Menu Principal\n");
         scanf("%i", &seleccion);
         fflush(stdin);
         system("cls");
     }
 
-    while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8);
+    while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8 && seleccion != 9 && seleccion != 10);
         switch (seleccion){
             case 1:
-                //printMayorValorDiaFotovoltaica();
+                //printMayorValorMesSolarFotovoltaica2021();
             break;
 
             case 2:
-                printMayorValorMesFotovoltaica();
+                //printMayorValorMesSolarFotovoltaica2022();
             break;
 
             case 3:
-                //printPeorValorDiaFotovoltaica();
+                //printMayorValorMesSolarFotovoltaica2021_2022();
             break;
 
             case 4:
-                printPeorValorMesFotovoltaica();
+                //printMenorValorMesSolarFotovoltaica2021();
             break;
 
             case 5:
-                printMediaAnualFotovoltaica2021();
+                //printMenorValorMesSolarFotovoltaica2022();
             break;
 
             case 6:
-                //printMediaAnualFotovoltaica2022();
+                 //printMenorValorMesSolarFotovoltaica2021_2022();
             break;
 
             case 7:
+                 //printMediaAnualSolarFotovoltaica2021();
+            break;
+
+            case 8:
+                 //printMediaAnualSolarFotovoltaica2022();
+            break;
+
+            case 9:
                 system("cls");
                 printTiposEnergiasRenovables();
             break;
 
-            case 8:
+            case 10:
                 system("cls");
                 menuPrincipal();
             break;
@@ -593,45 +639,54 @@ void printSolarTermica(){
  gracias a la energia solar y dicho vapor es enviado a una turbina conectada a un generador, produciendo energia electrica.\n\n");
 
         printf("\nSeleccione que mas desea conocer sobre la Energia Solar Termica:\n");
-        printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
-        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n\t8. Volver al Menu Principal\n");
+        printf("\n\t1. Mayor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t3. Mayor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t4. Peor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t5. Peor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t6. Peor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t7. Media Anual 2021\n\t8. Media Anual 2022\n\t9. Atras\n\t10. Volver al Menu Principal\n");
         scanf("%i", &seleccion);
         fflush(stdin);
         system("cls");
     }
 
-    while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8);
+    while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8 && seleccion != 9 && seleccion != 10);
         switch (seleccion){
             case 1:
-                //printMayorValorDiaSolarTermica();
+                //printMayorValorMesSolarTermica2021();
             break;
 
             case 2:
-                printMayorValorMesSolarTermica();
+                //printMayorValorMesSolarTermica2022();
             break;
 
             case 3:
-                //printPeorValorDiaSolarTermica();
+                //printMayorValorMesSolarTermica2021_2022();
             break;
 
             case 4:
-                printPeorValorMesSolarTermica();
+                //printMenorValorMesSolarTermica2021();
             break;
 
             case 5:
-                printMediaAnualSolarTermica2021();
+                //printMenorValorMesSolarTermica2022();
             break;
 
             case 6:
-                //printMediaAnualSolarTermica2022();
+                 //printMenorValorMesSolarTermica2021_2022();
             break;
 
             case 7:
+                 //printMediaAnualSolarTermica2021();
+            break;
+
+            case 8:
+                 //printMediaAnualSolarTermica2022();
+            break;
+
+            case 9:
                 system("cls");
                 printTiposEnergiasRenovables();
             break;
 
-            case 8:
+            case 10:
                 system("cls");
                 menuPrincipal();
             break;
@@ -651,45 +706,54 @@ void printOtrasEnergiasRenovables(){
  la geotermica, mareomotriz, energias procedentes de biomasa o biocombustibles.\n\n");
 
         printf("\nSeleccione que mas desea conocer sobre otras Energias Renovables:\n");
-        printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
-        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n\t8. Volver al Menu Principal\n");
+        printf("\n\t1. Mayor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t3. Mayor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t4. Peor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t5. Peor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t6. Peor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t7. Media Anual 2021\n\t8. Media Anual 2022\n\t9. Atras\n\t10. Volver al Menu Principal\n");
         scanf("%i", &seleccion);
         fflush(stdin);
         system("cls");
     }
 
-    while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8);
+    while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8 && seleccion != 9 && seleccion != 10);
         switch (seleccion){
             case 1:
-                //printMayorValorDiaOtrasRenovables();
+                //printMayorValorMesOtrasRenovables2021();
             break;
 
             case 2:
-                printMayorValorMesOtrasRenovables();
+                //printMayorValorMesOtrasRenovables2022();
             break;
 
             case 3:
-                //printPeorValorDiaOtrasRenovables();
+                //printMayorValorMesOtrasRenovables2021_2022();
             break;
 
             case 4:
-                printPeorValorMesOtrasRenovables();
+                //printMenorValorMesOtrasRenovables2021();
             break;
 
             case 5:
-                printMediaAnualOtrasRenovables2021();
+                //printMenorValorMesOtrasRenovables2022();
             break;
 
             case 6:
-                //printMediaAnualOtrasRenovables2022();
+                 //printMenorValorMesOtrasRenovables2021_2022();
             break;
 
             case 7:
+                 //printMediaAnualOtrasRenovables2021();
+            break;
+
+            case 8:
+                 //printMediaAnualOtrasRenovables2022();
+            break;
+
+            case 9:
                 system("cls");
                 printTiposEnergiasRenovables();
             break;
 
-            case 8:
+            case 10:
                 system("cls");
                 menuPrincipal();
             break;
@@ -741,45 +805,54 @@ void printResiduosRenovables(){
         printf("Como curiosidad usted debe saber... FALTA INFOOOOOOOO!!!!!\n\n");
 
         printf("\nSeleccione que mas desea conocer sobre la fuente de energia a partir de Residuos Renovables:\n");
-        printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
-        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n\t8. Volver al Menu Principal\n");
+        printf("\n\t1. Mayor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t3. Mayor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t4. Peor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t5. Peor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t6. Peor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t7. Media Anual 2021\n\t8. Media Anual 2022\n\t9. Atras\n\t10. Volver al Menu Principal\n");
         scanf("%i", &modalidad);
         fflush(stdin);
         system("cls");
     }
 
-    while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8);
+    while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8 && modalidad != 9 && modalidad != 10);
         switch (modalidad){
             case 1:
-                //printMayorValorDiaResiduosRenovables();
+                //printMayorValorMesResiduosRenovables2021();
             break;
 
             case 2:
-                //printMayorValorMesResiduosRenovables();
+                //printMayorValorMesResiduosRenovables2022();
             break;
 
             case 3:
-                //printPeorValorDiaResiduosRenovables();
+                //printMayorValorMesResiduosRenovables2021_2022();
             break;
 
             case 4:
-                //printPeorValorMesResiduosRenovables();
+                //printMenorValorMesResiduosRenovables2021();
             break;
 
             case 5:
-                //printMediaAnualResiduos2021Renovables();
+                //printMenorValorMesResiduosRenovables2022();
             break;
 
             case 6:
-                //printMediaAnualResiduos2022Renovables();
+                 //printMenorValorMesResiduosRenovables2021_2022();
             break;
 
             case 7:
+                 //printMediaAnualResiduosRenovables2021();
+            break;
+
+            case 8:
+                 //printMediaAnualResiduosRenovables2022();
+            break;
+
+            case 9:
                 system("cls");
                 printResiduos();
             break;
 
-            case 8:
+            case 10:
                 system("cls");
                 menuPrincipal();
             break;
@@ -795,45 +868,54 @@ void printResiduosNoRenovables(){
         printf("Como curiosidad usted debe saber... FALTA INFOOOOOOOO!!!!!\n\n");
 
         printf("\nSeleccione que mas desea conocer sobre la fuente de energia a partir de Residuos No Renovables:\n");
-        printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
-        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n\t8. Volver al Menu Principal\n");
+        printf("\n\t1. Mayor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t3. Mayor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t4. Peor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t5. Peor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t6. Peor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t7. Media Anual 2021\n\t8. Media Anual 2022\n\t9. Atras\n\t10. Volver al Menu Principal\n");
         scanf("%i", &modalidad);
         fflush(stdin);
         system("cls");
     }
 
-    while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8);
+     while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8 && modalidad != 9 && modalidad != 10);
         switch (modalidad){
             case 1:
-                //printMayorValorDiaResiduosNoRenovables();
+                //printMayorValorMesResiduosNoRenovables2021();
             break;
 
             case 2:
-                //printMayorValorMesResiduosNoRenovables();
+                //printMayorValorMesResiduosNoRenovables2022();
             break;
 
             case 3:
-                //printPeorValorDiaResiduosNoRenovables();
+                //printMayorValorMesResiduosNoRenovables2021_2022();
             break;
 
             case 4:
-                //printPeorValorMesResiduosNoRenovables();
+                //printMenorValorMesResiduosNoRenovables2021();
             break;
 
             case 5:
-                //printMediaAnualResiduos2021NoRenovables();
+                //printMenorValorMesResiduosNoRenovables2022();
             break;
 
             case 6:
-                //printMediaAnualResiduos2022NoRenovables();
+                 //printMenorValorMesResiduosNoRenovables2021_2022();
             break;
 
             case 7:
+                 //printMediaAnualResiduosNoRenovables2021();
+            break;
+
+            case 8:
+                 //printMediaAnualResiduosNoRenovables2022();
+            break;
+
+            case 9:
                 system("cls");
                 printResiduos();
             break;
 
-            case 8:
+            case 10:
                 system("cls");
                 menuPrincipal();
             break;
@@ -842,7 +924,7 @@ void printResiduosNoRenovables(){
 }
 
 void printGeneracionTotal(){
-int modalidad;
+    int modalidad;
 
     do{
         printf("\nUsted ha seleccionado la Generacion Total!\n\n");
@@ -850,45 +932,54 @@ int modalidad;
  que se registran por Red Electrica Espanola (No Renovables, Renovables, Otra Renovables y Residuos).\n\n");
 
         printf("\nSeleccione que mas desea conocer sobre la Generacion Total:\n");
-        printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
-        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n\t8. Volver al Menu Principal\n");
+        printf("\n\t1. Mayor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t3. Mayor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t4. Peor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t5. Peor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t6. Peor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t7. Media Anual 2021\n\t8. Media Anual 2022\n\t9. Atras\n\t10. Volver al Menu Principal\n");
         scanf("%i", &modalidad);
         fflush(stdin);
         system("cls");
     }
 
-    while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8);
+    while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8 && modalidad != 9 && modalidad != 10);
         switch (modalidad){
             case 1:
-                //printMayorValorDiaGeneracionTotal();
+                //printMayorValorMesGeneracionTotal2021();
             break;
 
             case 2:
-                printMayorValorMesGeneracionTotal();
+                //printMayorValorMesGeneracionTotal2022();
             break;
 
             case 3:
-                //printPeorValorDiaGeneracionTotal();
+                //printMayorValorMesGeneracionTotal2021_2022();
             break;
 
             case 4:
-                printPeorValorMesGeneracionTotal();
+                //printMenorValorMesGeneracionTotal2021();
             break;
 
             case 5:
-                //printMediaAnualGeneracionTotal2021();
+                //printMenorValorMesGeneracionTotal2022();
             break;
 
             case 6:
-                //printMediaAnualGeneracionTotal2022();
+                 //printMenorValorMesGeneracionTotal2021_2022();
             break;
 
             case 7:
+                 //printMediaAnualGeneracionTotal2021();
+            break;
+
+            case 8:
+                 //printMediaAnualGeneracionTotal2022();
+            break;
+
+            case 9:
                 system("cls");
                 printTiposEnergias();
             break;
 
-            case 8:
+            case 10:
                 system("cls");
                 menuPrincipal();
             break;
@@ -900,7 +991,7 @@ int modalidad;
 
 
 void printCombustiblesFosiles(){
- int seleccion;
+    int seleccion;
 
     do{
         printf("\nSeleccione el tipo de Combustible Fosil del que desee obtener mayor informacion:\n\n");
@@ -954,46 +1045,55 @@ void printCarbon(){
  industria quimica y petroquimica. EEUU es uno de los paises con mayores reservas de carbon junto con Asia. El carbon mas\
  habitual es la antracita.\n\n");
 
-        printf("\nSeleccione que mas desea conocer sobre el Carbon:\n");
-        printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
-        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n\t8. Volver al Menu Principal\n");
+        printf("\nSeleccione que mas desea conocer sobre la fuente de energia a partir de Carbon:\n");
+        printf("\n\t1. Mayor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t3. Mayor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t4. Peor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t5. Peor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t6. Peor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t7. Media Anual 2021\n\t8. Media Anual 2022\n\t9. Atras\n\t10. Volver al Menu Principal\n");
         scanf("%i", &modalidad);
         fflush(stdin);
         system("cls");
     }
 
-    while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8);
+    while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8 && modalidad != 9 && modalidad != 10);
         switch (modalidad){
             case 1:
-                //printMayorValorDiaCarbon();
+                //printMayorValorMesCarbon2021();
             break;
 
             case 2:
-                printMayorValorMesCarbon();
+                //printMayorValorMesCarbon2022();
             break;
 
             case 3:
-                //printPeorValorDiaCarbon();
+                //printMayorValorMesCarbon2021_2022();
             break;
 
             case 4:
-                printPeorValorMesCarbon();
+                //printMenorValorMesCarbon2021();
             break;
 
             case 5:
-                //printMediaAnualCarbon2021();
+                //printMenorValorMesCarbon2022();
             break;
 
             case 6:
-                //printMediaAnualCarbon2022();
+                 //printMenorValorMesCarbon2021_2022();
             break;
 
             case 7:
+                 //printMediaAnualCarbon2021();
+            break;
+
+            case 8:
+                 //printMediaAnualCarbon2022();
+            break;
+
+            case 9:
                 system("cls");
                 printCombustiblesFosiles();
             break;
 
-            case 8:
+            case 10:
                 system("cls");
                 menuPrincipal();
             break;
@@ -1015,46 +1115,55 @@ void printFuelGas(){
  En el caso del gas natural, debemos de destacar que el componente mayoritario es el metano. Tambien, las mayores\
  reservas de gas antural las encontramos en oriente medio.\n\n");
 
-        printf("\nSeleccione que mas desea conocer sobre el Petroleo y Gas Natural:\n");
-        printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
-        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\nt8. Volver al Menu Principal\n");
+        printf("\nSeleccione que mas desea conocer sobre la fuente de energia a partir de Fuel-Gas:\n");
+        printf("\n\t1. Mayor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t3. Mayor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t4. Peor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t5. Peor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t6. Peor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t7. Media Anual 2021\n\t8. Media Anual 2022\n\t9. Atras\n\t10. Volver al Menu Principal\n");
         scanf("%i", &modalidad);
         fflush(stdin);
         system("cls");
     }
 
-    while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8);
+    while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8 && modalidad != 9 && modalidad != 10);
         switch (modalidad){
             case 1:
-                //printMayorValorDiaFuelGas();
+                //printMayorValorMesFuelGas2021();
             break;
 
             case 2:
-                printMayorValorMesFuelGas();
+                //printMayorValorMesFuelGas2022();
             break;
 
             case 3:
-                //printPeorValorDiaFuelGas();
+                //printMayorValorMesFuelGas2021_2022();
             break;
 
             case 4:
-                printPeorValorMesFuelGas();
+                //printMenorValorMesFuelGas2021();
             break;
 
             case 5:
-                //printMediaAnualFuelGas2021();
+                //printMenorValorMesFuelGas2022();
             break;
 
             case 6:
-                //printMediaAnualFuelGas2022();
+                 //printMenorValorMesFuelGas2021_2022();
             break;
 
             case 7:
+                 //printMediaAnualFuelGas2021();
+            break;
+
+            case 8:
+                 //printMediaAnualFuelGas2022();
+            break;
+
+            case 9:
                 system("cls");
                 printCombustiblesFosiles();
             break;
 
-            case 8:
+            case 10:
                 system("cls");
                 menuPrincipal();
             break;
@@ -1077,45 +1186,54 @@ void printTurbinaGas(){
  Dicha energia mecanica de la turbina se convierte posteriormente en energia electrica al pasar por un generador electrico.\n\n");
 
         printf("\nSeleccione que mas desea conocer sobre la obtencion de energia a partir de la Turbina de Gas:\n");
-        printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
-        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n\t8. Volver al Menu Principal\n");
+        printf("\n\t1. Mayor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t3. Mayor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t4. Peor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t5. Peor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t6. Peor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t7. Media Anual 2021\n\t8. Media Anual 2022\n\t9. Atras\n\t10. Volver al Menu Principal\n");
         scanf("%i", &modalidad);
         fflush(stdin);
         system("cls");
     }
 
-    while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8);
+    while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8 && modalidad != 9 && modalidad != 10);
         switch (modalidad){
             case 1:
-                //printMayorValorDiaTurbinaGas();
+                //printMayorValorMesTurbinaGas2021();
             break;
 
             case 2:
-                printMayorValorMesTurbinaGas();
+                //printMayorValorMesTurbinaGas2022();
             break;
 
             case 3:
-                //printPeorValorDiaTurbinaGas();
+                //printMayorValorMesTurbinaGas2021_2022();
             break;
 
             case 4:
-                printPeorValorMesTurbinaGas();
+                //printMenorValorMesTurbinaGas2021();
             break;
 
             case 5:
-                //printMediaAnualTurbinaGas2021();
+                //printMenorValorMesTurbinaGas2022();
             break;
 
             case 6:
-                //printMediaAnualTurbinaGas2022();
+                 //printMenorValorMesTurbinaGas2021_2022();
             break;
 
             case 7:
+                 //printMediaAnualTurbinaGas2021();
+            break;
+
+            case 8:
+                 //printMediaAnualTurbinaGas2022();
+            break;
+
+            case 9:
                 system("cls");
                 printCombustiblesFosiles();
             break;
 
-            case 8:
+            case 10:
                 system("cls");
                 menuPrincipal();
             break;
@@ -1142,45 +1260,54 @@ void printTurbinaVapor(){
  de nuevo, el ciclo. El rendimiento maximo en un ciclo de Rankine es del 30%\n\n");
 
         printf("\nSeleccione que mas desea conocer sobre la obtencion de energia a partir de la Turbina de Vapor:\n");
-        printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
-        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n\t8. Volver al Menu Principal\n");
+        printf("\n\t1. Mayor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t3. Mayor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t4. Peor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t5. Peor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t6. Peor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t7. Media Anual 2021\n\t8. Media Anual 2022\n\t9. Atras\n\t10. Volver al Menu Principal\n");
         scanf("%i", &modalidad);
         fflush(stdin);
         system("cls");
     }
 
-    while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8);
+    while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8 && modalidad != 9 && modalidad != 10);
         switch (modalidad){
             case 1:
-                //printMayorValorDiaTurbinaVapor();
+                //printMayorValorMesTurbinaVapor2021();
             break;
 
             case 2:
-                printMayorValorMesTurbinaVapor();
+                //printMayorValorMesTurbinaVapor2022();
             break;
 
             case 3:
-                //printPeorValorDiaTurbinaVapor();
+                //printMayorValorMesTurbinaVapor2021_2022();
             break;
 
             case 4:
-                printPeorValorMesTurbinaVapor();
+                //printMenorValorMesTurbinaVapor2021();
             break;
 
             case 5:
-                //printMediaAnualTurbinaVapor2021();
+                //printMenorValorMesTurbinaVapor2022();
             break;
 
             case 6:
-                //printMediaAnualTurbinaVapor2022();
+                 //printMenorValorMesTurbinaVapor2021_2022();
             break;
 
             case 7:
+                 //printMediaAnualTurbinaVapor2021();
+            break;
+
+            case 8:
+                 //printMediaAnualTurbinaVapor2022();
+            break;
+
+            case 9:
                 system("cls");
                 printCombustiblesFosiles();
             break;
 
-            case 8:
+            case 10:
                 system("cls");
                 menuPrincipal();
             break;
@@ -1202,45 +1329,54 @@ void printCicloCombinado(){
  una turbina de gas y una turbina de vapor. En este ciclo el rendimiento que obtenemos es del 45%.\n\n");
 
         printf("\nSeleccione que mas desea conocer sobre la obtencion de energia a partir de un Ciclo Combinado:\n");
-        printf("\n\t1. Mayor Valor de Generacion Diario (Dia de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t3. Peor Valor de Generacion Diario (Dia de Produccion y Dato)\n");
-        printf("\t4. Peor Valor de Generacion Mensual (Mes de Produccion y Dato)\n\t5. Media Anual 2021\n\t6. Media Anual 2022\n\t7. Atras\n\t8. Volver al Menu Principal\n");
+         printf("\n\t1. Mayor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t3. Mayor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t4. Peor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t5. Peor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t6. Peor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
+        printf("\t7. Media Anual 2021\n\t8. Media Anual 2022\n\t9. Atras\n\t10. Volver al Menu Principal\n");
         scanf("%i", &modalidad);
         fflush(stdin);
         system("cls");
     }
 
-    while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8);
+    while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8 && modalidad != 9 && modalidad != 10);
         switch (modalidad){
             case 1:
-                //printMayorValorDiaCicloCombinado();
+                //printMayorValorMesCicloCombinado2021();
             break;
 
             case 2:
-                printMayorValorMesCicloCombinado();
+                //printMayorValorMesCicloCombinado2022();
             break;
 
             case 3:
-                //printPeorValorDiaCicloCombinado();
+                //printMayorValorMesCicloCombinado2021_2022();
             break;
 
             case 4:
-                printPeorValorMesCicloCombinado();
+                //printMenorValorMesCicloCombinado2021();
             break;
 
             case 5:
-                //printMediaAnualCicloCombinado2021();
+                //printMenorValorMesCicloCombinado2022();
             break;
 
             case 6:
-                //printMediaAnualCicloCombinado2022();
+                 //printMenorValorMesCicloCombinado2021_2022();
             break;
 
             case 7:
+                 //printMediaAnualCicloCombinado2021();
+            break;
+
+            case 8:
+                 //printMediaAnualCicloCombinado2022();
+            break;
+
+            case 9:
                 system("cls");
                 printCombustiblesFosiles();
             break;
 
-            case 8:
+            case 10:
                 system("cls");
                 menuPrincipal();
             break;
@@ -1249,7 +1385,6 @@ void printCicloCombinado(){
 
 
 } //Cierre printCicloCombinado
-
 
 
 
