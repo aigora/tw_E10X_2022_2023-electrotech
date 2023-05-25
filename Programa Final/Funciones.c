@@ -17,7 +17,7 @@ void menuPrincipal(){
     int seleccion;
 
     do{
-    printf("\n¡Bienvenido a la Base de Datos!\nElija una de las opciones siguientes:\n\n");
+    printf("\nBienvenido a la Base de Datos\nElija una de las opciones siguientes:\n\n");
     printf("\t1. Tipos Energias.\n\t2. Futura Idea.\n\t3. Futura Idea.\n\t4. Futura Idea.\n\t5. Salir de la Base de Datos.\n");
     scanf("%i", &seleccion);
     system("cls");
