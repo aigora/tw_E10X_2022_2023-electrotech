@@ -6,7 +6,7 @@
 3. Eleccion de forma Aleatoria de los datos de distintos tipos de Energias 
 4. Comparacion entre los datos de diferentes tipos de energias
 5. Salir de la Base de datos] 
-En la wiki del trabajo, puedes encontrar con mas detalle el uso de cada funcion.
+
 
 ## Integrantes del equipo
 
@@ -37,3 +37,5 @@ void printMenorValorMesEnergia2021_2022();
 void printMediaAnualEnergia2021(); 
 
 void printMediaAnualEnergia2022();]
+
+En la wiki del trabajo, puedes encontrar con mas detalle el uso de cada funcion.
