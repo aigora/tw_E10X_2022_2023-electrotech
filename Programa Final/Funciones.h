@@ -551,3 +551,22 @@ void printAleatorioAnualidad();
 void printAleatorioEnergia();
 void printAleatorioEnergia2019_2020();
 void printAleatorioEnergia2017_2018();
+
+
+//estas son las nueve
+
+void printMediaAnualMotoresDiesel2022();
+void printMediaAnualResiduosNOR2021();
+void printMediaAnualResiduos2022NOR();
+void printMediaAnualResiduosR2021();
+void printMediaAnualResiduosR2022();
+void printMediaAnualGeneracionTotal2021();
+void printMediaAnualGeneracionTotal2022();
+void printMediaAnualTurbinacion2021();
+void printMediaAnualTurbinacion2022();
+void printMediaAnualCogeneracion2021();
+void printMediaAnualCogeneracion2022();
+
+int numerodelineas();
+
+
