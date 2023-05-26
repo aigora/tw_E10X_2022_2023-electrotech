@@ -363,8 +363,188 @@ void printMediaAnualCogeneracion2019();
 void printMediaAnualCogeneracion2020();
 //Final 2019-2020
 
+
 //Inicio 2017-2018
 void printEnergias2017_2018();
+void printTiposEnergias2017_2018();
+
+void printTiposEnergiasNoRenovables2017_2018();
+void printCombustiblesFosiles2017_2018();
+
+void printNuclear2017_2018();
+void printMayorValorMesNuclear2017();
+void printMayorValorMesNuclear2018();
+void printMayorValorMesNuclear2017_2018();
+void printMenorValorMesNuclear2017();
+void printMenorValorMesNuclear2018();
+void printMenorValorMesNuclear2017_2018();
+void printMediaAnualNuclear2017();
+void printMediaAnualNuclear2018();
+
+void printMotoresDiesel2017_2018();
+void printMayorValorMesMotoresDiesel2017();
+void printMayorValorMesMotoresDiesel2018();
+void printMayorValorMesMotoresDiesel2017_2018();
+void printMenorValorMesMotoresDiesel2017();
+void printMenorValorMesMotoresDiesel2018();
+void printMenorValorMesMotoresDiesel2017_2018();
+void printMediaAnualMotoresDiesel2017();
+void printMediaAnualMotoresDiesel2018();
+
+void printTiposEnergiasRenovables2017_2018();
+
+void printHidraulica2017_2018();
+void printMayorValorMesHidraulica2017();
+void printMayorValorMesHidraulica2018();
+void printMayorValorMesHidraulica2017_2018();
+void printMenorValorMesHidraulica2017();
+void printMenorValorMesHidraulica2018();
+void printMenorValorMesHidraulica2017_2018();
+void printMediaAnualHidraulica2017();
+void printMediaAnualHidraulica2018();
+
+void printHidroeolica2017_2018();
+void printMayorValorMesHidroeolica2017();
+void printMayorValorMesHidroeolica2018();
+void printMayorValorMesHidroeolica2017_2018();
+void printMenorValorMesHidroeolica2017();
+void printMenorValorMesHidroeolica2018();
+void printMenorValorMesHidroeolica2017_2018();
+void printMediaAnualHidroeolica2017();
+void printMediaAnualHidroeolica2018();
+
+void printEolica2017_2018();
+void printMayorValorMesEolica2017();
+void printMayorValorMesEolica2018();
+void printMayorValorMesEolica2017_2018();
+void printMenorValorMesEolica2017();
+void printMenorValorMesEolica2018();
+void printMenorValorMesEolica2017_2018();
+void printMediaAnualEolica2017();
+void printMediaAnualEolica2018();
+
+void printSolarFotovoltaica2017_2018();
+void printMayorValorMesSolarFotovoltaica2017();
+void printMayorValorMesSolarFotovoltaica2018();
+void printMayorValorMesSolarFotovoltaica2017_2018();
+void printMenorValorMesSolarFotovoltaica2017();
+void printMenorValorMesSolarFotovoltaica2018();
+void printMenorValorMesSolarFotovoltaica2017_2018();
+void printMediaAnualSolarFotovoltaica2017();
+void printMediaAnualSolarFotovoltaica2018();
+
+void printSolarTermica2017_2018();
+void printMayorValorMesSolarTermica2017();
+void printMayorValorMesSolarTermica2018();
+void printMayorValorMesSolarTermica2017_2018();
+void printMenorValorMesSolarTermica2017();
+void printMenorValorMesSolarTermica2018();
+void printMenorValorMesSolarTermica2017_2018();
+void printMediaAnualSolarTermica2017();
+void printMediaAnualSolarTermica2018();
+
+void printOtrasEnergiasRenovables2017_2018();
+void printMayorValorMesOtrasEnergiasRenovables2017();
+void printMayorValorMesOtrasEnergiasRenovables2018();
+void printMayorValorMesOtrasEnergiasRenovables2017_2018();
+void printMenorValorMesOtrasEnergiasRenovables2017();
+void printMenorValorMesOtrasEnergiasRenovables2018();
+void printMenorValorMesOtrasEnergiasRenovables2017_2018();
+void printMediaAnualOtrasEnergiasRenovables2017();
+void printMediaAnualOtrasEnergiasRenovables2018();
+
+void printResiduos2017_2018();
+void printResiduosRenovables2017_2018();
+void printMayorValorMesResiduosRenovables2017();
+void printMayorValorMesResiduosRenovables2018();
+void printMayorValorMesResiduosRenovables2017_2018();
+void printMenorValorMesResiduosRenovables2017();
+void printMenorValorMesResiduosRenovables2018();
+void printMenorValorMesResiduosRenovables2017_2018();
+void printMediaAnualResiduosRenovables2017();
+void printMediaAnualResiduosRenovables2018();
+
+void printResiduosNoRenovables2017_2018();
+void printMayorValorMesResiduosNoRenovables2017();
+void printMayorValorMesResiduosNoRenovables2018();
+void printMayorValorMesResiduosNoRenovables2017_2018();
+void printMenorValorMesResiduosNoRenovables2017();
+void printMenorValorMesResiduosNoRenovables2018();
+void printMenorValorMesResiduosNoRenovables2017_2018();
+void printMediaAnualResiduosNoRenovables2017();
+void printMediaAnualResiduosNoRenovables2018();
+
+void printGeneracionTotal2017_2018();
+void printMayorValorMesGeneracionTotal2017();
+void printMayorValorMesGeneracionTotal2018();
+void printMayorValorMesGeneracionTotal2017_2018();
+void printMenorValorMesGeneracionTotal2017();
+void printMenorValorMesGeneracionTotal2018();
+void printMenorValorMesGeneracionTotal2017_2018();
+void printMediaAnualGeneracionTotal2017();
+void printMediaAnualGeneracionTotal2018();
+
+void printCombustiblesFosiles2017_2018();
+void printCarbon2017_2018();
+void printMayorValorMesCarbon2017();
+void printMayorValorMesCarbon2018();
+void printMayorValorMesCarbon2017_2018();
+void printMenorValorMesCarbon2017();
+void printMenorValorMesCarbon2018();
+void printMenorValorMesCarbon2017_2018();
+void printMediaAnualCarbon2017();
+void printMediaAnualCarbon2018();
+
+void printFuelGas2017_2018();
+void printMayorValorMesFuelGas2017();
+void printMayorValorMesFuelGas2018();
+void printMayorValorMesFuelGas2017_2018();
+void printMenorValorMesFuelGas2017();
+void printMenorValorMesFuelGas2018();
+void printMenorValorMesFuelGas2017_2018();
+void printMediaAnualFuelGas2017();
+void printMediaAnualFuelGas2018();
+
+void printTurbinaGas2017_2018();
+void printMayorValorMesTurbinaGas2017();
+void printMayorValorMesTurbinaGas2018();
+void printMayorValorMesTurbinaGas2017_2018();
+void printMenorValorMesTurbinaGas2017();
+void printMenorValorMesTurbinaGas2018();
+void printMenorValorMesTurbinaGas2017_2018();
+void printMediaAnualTurbinaGas2017();
+void printMediaAnualTurbinaGas2018();
+
+void printTurbinaVapor2017_2018();
+void printMayorValorMesTurbinaVapor2017();
+void printMayorValorMesTurbinaVapor2018();
+void printMayorValorMesTurbinaVapor2017_2018();
+void printMenorValorMesTurbinaVapor2017();
+void printMenorValorMesTurbinaVapor2018();
+void printMenorValorMesTurbinaVapor2017_2018();
+void printMediaAnualTurbinaVapor2017();
+void printMediaAnualTurbinaVapor2018();
+
+void printCicloCombinado2017_2018();
+void printMayorValorMesCicloCombinado2017();
+void printMayorValorMesCicloCombinado2018();
+void printMayorValorMesCicloCombinado2017_2018();
+void printMenorValorMesCicloCombinado2017();
+void printMenorValorMesCicloCombinado2018();
+void printMenorValorMesCicloCombinado2017_2018();
+void printMediaAnualCicloCombinado2017();
+void printMediaAnualCicloCombinado2018();
+
+void printCogeneracion2017_2018();
+void printMayorValorMesCogeneracion2017();
+void printMayorValorMesCogeneracion2018();
+void printMayorValorMesCogeneracion2017_2018();
+void printMenorValorMesCogeneracion2017();
+void printMenorValorMesCogeneracion2018();
+void printMenorValorMesCogeneracion2017_2018();
+void printMediaAnualCogeneracion2017();
+void printMediaAnualCogeneracion2018();
+//Final 2017-2018
 //Final 2017-2018
 
 void printAleatorioAnualidad();
