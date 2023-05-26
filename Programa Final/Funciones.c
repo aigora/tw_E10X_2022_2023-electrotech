@@ -168,7 +168,7 @@ void printNuclear(){
         printf("Como curiosidad usted debe saber... que la energia nuclear se divide en dos procesos distintos, uno, la fusion nuclear y,\
  el otro, la fision nuclear. El mas empleado es la fision nuclear que consiste en la desintegracion de ciertos atomos\
  con neutrones. Esta reaccion libera una gran cantidad de energia utilitaria. El proceso de fision nuclear es un proceso\
-limpio. La unica parte donde se produce contaminacion, es en el proceso de desulfuracion del uranio.\n\n");
+ limpio. La unica parte donde se produce contaminacion, es en el proceso de desulfuracion del uranio.\n\n");
 
         printf("\nSeleccione que mas desea conocer sobre la Energia Nuclear:\n");
         printf("\n\t1. Mayor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t3. Mayor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
@@ -234,7 +234,9 @@ void printMotoresDiesel(){
 
     do{
         printf("\nUsted ha seleccionado Motores Diesel!\n\n");
-        printf("Como curiosidad usted debe saber... FALTA INFOOOOOOOOOO!!!\n\n");
+        printf("Como curiosidad usted debe saber... los motores diesel para estos casos son utilizados en Grupos Electrogenos como medida auxiliar\
+ de fuente de energia en caso de ausencia de la red principal en determinado momento. Es decir, Pueden entrar en funcionamiento\
+ cuando se produce una interrupción en la red eléctrica principal o cuando se requiere energía adicional durante momentos de alta demanda.\n\n");
 
         printf("\nSeleccione que mas desea conocer sobre los Motores Diesel:\n");
         printf("\n\t1. Mayor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t3. Mayor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
@@ -501,7 +503,7 @@ void printEolica(){
         printf("\nUsted ha seleccionado la Energia Eolica!\n\n");
         printf("Como curiosidad usted debe saber... La Energia Eolica transforma la energia cinetica del viento en energia mecanica mediante\
  las turbinas eolicas. Dicha energia mecanica aplicada a un alternador convierte la energia en energia electrica. Existe la energia eolica\
-     terrestre y marina. A esta ultima se le conoce como 'offshore'.\n\n");
+ terrestre y marina. A esta ultima se le conoce como 'offshore'.\n\n");
 
         printf("\nSeleccione que mas desea conocer sobre la Energia Eolica:\n");
         printf("\n\t1. Mayor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t3. Mayor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
@@ -515,7 +517,7 @@ void printEolica(){
    while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8 && seleccion != 9 && seleccion != 10);
         switch (seleccion){
             case 1:
-                //printMayorValorMesEolica2021();
+                printMayorValorMesEolica2021();
             break;
 
             case 2:
@@ -527,7 +529,7 @@ void printEolica(){
             break;
 
             case 4:
-                //printMenorValorMesEolica2021();
+                printMenorValorMesEolica2021();
             break;
 
             case 5:
@@ -803,7 +805,11 @@ void printResiduosRenovables(){
 
     do{
         printf("\nUsted ha seleccionado la fuente de energia primaria Residuos Renovables!\n\n");
-        printf("Como curiosidad usted debe saber... FALTA INFOOOOOOOO!!!!!\n\n");
+        printf("Como curiosidad usted debe saber... Estos residuos consisten en materiales organicos que se generan como subproductos de\
+ actividades agricolas, forestales, agroindustriales y de procesamiento de alimentos, asi como de residuos solidos\
+ urbanos y lodos de depuradoras. La biomasa se considera renovable porque proviene de fuentes biologicas y puede \
+ regenerarse a traves de ciclos naturales. La biomasa se utiliza principalmente para la generacion de electricidad\
+ a traves de procesos de combustion o gasificacion.\n\n");
 
         printf("\nSeleccione que mas desea conocer sobre la fuente de energia a partir de Residuos Renovables:\n");
         printf("\n\t1. Mayor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t3. Mayor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
@@ -866,7 +872,11 @@ void printResiduosNoRenovables(){
 
     do{
         printf("\nUsted ha seleccionado la fuente de energia primaria Residuos No Renovables!\n\n");
-        printf("Como curiosidad usted debe saber... FALTA INFOOOOOOOO!!!!!\n\n");
+        printf("Como curiosidad usted debe saber... Los residuos no renovables se refieren a los materiales que no son de origen\
+ biologico y no se regeneran a traves de ciclos naturales en un periodo de tiempo relevante. Estos residuos\
+ provienen principalmente de la actividad industrial y se caracterizan por ser recursos finitos. Aunque no se\
+ consideran fuentes de energia sostenibles a largo plazo, se utilizan en ciertos casos como una alternativa\
+ para la generacion de energia.\n\n");
 
         printf("\nSeleccione que mas desea conocer sobre la fuente de energia a partir de Residuos No Renovables:\n");
         printf("\n\t1. Mayor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t3. Mayor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
@@ -1399,9 +1409,9 @@ void printCogeneracion(){
     do{
         printf("\nUsted ha seleccionado la obtencion de energia a partir de la Cogeneracion!\n\n");
         printf("Como curiosidad usted debe saber... que la Cogeneracion mejora aún más la eficiencia energética aprovechando el calor de\
-la corriente de salida de la turbina de vapor. Este calor puede ser utilizado, por ejemplo,\
-para  calentar agua de uso industrial,\ o para la generación de agua caliente sanitaria.\
-En este tipo de fuente de energia conseguimos rendimientos cercanos al 80%.\n\n");
+ la corriente de salida de la turbina de vapor. Este calor puede ser utilizado, por ejemplo,\
+ para  calentar agua de uso industrial,\ o para la generación de agua caliente sanitaria.\
+ En este tipo de fuente de energia conseguimos rendimientos cercanos al 80%.\n\n");
 
         printf("\nSeleccione que mas desea conocer sobre la obtencion de energia a partir de la Cogeneraciono:\n");
         printf("\n\t1. Mayor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t3. Mayor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
@@ -1578,7 +1588,7 @@ void printNuclear2019_2020(){
         printf("Como curiosidad usted debe saber... que la energia nuclear se divide en dos procesos distintos, uno, la fusion nuclear y,\
  el otro, la fision nuclear. El mas empleado es la fision nuclear que consiste en la desintegracion de ciertos atomos\
  con neutrones. Esta reaccion libera una gran cantidad de energia utilitaria. El proceso de fision nuclear es un proceso\
-limpio. La unica parte donde se produce contaminacion, es en el proceso de desulfuracion del uranio.\n\n");
+ limpio. La unica parte donde se produce contaminacion, es en el proceso de desulfuracion del uranio.\n\n");
 
         printf("\nSeleccione que mas desea conocer sobre la Energia Nuclear:\n");
         printf("\n\t1. Mayor Valor de Generacion Mensual 2019 (Mes de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual 2020 (Mes de Produccion y Dato)\n\t3. Mayor Valor de Generacion Mensual entre 2019 y 2020 (Mes de Produccion y Dato)\n");
@@ -1644,7 +1654,9 @@ void printMotoresDiesel2019_2020(){
 
     do{
         printf("\nUsted ha seleccionado Motores Diesel!\n\n");
-        printf("Como curiosidad usted debe saber... FALTA INFOOOOOOOOOO!!!\n\n");
+        printf("Como curiosidad usted debe saber... los motores diesel para estos casos son utilizados en Grupos Electrogenos como medida auxiliar\
+ de fuente de energia en caso de ausencia de la red principal en determinado momento. Es decir, Pueden entrar en funcionamiento\
+ cuando se produce una interrupción en la red eléctrica principal o cuando se requiere energía adicional durante momentos de alta demanda.\n\n");
 
         printf("\nSeleccione que mas desea conocer sobre los Motores Diesel:\n");
         printf("\n\t1. Mayor Valor de Generacion Mensual 2019 (Mes de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual 2020 (Mes de Produccion y Dato)\n\t3. Mayor Valor de Generacion Mensual entre 2019 y 2020 (Mes de Produccion y Dato)\n");
@@ -1898,7 +1910,7 @@ void printEolica2019_2020(){
         printf("\nUsted ha seleccionado la Energia Eolica!\n\n");
         printf("Como curiosidad usted debe saber... La Energia Eolica transforma la energia cinetica del viento en energia mecanica mediante\
  las turbinas eolicas. Dicha energia mecanica aplicada a un alternador convierte la energia en energia electrica. Existe la energia eolica\
-     terrestre y marina. A esta ultima se le conoce como 'offshore'.\n\n");
+ terrestre y marina. A esta ultima se le conoce como 'offshore'.\n\n");
 
         printf("\nSeleccione que mas desea conocer sobre la Energia Eolica:\n");
         printf("\n\t1. Mayor Valor de Generacion Mensual 2019 (Mes de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual 2020 (Mes de Produccion y Dato)\n\t3. Mayor Valor de Generacion Mensual entre 2019 y 2020 (Mes de Produccion y Dato)\n");
@@ -2200,7 +2212,12 @@ void printResiduosRenovables2019_2020(){
 
     do{
         printf("\nUsted ha seleccionado la fuente de energia primaria Residuos Renovables!\n\n");
-        printf("Como curiosidad usted debe saber... FALTA INFOOOOOOOO!!!!!\n\n");
+        printf("Como curiosidad usted debe saber... Estos residuos consisten en materiales organicos que se generan como subproductos de\
+ actividades agricolas, forestales, agroindustriales y de procesamiento de alimentos, asi como de residuos solidos\
+ urbanos y lodos de depuradoras. La biomasa se considera renovable porque proviene de fuentes biologicas y puede\
+ regenerarse a traves de ciclos naturales. La biomasa se utiliza principalmente para la generacion de electricidad\
+ a traves de procesos de combustion o gasificacion.\n\n");
+
 
         printf("\nSeleccione que mas desea conocer sobre la fuente de energia a partir de Residuos Renovables:\n");
         printf("\n\t1. Mayor Valor de Generacion Mensual 2019 (Mes de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual 2020 (Mes de Produccion y Dato)\n\t3. Mayor Valor de Generacion Mensual entre 2019 y 2020 (Mes de Produccion y Dato)\n");
@@ -2263,7 +2280,11 @@ void printResiduosNoRenovables2019_2020(){
 
     do{
         printf("\nUsted ha seleccionado la fuente de energia primaria Residuos No Renovables!\n\n");
-        printf("Como curiosidad usted debe saber... FALTA INFOOOOOOOO!!!!!\n\n");
+        printf("Como curiosidad usted debe saber... Los residuos no renovables se refieren a los materiales que no son de origen\
+ biologico y no se regeneran a traves de ciclos naturales en un periodo de tiempo relevante. Estos residuos\
+ provienen principalmente de la actividad industrial y se caracterizan por ser recursos finitos. Aunque no se\
+ consideran fuentes de energia sostenibles a largo plazo, se utilizan en ciertos casos como una alternativa\
+ para la generacion de energia.\n\n");
 
         printf("\nSeleccione que mas desea conocer sobre la fuente de energia a partir de Residuos No Renovables:\n");
         printf("\n\t1. Mayor Valor de Generacion Mensual 2019 (Mes de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual 2020 (Mes de Produccion y Dato)\n\t3. Mayor Valor de Generacion Mensual entre 2019 y 2020 (Mes de Produccion y Dato)\n");
@@ -2798,9 +2819,9 @@ void printCogeneracion2019_2020(){
     do{
         printf("\nUsted ha seleccionado la obtencion de energia a partir de la Cogeneracion!\n\n");
         printf("Como curiosidad usted debe saber... que la Cogeneracion mejora aún más la eficiencia energética aprovechando el calor de\
-la corriente de salida de la turbina de vapor. Este calor puede ser utilizado, por ejemplo,\
-para  calentar agua de uso industrial,\ o para la generación de agua caliente sanitaria.\
-En este tipo de fuente de energia conseguimos rendimientos cercanos al 80%.\n\n");
+ la corriente de salida de la turbina de vapor. Este calor puede ser utilizado, por ejemplo,\
+ para  calentar agua de uso industrial,\ o para la generación de agua caliente sanitaria.\
+ En este tipo de fuente de energia conseguimos rendimientos cercanos al 80%.\n\n");
 
         printf("\nSeleccione que mas desea conocer sobre la obtencion de energia a partir de la Cogeneraciono:\n");
         printf("\n\t1. Mayor Valor de Generacion Mensual 2019 (Mes de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual 2020 (Mes de Produccion y Dato)\n\t3. Mayor Valor de Generacion Mensual entre 2019 y 2020 (Mes de Produccion y Dato)\n");
@@ -3267,6 +3288,7 @@ void printAleatorioEnergia2017_2018(){
 
 
 } //Cierre printAleatorioEnergia2017_2018
+
 
 
 //FINAL PARTE MENU
