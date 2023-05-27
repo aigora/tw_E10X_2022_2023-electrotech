@@ -1,11 +1,11 @@
 void menuPrincipal();
+int numerodelineas();
 
 void printEnergias();
 void printTiposEnergias();
-
 void printTiposEnergiasNoRenovables();
-void printCombustiblesFosiles();
-
+void printNuclear();
+void printMediaAnualNuclear2021();
 void printNuclear();
 void printMayorValorMesNuclear2021();
 void printMayorValorMesNuclear2022();
@@ -25,6 +25,7 @@ void printMenorValorMesMotoresDiesel2022();
 void printMenorValorMesMotoresDiesel2021_2022();
 void printMediaAnualMotoresDiesel2021();
 void printMediaAnualMotoresDiesel2022();
+
 
 void printTiposEnergiasRenovables();
 
@@ -119,6 +120,7 @@ void printMenorValorMesGeneracionTotal2021_2022();
 void printMediaAnualGeneracionTotal2021();
 void printMediaAnualGeneracionTotal2022();
 
+
 void printCombustiblesFosiles();
 void printCarbon();
 void printMayorValorMesCarbon2021();
@@ -179,9 +181,9 @@ void printMenorValorMesCogeneracion2022();
 void printMenorValorMesCogeneracion2021_2022();
 void printMediaAnualCogeneracion2021();
 void printMediaAnualCogeneracion2022();
+//Terminacion Año 2021-2022
 
-
-//Inicio 2019-2020
+//Inicio Año 2019-2020
 void printEnergias2019_2020();
 void printTiposEnergias2019_2020();
 
@@ -362,7 +364,6 @@ void printMenorValorMesCogeneracion2019_2020();
 void printMediaAnualCogeneracion2019();
 void printMediaAnualCogeneracion2020();
 //Final 2019-2020
-
 
 //Inicio 2017-2018
 void printEnergias2017_2018();
@@ -545,28 +546,11 @@ void printMenorValorMesCogeneracion2017_2018();
 void printMediaAnualCogeneracion2017();
 void printMediaAnualCogeneracion2018();
 //Final 2017-2018
-//Final 2017-2018
+
 
 void printAleatorioAnualidad();
 void printAleatorioEnergia();
 void printAleatorioEnergia2019_2020();
 void printAleatorioEnergia2017_2018();
-
-
-//estas son las nueve
-
-void printMediaAnualMotoresDiesel2022();
-void printMediaAnualResiduosNOR2021();
-void printMediaAnualResiduos2022NOR();
-void printMediaAnualResiduosR2021();
-void printMediaAnualResiduosR2022();
-void printMediaAnualGeneracionTotal2021();
-void printMediaAnualGeneracionTotal2022();
-void printMediaAnualTurbinacion2021();
-void printMediaAnualTurbinacion2022();
-void printMediaAnualCogeneracion2021();
-void printMediaAnualCogeneracion2022();
-
-int numerodelineas();
 
 
