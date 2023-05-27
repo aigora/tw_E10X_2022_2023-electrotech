@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include "Funciones.h"
 
-//aqui esta la funcion iniciar sesion
 typedef struct
 {
     float m, a;
@@ -14,44 +13,41 @@ typedef struct
     float datos[24]; //porque hay dos años, es decir 24 meses
 }Energia;  //vector de estructuras (LO TENGO QUE DECLARAR EN LA FUNCION VOID)
 
-typedef struct
-{
-	char nombre[100];
-	char contrasena[100];
-}usuario;
-
 
 usuario datos[100]; //vector para guardar el nombre y la contraseña para posteriormente pasarlo al fichero
 
 
-int reconocerfichero(usuario datos[], int *numusuarios) //le he cambio el prototipo
+int reconocerfichero(usuario datos[], int *numusuarios)
 {
 	FILE * pf;
 
 	int i;
+
 	pf = fopen("usuario.txt","r");
 
 	if(pf==NULL)
     {
 		printf("No hay ningun fichero para abrir.\n");
-    return 0; //devolvemos,para en el main indicar que el programa se termina ya que no existe fichero
+        return 0; //devolvemos,para en el main indicar que el programa se termina ya que no existe fichero
 	}
 
 	i=0;
 
 	while(fscanf(pf,"%s %s\n",&datos[i].nombre,&datos[i].contrasena)!=EOF)//comprobamos los usuarios ya registrados,y hacemos un contador
     {
-	i++;
+        i++;
 	}
 
-	*numusuarios=i; //NO ENTIENDO
+
+	*numusuarios=i;
 
 	fclose(pf); //cerramos el fichero
+
 	return 1;//devolvemos 1,para indicar en el main que el programa puede seguir correctamente
 }
 
 
-void registrar(char printnombre[], int *numusuarios, usuario datos[]) //que es y porque utiliza punteros, hay una coma que no entiendo
+void registrar(char printnombre[], int *numusuarios, usuario datos[])
 {
 
 	FILE * pf;
@@ -59,77 +55,88 @@ void registrar(char printnombre[], int *numusuarios, usuario datos[]) //que es y
 	int i;
 	int rep=0;//numero entero para comprobar si hay usuario o contraseña ya introducido
 	char printcontrasena[100];//vector tipo caracter para almacenar la contraseña introducida por el usuario
+
 	do
-        {
-		printf("Introduzca su nombre nuevo:\n");
+    {
+		printf("\nIntroduzca su nombre nuevo:\n\t");
 		fflush(stdin);
 
 		scanf("%s",printnombre);
 		for(i=0;i<*numusuarios;i++)
         {
+
 			if(strcmp(printnombre,datos[i].nombre)==0) //comparamos con lo que hay en el fichero y el nombre que ha introducido el usuario
-                {
-				rep=1;
-				break;
-			    }
-			else
-                {
-				rep=0;
-			    }
-		}
-
-		if(rep==1)
-        {
-			printf("Ya existe este nombre.Intentalo de nuevo.\n");
-		}
-		else
-		{
-			printf("Usuario valido\n");
-			printf("Vas a ser el jugador %i registrado en este juego.\n",i+1); //por eso lo declaramos como vector, para que se pueda hacer mas veces y se guarden todas, he puesto %i
-			strcpy(datos[*numusuarios].nombre,printnombre);//con la libreria string.h,lo copiamos a nuestra estrucutra con su posicion correspondiente
-		}
-
-	}
-	while(rep==1);
-do
-{
-	printf("Introduzca una contrase%ca:\n",164); //que es esto de 164
-	fflush(stdin);
-	scanf("%s",printcontrasena);
-
-	for(i=0;i<*numusuarios;i++)
-        {
-			if(strcmp(printcontrasena,datos[i].contrasena)==0)//comparamos si ya esta esa contraseña en el fichero
             {
 				rep=1;
-				break;
+
             }
+
 			else
-                {
+            {
 				rep=0;
-			    }
+            }
+
         }
 
 		if(rep==1)
         {
-			printf("Ya existe esta contrase%ca.Intentalo de nuevo.\n",164);
+			printf("\nYa existe este nombre.Intentalo de nuevo.\n");
 		}
+
 		else
 		{
-
-			strcpy(datos[*numusuarios].contrasena,printcontrasena);
-
-            pf= fopen("usuario.txt","w");//modo escritura, con esto se borra lo anterior ¿no?
-
-	for(i=0;i<=*numusuarios;i++)
-    {
-		fprintf(pf,"%s %s\n",datos[i].nombre ,datos[i].contrasena);//lo imprimimos en el fichero
+			printf("\nEl Usuario Introducido no esta repetido, ");
+			printf("vas a ser el jugador %i registrado en este juego.\n",i+1); //por eso lo declaramos como vector, para que se pueda hacer mas veces y se guarden todas, he puesto %i
+			strcpy(datos[*numusuarios].nombre,printnombre);//con la libreria string.h,lo copiamos a nuestra estrucutra con su posicion correspondiente
+		}
 
 	}
 
-	fclose(pf); //cerramos el fichero
+
+	while(rep==1);
+
+    do
+    {
+        printf("\n\nIntroduzca una contrase%ca:\n\t",164); //que es esto de 164
+        fflush(stdin);
+        scanf("%s",printcontrasena);
+
+        for(i=0;i<*numusuarios;i++)
+        {
+            if(strcmp(printcontrasena,datos[i].contrasena)==0)//comparamos si ya esta esa contraseña en el fichero
+            {
+                rep=1;
+
+            }
+            else
+                {
+                rep=0;
+                }
+        }
+
+        if(rep==1)
+        {
+            printf("Ya existe esta contrase%ca.Intentalo de nuevo.\n",164);
+        }
+
+        else
+        {
+
+            strcpy(datos[*numusuarios].contrasena,printcontrasena);
+
+            pf= fopen("usuario.txt","w");//modo escritura.
+
+            for(i=0;i<=*numusuarios;i++)
+            {
+                fprintf(pf,"%s %s\n",datos[i].nombre ,datos[i].contrasena);//lo imprimimos en el fichero
+
+            }
+
+            fclose(pf); //cerramos el fichero
+        }
     }
-}while(rep==1);//no se sale del bucle hasta que el usuario,introduzca un nick y una contraseña no repetida
+
+    while(rep==1);//no se sale del bucle hasta que el usuario,introduzca un nick y una contraseña no repetida
 }
 
 
@@ -140,39 +147,44 @@ void iniciarsesion(char printnombre[], int *numusuarios,usuario datos[])
 	int i;
 	int rep=0;
 	char printcontrasena[200];
+
 	do
-        {
-		printf("Introduzca su nombre:\n");
+    {
+		printf("\nIntroduzca su nombre:\n");
 		fflush(stdin);
 		scanf("%s",printnombre);
-		printf("Introduzca su contrase%ca:\n",164);
+		printf("\nIntroduzca su contrase%ca:\n",164);
 		fflush(stdin);
 		scanf("%s",printcontrasena);
 
 		for(i=0;i<*numusuarios;i++)
-            {
+        {
 			if(strcmp(printnombre,datos[i].nombre)==0 && strcmp(printcontrasena,datos[i].contrasena)==0)//comprobar si esta en el fichero
             {
 				rep=1;
-				break;
 			}
-        else
+
+            else
             {
 				rep=0;
 			}
-		    }
+        }
 
 		if(rep==0)
-            {
-			printf("Datos incorrectos.\n");
-		    }
-		    else
-		    {
-			printf("Datos correctos.\n");
-			printf("Eres el jugador %i registrado en el juego.\n",i+1);
-		    }
+        {
+			printf("\n\nLos datos introducidos son incorrectos.\n");
+        }
+
+
+        else
+        {
+			printf("\n\n\Los datos introducidos son correctos.\n");
+
+        }
 
 	  }
+
+
 	  while(rep==0);
 
 }
@@ -216,7 +228,7 @@ void menuPrincipal(){
 
              case 5:
                 printf("\n\tVuelva Pronto!\n");
-                exit(0);
+                return 0;
              break;
 
         } // Cierre switch seleccion.
@@ -6229,27 +6241,35 @@ void printMediaAnualCarbon2022()
 
 void printMediaAnualFuelGas2021()
 {
-    
+    char aux0;
     float suma;
 	float promedio;
-	
-	
-	//aqui lo nuevo de fuel gas
-	
+	int j;
+	int numerodeenergias=0;
+
+	int lineas;
+    lineas=numerodelineas();
+
+	numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+    Energia Energias[numerodeenergias];
+
+
+
 	for(j=0; j<12; j++)
     {
         Energias[4].datos[j]=0.0; //todos son cero
     }
-	
+
     Energias[4].datos[6]=-0.000001; //solo modifico ese dato, el resto es 0
-	
+
 	for(j=0; j<12; j++)
     {
-        suma=Energias[4].datos[j]+suma;  
+        suma=Energias[4].datos[j]+suma;
     }
-	
+
 	 printf("\nLa suma es %f y el promedio es %f", suma, promedio);
-     
+
 
     printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
 
@@ -6262,16 +6282,23 @@ void printMediaAnualFuelGas2021()
 
 void printMediaAnualFuelGas2022()
 {
-     //aqui lo nuevo de fuel gas
-	
-	float suma;
+    char aux0;
+    float suma;
 	float promedio;
-	
-suma=0.0;
-promedio=0.0;
-	
-	 printf("\nLa suma es %f y el promedio es %f", suma, promedio);
-	
+	int numerodeenergias=0;
+
+	int lineas;
+    lineas=numerodelineas();
+
+	numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+    Energia Energias[numerodeenergias];
+
+    suma=0.0;
+    promedio=0.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
     printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
 
     scanf("%c", &aux0);
@@ -9015,78 +9042,35 @@ void printMediaAnualCarbon2020()
 
 void printMediaAnualFuelGas2019()
 {
-    char aux0, aux1, x;
-    int i=0, j, k;
-    int numerodeenergias=0;
+    char aux0;
+    float suma;
+	float promedio;
+	int j;
+	int numerodeenergias=0;
 
-    int lineas;
+	int lineas;
     lineas=numerodelineas();
 
-
-    FILE *pf;
-
-
-    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
-
-    if(pf == NULL)
-        {
-            printf("Error al encontrar el archivo");
-
-        }
-    else
-    {
-
-    for(i=0; i<=4; i++)
-  {
-  	fscanf(pf, "%c", &aux1);
-    while(aux1 != '\n')
-    {
-        fscanf(pf, "%c", &aux1);
-    }
-
-  }
-
-    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
-
+	numerodeenergias=lineas-5; //le restamos las 5 primeras filas
 
     Energia Energias[numerodeenergias];
 
 
 
-    for(i=0; i<=numerodeenergias; i++)
+	for(j=0; j<12; j++)
     {
-        fscanf(pf, "%[^,]", &Energias[i].tipo);
-
-        k=0;
-
-        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
-
-
-        for(x=0; x<24; x++) //aqui recojo 24 datos
-        {
-            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
-            k++;
-        }
-
-
+        Energias[4].datos[j]=0.0; //todos son cero
     }
 
+    Energias[4].datos[6]=-0.000001; //solo modifico ese dato, el resto es 0
 
-    float promedio, suma=0;
-
-    for(j=0; j<12; j++)
+	for(j=0; j<12; j++)
     {
-        suma=Energias[4].datos[j]+suma;  //LA del gas es 5, CORREGIR
+        suma=Energias[4].datos[j]+suma;
     }
 
-    promedio=suma/12.0;
+	 printf("\nLa suma es %f y el promedio es %f", suma, promedio);
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
-
-    fclose(pf); //Cerramos fichero
-
-
-     }
 
     printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
 
@@ -9099,78 +9083,22 @@ void printMediaAnualFuelGas2019()
 
 void printMediaAnualFuelGas2020()
 {
-    char aux0, aux1, x;
-    int i=0, j, k;
-    int numerodeenergias=0;
+    char aux0;
+    float suma;
+	float promedio;
+	int numerodeenergias=0;
 
-    int lineas;
+	int lineas;
     lineas=numerodelineas();
 
-
-    FILE *pf;
-
-
-    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
-
-    if(pf == NULL)
-        {
-            printf("Error al encontrar el archivo");
-
-        }
-    else
-    {
-
-    for(i=0; i<=4; i++)
-  {
-  	fscanf(pf, "%c", &aux1);
-    while(aux1 != '\n')
-    {
-        fscanf(pf, "%c", &aux1);
-    }
-
-  }
-
-
-    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
-
+	numerodeenergias=lineas-5; //le restamos las 5 primeras filas
 
     Energia Energias[numerodeenergias];
 
-
-
-    for(i=0; i<=numerodeenergias; i++)
-    {
-        fscanf(pf, "%[^,]", &Energias[i].tipo);
-
-        k=0;
-
-        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
-
-
-        for(x=0; x<24; x++) //aqui recojo 24 datos
-        {
-            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
-            k++;
-        }
-
-    }
-
-
-    float promedio, suma=0;
-
-    for(j=12; j<24; j++)
-    {
-        suma=Energias[4].datos[j]+suma;
-    }
-
-    promedio=suma/12.0;
+    suma=0.0;
+    promedio=0.0;
 
     printf("\nLa suma es %f y el promedio es %f", suma, promedio);
-
-    fclose(pf); //Cerramos fichero
-
-
-     }
 
     printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
 
@@ -19918,4 +19846,3 @@ void printMenorValorMesCogeneracion2021_2022()
     system("cls");
     printCogeneracion();
 }
-
