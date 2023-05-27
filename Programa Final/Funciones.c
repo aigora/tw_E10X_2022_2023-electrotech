@@ -10,7 +10,7 @@ typedef struct
 typedef struct
 {
     char tipo[20];
-    float datos[23]; //porque hay dos años, es decir 24 meses
+    float datos[24]; //porque hay dos años, es decir 24 meses
 }Energia;  //vector de estructuras (LO TENGO QUE DECLARAR EN LA FUNCION VOID)
 
 void menuPrincipal(){
@@ -4711,7 +4711,6 @@ int numerodelineas()
      fclose(pf);
     }
 
-    //numerodefilas++; quitarlo
 
     return numerodefilas;
 }
@@ -4720,7 +4719,6 @@ void printMediaAnualNuclear2021()
 {
     char aux0, aux1, x;
     int i=0, j, k;
-    //int numerodefilas=0; quitar
     int numerodeenergias=0;
     int lineas;
 
@@ -4860,7 +4858,7 @@ void printMediaAnualNuclear2022()
 
     float promedio, suma=0;
 
-    for(j=12; j<23; j++)
+    for(j=12; j<24; j++)
     {
         suma=Energias[2].datos[j]+suma;  //LA NUCLEAR ES LA 2
     }
@@ -5028,7 +5026,7 @@ void printMediaAnualHidraulica2022()
 
     float promedio, suma=0;
 
-    for(j=12; j<23; j++)
+    for(j=12; j<24; j++)
     {
         suma=Energias[0].datos[j]+suma;  //hidraulica esta guardada en la 0
     }
@@ -5199,7 +5197,7 @@ void printMediaAnualHidroeolica2022()
 
     float promedio, suma=0;
 
-    for(j=12; j<23; j++)
+    for(j=12; j<24; j++)
     {
         suma=Energias[9].datos[j]+suma;  //LA hidroelica es la , en el vector es 10
     }
@@ -5368,7 +5366,7 @@ void printMediaAnualEolica2022()
 
     float promedio, suma=0;
 
-    for(j=12; j<23; j++)
+    for(j=12; j<24; j++)
     {
         suma=Energias[10].datos[j]+suma;  //LA eolica es la 11
     }
@@ -5537,7 +5535,7 @@ void printMediaAnualSolarFotovoltaica2022()
 
     float promedio, suma=0;
 
-    for(j=12; j<23; j++)
+    for(j=12; j<24; j++)
     {
         suma=Energias[11].datos[j]+suma;  //LA FOTO ES 12
     }
@@ -5700,7 +5698,7 @@ void printMediaAnualSolarTermica2022()
 
     float promedio, suma=0;
 
-    for(j=12; j<23; j++)
+    for(j=12; j<24; j++)
     {
         suma=Energias[12].datos[j]+suma;  //LA solar termica es la 13
     }
@@ -5870,7 +5868,7 @@ void printMediaAnualOtrasEnergiasRenovables2022()
 
     float promedio, suma=0;
 
-    for(j=12; j<23; j++)
+    for(j=12; j<24; j++)
     {
         suma=Energias[13].datos[j]+suma;  //LAs otras son la 14
     }
@@ -6040,7 +6038,7 @@ void printMediaAnualCarbon2022()
 
     float promedio, suma=0;
 
-    for(j=12; j<23; j++)
+    for(j=12; j<24; j++)
     {
         suma=Energias[3].datos[j]+suma;  //LA carbon ES LA 4
     }
@@ -6180,7 +6178,6 @@ void printMediaAnualFuelGas2022()
 
   }
 
-
     numerodeenergias=lineas-5; //le restamos las 5 primeras filas
 
 
@@ -6209,9 +6206,9 @@ void printMediaAnualFuelGas2022()
 
     float promedio, suma=0;
 
-    for(j=12; j<23; j++)
+    for(j=12; j<24; j++)
     {
-        suma=Energias[4].datos[j]+suma;
+        suma=Energias[4].datos[j]+suma;  //LA del gas es 5, CORREGIR
     }
 
     promedio=suma/12.0;
@@ -6380,7 +6377,7 @@ void printMediaAnualTurbinaGas2022()
 
     float promedio, suma=0;
 
-    for(j=12; j<23; j++)
+    for(j=12; j<24; j++)
     {
         suma=Energias[6].datos[j]+suma;  //LA TURBINA GAS ES LA 7
 
@@ -6551,7 +6548,7 @@ void printMediaAnualTurbinaVapor2022()
 
     float promedio, suma=0;
 
-    for(j=12; j<23; j++)
+    for(j=12; j<24; j++)
     {
         suma=Energias[7].datos[j]+suma;  //LA TURBINA VAPOR ES LA 8
     }
@@ -6722,7 +6719,7 @@ void printMediaAnualCicloCombinado2022()
 
     float promedio, suma=0;
 
-    for(j=12; j<23; j++)
+    for(j=12; j<24; j++)
     {
         suma=Energias[8].datos[j]+suma;  //CICLO COMBINADO ES LA 9
     }
@@ -6895,7 +6892,7 @@ void printMediaAnualMotoresDiesel2022()
 
     float promedio, suma=0;
 
-    for(j=12; j<23; j++)
+    for(j=12; j<24; j++)
     {
         suma=Energias[5].datos[j]+suma;  //MOTORES DIESEL ES LA 6
     }
@@ -7070,7 +7067,7 @@ void printMediaAnualResiduosNoRenovables2022()
 
     float promedio, suma=0;
 
-    for(j=12; j<23; j++)
+    for(j=12; j<24; j++)
     {
         suma=Energias[15].datos[j]+suma;  //residuos no renovables 17
     }
@@ -7242,7 +7239,7 @@ void printMediaAnualResiduosRenovables2022()
 
     float promedio, suma=0;
 
-    for(j=12; j<23; j++)
+    for(j=12; j<24; j++)
     {
         suma=Energias[16].datos[j]+suma;  //residuos no renovables 17
     }
@@ -7415,7 +7412,7 @@ void printMediaAnualGeneracionTotal2022()
 
     float promedio, suma=0;
 
-    for(j=0; j<23; j++)
+    for(j=0; j<24; j++)
     {
         suma=Energias[17].datos[j]+suma;  //GENERACION TOTAL ES LA 18
     }
@@ -7759,7 +7756,7 @@ void printMediaAnualNuclear2020()
 
     float promedio, suma=0;
 
-    for(j=12; j<23; j++)
+    for(j=12; j<24; j++)
     {
         suma=Energias[2].datos[j]+suma;  //LA NUCLEAR ES LA 2
     }
@@ -7927,7 +7924,7 @@ void printMediaAnualHidraulica2020()
 
     float promedio, suma=0;
 
-    for(j=12; j<23; j++)
+    for(j=12; j<24; j++)
     {
         suma=Energias[0].datos[j]+suma;  //hidraulica esta guardada en la 0
     }
@@ -8098,7 +8095,7 @@ void printMediaAnualHidroeolica2020()
 
     float promedio, suma=0;
 
-    for(j=12; j<23; j++)
+    for(j=12; j<24; j++)
     {
         suma=Energias[9].datos[j]+suma;  //LA hidroelica es la , en el vector es 10
     }
@@ -8269,7 +8266,7 @@ void printMediaAnualEolica2020()
 
     float promedio, suma=0;
 
-    for(j=12; j<23; j++)
+    for(j=12; j<24; j++)
     {
         suma=Energias[10].datos[j]+suma;  //LA eolica es la 11
     }
@@ -8438,7 +8435,7 @@ void printMediaAnualSolarFotovoltaica2020()
 
     float promedio, suma=0;
 
-    for(j=12; j<23; j++)
+    for(j=12; j<24; j++)
     {
         suma=Energias[11].datos[j]+suma;  //LA FOTO ES 12
     }
@@ -8601,7 +8598,7 @@ void printMediaAnualSolarTermica2020()
 
     float promedio, suma=0;
 
-    for(j=12; j<23; j++)
+    for(j=12; j<24; j++)
     {
         suma=Energias[12].datos[j]+suma;  //LA solar termica es la 13
     }
@@ -8771,7 +8768,7 @@ void printMediaAnualOtrasEnergiasRenovables2020()
 
     float promedio, suma=0;
 
-    for(j=12; j<23; j++)
+    for(j=12; j<24; j++)
     {
         suma=Energias[13].datos[j]+suma;  //LAs otras son la 14
     }
@@ -8941,7 +8938,7 @@ void printMediaAnualCarbon2020()
 
     float promedio, suma=0;
 
-    for(j=12; j<23; j++)
+    for(j=12; j<24; j++)
     {
         suma=Energias[3].datos[j]+suma;  //LA carbon ES LA 4
     }
@@ -9109,7 +9106,7 @@ void printMediaAnualFuelGas2020()
 
     float promedio, suma=0;
 
-    for(j=12; j<23; j++)
+    for(j=12; j<24; j++)
     {
         suma=Energias[4].datos[j]+suma;
     }
@@ -9280,7 +9277,7 @@ void printMediaAnualTurbinaGas2020()
 
     float promedio, suma=0;
 
-    for(j=12; j<23; j++)
+    for(j=12; j<24; j++)
     {
         suma=Energias[6].datos[j]+suma;  //LA TURBINA GAS ES LA 7
 
@@ -9451,7 +9448,7 @@ void printMediaAnualTurbinaVapor2020()
 
     float promedio, suma=0;
 
-    for(j=12; j<23; j++)
+    for(j=12; j<24; j++)
     {
         suma=Energias[7].datos[j]+suma;  //LA TURBINA VAPOR ES LA 8
     }
@@ -9622,7 +9619,7 @@ void printMediaAnualCicloCombinado2020()
 
     float promedio, suma=0;
 
-    for(j=12; j<23; j++)
+    for(j=12; j<24; j++)
     {
         suma=Energias[8].datos[j]+suma;  //CICLO COMBINADO ES LA 9
     }
@@ -9795,7 +9792,7 @@ void printMediaAnualMotoresDiesel2020()
 
     float promedio, suma=0;
 
-    for(j=12; j<23; j++)
+    for(j=12; j<24; j++)
     {
         suma=Energias[5].datos[j]+suma;  //MOTORES DIESEL ES LA 6
     }
@@ -9970,7 +9967,7 @@ void printMediaAnualResiduosNoRenovables2020()
 
     float promedio, suma=0;
 
-    for(j=12; j<23; j++)
+    for(j=12; j<24; j++)
     {
         suma=Energias[15].datos[j]+suma;  //residuos no renovables 17
     }
@@ -10142,7 +10139,7 @@ void printMediaAnualResiduosRenovables2020()
 
     float promedio, suma=0;
 
-    for(j=12; j<23; j++)
+    for(j=12; j<24; j++)
     {
         suma=Energias[16].datos[j]+suma;  //residuos no renovables 17
     }
@@ -10315,7 +10312,7 @@ void printMediaAnualGeneracionTotal2020()
 
     float promedio, suma=0;
 
-    for(j=0; j<23; j++)
+    for(j=0; j<24; j++)
     {
         suma=Energias[17].datos[j]+suma;  //GENERACION TOTAL ES LA 18
     }
@@ -10487,7 +10484,7 @@ void printMediaAnualCogeneracion2020()
 
     float promedio, suma=0;
 
-    for(j=12; j<23; j++)
+    for(j=12; j<24; j++)
     {
         suma=Energias[14].datos[j]+suma;  //cogeneracion es la 15
     }
