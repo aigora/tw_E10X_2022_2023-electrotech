@@ -10704,10 +10704,9 @@ void printMediaAnualCogeneracion2020()
 // N=2
 void printMayorValorMesNuclear2021()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -10716,11 +10715,10 @@ void printMayorValorMesNuclear2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -10732,12 +10730,9 @@ void printMayorValorMesNuclear2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -10768,7 +10763,7 @@ void printMayorValorMesNuclear2021()
                 }
                     int i, N, u;
                     u=0;
-                    N=2;
+                    N=0;
                     float maximo;
                     maximo = Energias[N].datos[0];
 
@@ -10798,14 +10793,11 @@ void printMayorValorMesNuclear2021()
     system("cls");
     printNuclear();
 }
-
-
 void printMayorValorMesNuclear2022()
 {
-char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -10814,11 +10806,10 @@ char aux0, aux1, aux2, x;
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -10830,16 +10821,13 @@ char aux0, aux1, aux2, x;
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -10868,10 +10856,10 @@ char aux0, aux1, aux2, x;
                     u=0;
                     N=2;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -10896,14 +10884,11 @@ char aux0, aux1, aux2, x;
     system("cls");
     printNuclear();
 }
-
-
 void printMayorValorMesNuclear2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -10912,11 +10897,10 @@ void printMayorValorMesNuclear2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -10928,16 +10912,13 @@ void printMayorValorMesNuclear2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -10966,10 +10947,10 @@ void printMayorValorMesNuclear2021_2022()
                     u=0;
                     N=2;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -10994,14 +10975,11 @@ void printMayorValorMesNuclear2021_2022()
     system("cls");
     printNuclear();
 }
-
-
 void printMenorValorMesNuclear2021()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -11010,11 +10988,10 @@ void printMenorValorMesNuclear2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -11026,12 +11003,9 @@ void printMenorValorMesNuclear2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -11092,14 +11066,11 @@ void printMenorValorMesNuclear2021()
     system("cls");
     printNuclear();
 }
-
-
 void printMenorValorMesNuclear2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -11108,11 +11079,10 @@ void printMenorValorMesNuclear2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -11124,16 +11094,13 @@ void printMenorValorMesNuclear2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -11162,10 +11129,10 @@ void printMenorValorMesNuclear2022()
                     u=0;
                     N=2;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -11190,14 +11157,11 @@ void printMenorValorMesNuclear2022()
     system("cls");
     printNuclear();
 }
-
-
 void printMenorValorMesNuclear2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -11206,11 +11170,10 @@ void printMenorValorMesNuclear2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -11222,16 +11185,13 @@ void printMenorValorMesNuclear2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -11260,10 +11220,10 @@ void printMenorValorMesNuclear2021_2022()
                     u=0;
                     N=2;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -11288,14 +11248,14 @@ void printMenorValorMesNuclear2021_2022()
     system("cls");
     printNuclear();
 }
+
 
 // N=5
 void printMayorValorMesMotoresDiesel2021()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -11304,11 +11264,10 @@ void printMayorValorMesMotoresDiesel2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -11320,12 +11279,9 @@ void printMayorValorMesMotoresDiesel2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -11386,14 +11342,11 @@ void printMayorValorMesMotoresDiesel2021()
     system("cls");
     printMotoresDiesel();
 }
-
-
 void printMayorValorMesMotoresDiesel2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -11402,11 +11355,10 @@ void printMayorValorMesMotoresDiesel2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -11418,16 +11370,13 @@ void printMayorValorMesMotoresDiesel2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -11456,10 +11405,10 @@ void printMayorValorMesMotoresDiesel2022()
                     u=0;
                     N=5;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -11484,14 +11433,11 @@ void printMayorValorMesMotoresDiesel2022()
     system("cls");
     printMotoresDiesel();
 }
-
-
 void printMayorValorMesMotoresDiesel2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -11500,11 +11446,10 @@ void printMayorValorMesMotoresDiesel2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -11516,16 +11461,13 @@ void printMayorValorMesMotoresDiesel2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -11554,10 +11496,10 @@ void printMayorValorMesMotoresDiesel2021_2022()
                     u=0;
                     N=5;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -11582,14 +11524,11 @@ void printMayorValorMesMotoresDiesel2021_2022()
     system("cls");
     printMotoresDiesel();
 }
-
-
 void printMenorValorMesMotoresDiesel2021()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -11598,11 +11537,10 @@ void printMenorValorMesMotoresDiesel2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -11614,12 +11552,9 @@ void printMenorValorMesMotoresDiesel2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -11680,14 +11615,11 @@ void printMenorValorMesMotoresDiesel2021()
     system("cls");
     printMotoresDiesel();
 }
-
-
 void printMenorValorMesMotoresDiesel2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -11696,11 +11628,10 @@ void printMenorValorMesMotoresDiesel2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -11712,16 +11643,13 @@ void printMenorValorMesMotoresDiesel2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -11750,10 +11678,10 @@ void printMenorValorMesMotoresDiesel2022()
                     u=0;
                     N=5;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -11778,14 +11706,11 @@ void printMenorValorMesMotoresDiesel2022()
     system("cls");
     printMotoresDiesel();
 }
-
-
 void printMenorValorMesMotoresDiesel2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -11794,11 +11719,10 @@ void printMenorValorMesMotoresDiesel2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -11810,16 +11734,13 @@ void printMenorValorMesMotoresDiesel2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -11848,10 +11769,10 @@ void printMenorValorMesMotoresDiesel2021_2022()
                     u=0;
                     N=5;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -11876,14 +11797,14 @@ void printMenorValorMesMotoresDiesel2021_2022()
     system("cls");
     printMotoresDiesel();
 }
+
 
 // N=0
 void printMayorValorMesHidraulica2021()
 {
- char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+ char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -11892,11 +11813,10 @@ void printMayorValorMesHidraulica2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -11908,12 +11828,9 @@ void printMayorValorMesHidraulica2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -11974,14 +11891,11 @@ void printMayorValorMesHidraulica2021()
     system("cls");
     printHidraulica();
 }
-
-
 void printMayorValorMesHidraulica2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -11990,11 +11904,10 @@ void printMayorValorMesHidraulica2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -12006,16 +11919,13 @@ void printMayorValorMesHidraulica2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -12044,10 +11954,10 @@ void printMayorValorMesHidraulica2022()
                     u=0;
                     N=0;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -12072,14 +11982,11 @@ void printMayorValorMesHidraulica2022()
     system("cls");
     printHidraulica();
 }
-
-
 void printMayorValorMesHidraulica2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -12088,11 +11995,10 @@ void printMayorValorMesHidraulica2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -12104,16 +12010,13 @@ void printMayorValorMesHidraulica2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -12142,10 +12045,10 @@ void printMayorValorMesHidraulica2021_2022()
                     u=0;
                     N=0;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -12170,14 +12073,11 @@ void printMayorValorMesHidraulica2021_2022()
     system("cls");
     printHidraulica();
 }
-
-
 void printMenorValorMesHidraulica2021()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -12186,11 +12086,10 @@ void printMenorValorMesHidraulica2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -12202,12 +12101,9 @@ void printMenorValorMesHidraulica2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -12268,14 +12164,11 @@ void printMenorValorMesHidraulica2021()
     system("cls");
     printHidraulica();
 }
-
-
 void printMenorValorMesHidraulica2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -12284,11 +12177,10 @@ void printMenorValorMesHidraulica2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -12300,16 +12192,13 @@ void printMenorValorMesHidraulica2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -12338,10 +12227,10 @@ void printMenorValorMesHidraulica2022()
                     u=0;
                     N=0;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -12366,14 +12255,11 @@ void printMenorValorMesHidraulica2022()
     system("cls");
     printHidraulica();
 }
-
-
 void printMenorValorMesHidraulica2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -12382,11 +12268,10 @@ void printMenorValorMesHidraulica2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -12398,16 +12283,13 @@ void printMenorValorMesHidraulica2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -12436,10 +12318,10 @@ void printMenorValorMesHidraulica2021_2022()
                     u=0;
                     N=0;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -12464,14 +12346,14 @@ void printMenorValorMesHidraulica2021_2022()
     system("cls");
     printHidraulica();
 }
+
 
 // N=9
 void printMayorValorMesHidroeolica2021()
 {
-     char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+     char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -12480,11 +12362,10 @@ void printMayorValorMesHidroeolica2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -12496,12 +12377,9 @@ void printMayorValorMesHidroeolica2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -12564,10 +12442,9 @@ void printMayorValorMesHidroeolica2021()
 }
 void printMayorValorMesHidroeolica2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -12576,11 +12453,10 @@ void printMayorValorMesHidroeolica2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -12592,16 +12468,13 @@ void printMayorValorMesHidroeolica2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -12630,10 +12503,10 @@ void printMayorValorMesHidroeolica2022()
                     u=0;
                     N=9;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -12658,14 +12531,11 @@ void printMayorValorMesHidroeolica2022()
     system("cls");
     printHidroeolica();
 }
-
-
 void printMayorValorMesHidroeolica2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -12674,11 +12544,10 @@ void printMayorValorMesHidroeolica2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -12690,16 +12559,13 @@ void printMayorValorMesHidroeolica2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -12728,10 +12594,10 @@ void printMayorValorMesHidroeolica2021_2022()
                     u=0;
                     N=9;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -12757,14 +12623,11 @@ void printMayorValorMesHidroeolica2021_2022()
     printHidroeolica();
 
 }
-
-
 void printMenorValorMesHidroeolica2021()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -12773,11 +12636,10 @@ void printMenorValorMesHidroeolica2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -12789,12 +12651,9 @@ void printMenorValorMesHidroeolica2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -12855,14 +12714,11 @@ void printMenorValorMesHidroeolica2021()
     system("cls");
     printHidroeolica();
 }
-
-
 void printMenorValorMesHidroeolica2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -12871,11 +12727,10 @@ void printMenorValorMesHidroeolica2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -12887,16 +12742,13 @@ void printMenorValorMesHidroeolica2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -12925,10 +12777,10 @@ void printMenorValorMesHidroeolica2022()
                     u=0;
                     N=9;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -12953,14 +12805,11 @@ void printMenorValorMesHidroeolica2022()
     system("cls");
     printHidroeolica();
 }
-
-
 void printMenorValorMesHidroeolica2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -12969,11 +12818,10 @@ void printMenorValorMesHidroeolica2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -12985,16 +12833,13 @@ void printMenorValorMesHidroeolica2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -13023,10 +12868,10 @@ void printMenorValorMesHidroeolica2021_2022()
                     u=0;
                     N=9;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -13051,14 +12896,14 @@ void printMenorValorMesHidroeolica2021_2022()
     system("cls");
     printHidroeolica();
 }
+
 
 // N=10
 void printMayorValorMesEolica2021()
 {
-     char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+     char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -13067,11 +12912,10 @@ void printMayorValorMesEolica2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -13083,12 +12927,9 @@ void printMayorValorMesEolica2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -13149,14 +12990,11 @@ void printMayorValorMesEolica2021()
     system("cls");
     printEolica();
 }
-
-
 void printMayorValorMesEolica2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+   char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -13165,11 +13003,10 @@ void printMayorValorMesEolica2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -13181,16 +13018,13 @@ void printMayorValorMesEolica2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -13219,10 +13053,10 @@ void printMayorValorMesEolica2022()
                     u=0;
                     N=10;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -13247,14 +13081,11 @@ void printMayorValorMesEolica2022()
     system("cls");
     printEolica();
 }
-
-
 void printMayorValorMesEolica2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -13263,11 +13094,10 @@ void printMayorValorMesEolica2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -13279,16 +13109,13 @@ void printMayorValorMesEolica2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -13317,10 +13144,10 @@ void printMayorValorMesEolica2021_2022()
                     u=0;
                     N=10;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -13345,14 +13172,11 @@ void printMayorValorMesEolica2021_2022()
     system("cls");
     printEolica();
 }
-
-
 void printMenorValorMesEolica2021()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -13361,11 +13185,10 @@ void printMenorValorMesEolica2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -13377,12 +13200,9 @@ void printMenorValorMesEolica2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -13443,14 +13263,11 @@ void printMenorValorMesEolica2021()
     system("cls");
     printEolica();
 }
-
-
 void printMenorValorMesEolica2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+   char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -13459,11 +13276,10 @@ void printMenorValorMesEolica2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -13475,16 +13291,13 @@ void printMenorValorMesEolica2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -13513,10 +13326,10 @@ void printMenorValorMesEolica2022()
                     u=0;
                     N=10;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -13541,14 +13354,11 @@ void printMenorValorMesEolica2022()
     system("cls");
     printEolica();
 }
-
-
 void printMenorValorMesEolica2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -13557,11 +13367,10 @@ void printMenorValorMesEolica2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -13573,16 +13382,13 @@ void printMenorValorMesEolica2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -13611,10 +13417,10 @@ void printMenorValorMesEolica2021_2022()
                     u=0;
                     N=10;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -13639,14 +13445,14 @@ void printMenorValorMesEolica2021_2022()
     system("cls");
     printEolica();
 }
+
 
 // N=11
 void printMayorValorMesSolarFotovoltaica2021()
 {
-     char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+     char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -13655,11 +13461,10 @@ void printMayorValorMesSolarFotovoltaica2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -13671,12 +13476,9 @@ void printMayorValorMesSolarFotovoltaica2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -13737,14 +13539,11 @@ void printMayorValorMesSolarFotovoltaica2021()
     system("cls");
     printSolarFotovoltaica();
 }
-
-
 void printMayorValorMesSolarFotovoltaica2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -13753,11 +13552,10 @@ void printMayorValorMesSolarFotovoltaica2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -13769,16 +13567,13 @@ void printMayorValorMesSolarFotovoltaica2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -13807,10 +13602,10 @@ void printMayorValorMesSolarFotovoltaica2022()
                     u=0;
                     N=11;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -13835,14 +13630,11 @@ void printMayorValorMesSolarFotovoltaica2022()
     system("cls");
     printSolarFotovoltaica();
 }
-
-
 void printMayorValorMesSolarFotovoltaica2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -13851,11 +13643,10 @@ void printMayorValorMesSolarFotovoltaica2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -13867,16 +13658,13 @@ void printMayorValorMesSolarFotovoltaica2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -13905,10 +13693,10 @@ void printMayorValorMesSolarFotovoltaica2021_2022()
                     u=0;
                     N=11;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -13933,14 +13721,11 @@ void printMayorValorMesSolarFotovoltaica2021_2022()
     system("cls");
     printSolarFotovoltaica();
 }
-
-
 void printMenorValorMesSolarFotovoltaica2021()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -13949,11 +13734,10 @@ void printMenorValorMesSolarFotovoltaica2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -13965,12 +13749,9 @@ void printMenorValorMesSolarFotovoltaica2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -14001,7 +13782,7 @@ void printMenorValorMesSolarFotovoltaica2021()
                 }
                     int i, N, u;
                     u=0;
-                    N=11;
+                    N=;
                     float minimo;
                     minimo = Energias[N].datos[0];
 
@@ -14031,14 +13812,11 @@ void printMenorValorMesSolarFotovoltaica2021()
     system("cls");
     printSolarFotovoltaica();
 }
-
-
 void printMenorValorMesSolarFotovoltaica2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -14047,11 +13825,10 @@ void printMenorValorMesSolarFotovoltaica2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -14063,16 +13840,13 @@ void printMenorValorMesSolarFotovoltaica2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -14101,10 +13875,10 @@ void printMenorValorMesSolarFotovoltaica2022()
                     u=0;
                     N=11;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -14129,14 +13903,11 @@ void printMenorValorMesSolarFotovoltaica2022()
     system("cls");
     printSolarFotovoltaica();
 }
-
-
 void printMenorValorMesSolarFotovoltaica2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -14145,11 +13916,10 @@ void printMenorValorMesSolarFotovoltaica2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -14161,16 +13931,13 @@ void printMenorValorMesSolarFotovoltaica2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -14199,10 +13966,10 @@ void printMenorValorMesSolarFotovoltaica2021_2022()
                     u=0;
                     N=11;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -14232,10 +13999,9 @@ void printMenorValorMesSolarFotovoltaica2021_2022()
 // N=12
 void printMayorValorMesSolarTermica2021()
 {
-     char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+     char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -14244,11 +14010,10 @@ void printMayorValorMesSolarTermica2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -14260,12 +14025,9 @@ void printMayorValorMesSolarTermica2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -14326,14 +14088,11 @@ void printMayorValorMesSolarTermica2021()
     system("cls");
     printSolarTermica();
 }
-
-
 void printMayorValorMesSolarTermica2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -14342,11 +14101,10 @@ void printMayorValorMesSolarTermica2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -14358,16 +14116,13 @@ void printMayorValorMesSolarTermica2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -14396,10 +14151,10 @@ void printMayorValorMesSolarTermica2022()
                     u=0;
                     N=12;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -14424,14 +14179,11 @@ void printMayorValorMesSolarTermica2022()
     system("cls");
     printSolarTermica();
 }
-
-
 void printMayorValorMesSolarTermica2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -14440,11 +14192,10 @@ void printMayorValorMesSolarTermica2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -14456,16 +14207,13 @@ void printMayorValorMesSolarTermica2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -14494,10 +14242,10 @@ void printMayorValorMesSolarTermica2021_2022()
                     u=0;
                     N=12;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -14522,14 +14270,11 @@ void printMayorValorMesSolarTermica2021_2022()
     system("cls");
     printSolarTermica();
 }
-
-
 void printMenorValorMesSolarTermica2021()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -14538,11 +14283,10 @@ void printMenorValorMesSolarTermica2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -14554,12 +14298,9 @@ void printMenorValorMesSolarTermica2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -14620,14 +14361,11 @@ void printMenorValorMesSolarTermica2021()
     system("cls");
     printSolarTermica();
 }
-
-
 void printMenorValorMesSolarTermica2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -14636,11 +14374,10 @@ void printMenorValorMesSolarTermica2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -14652,16 +14389,13 @@ void printMenorValorMesSolarTermica2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -14690,10 +14424,10 @@ void printMenorValorMesSolarTermica2022()
                     u=0;
                     N=12;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -14718,14 +14452,11 @@ void printMenorValorMesSolarTermica2022()
     system("cls");
     printSolarTermica();
 }
-
-
 void printMenorValorMesSolarTermica2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -14734,11 +14465,10 @@ void printMenorValorMesSolarTermica2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -14750,16 +14480,13 @@ void printMenorValorMesSolarTermica2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -14788,10 +14515,10 @@ void printMenorValorMesSolarTermica2021_2022()
                     u=0;
                     N=12;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -14821,10 +14548,9 @@ void printMenorValorMesSolarTermica2021_2022()
 // N=13
 void printMayorValorMesOtrasEnergiasRenovables2021()
 {
-     char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+     char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -14833,11 +14559,10 @@ void printMayorValorMesOtrasEnergiasRenovables2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -14849,12 +14574,9 @@ void printMayorValorMesOtrasEnergiasRenovables2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -14915,14 +14637,11 @@ void printMayorValorMesOtrasEnergiasRenovables2021()
     system("cls");
     printOtrasEnergiasRenovables();
 }
-
-
 void printMayorValorMesOtrasEnergiasRenovables2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -14931,11 +14650,10 @@ void printMayorValorMesOtrasEnergiasRenovables2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -14947,16 +14665,13 @@ void printMayorValorMesOtrasEnergiasRenovables2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -14985,10 +14700,10 @@ void printMayorValorMesOtrasEnergiasRenovables2022()
                     u=0;
                     N=13;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -15013,14 +14728,11 @@ void printMayorValorMesOtrasEnergiasRenovables2022()
     system("cls");
     printOtrasEnergiasRenovables();
 }
-
-
 void printMayorValorMesOtrasEnergiasRenovables2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -15029,11 +14741,10 @@ void printMayorValorMesOtrasEnergiasRenovables2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -15045,16 +14756,13 @@ void printMayorValorMesOtrasEnergiasRenovables2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -15083,10 +14791,10 @@ void printMayorValorMesOtrasEnergiasRenovables2021_2022()
                     u=0;
                     N=13;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -15111,14 +14819,11 @@ void printMayorValorMesOtrasEnergiasRenovables2021_2022()
     system("cls");
     printOtrasEnergiasRenovables();
 }
-
-
 void printMenorValorMesOtrasEnergiasRenovables2021()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -15127,11 +14832,10 @@ void printMenorValorMesOtrasEnergiasRenovables2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -15143,12 +14847,9 @@ void printMenorValorMesOtrasEnergiasRenovables2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -15209,14 +14910,11 @@ void printMenorValorMesOtrasEnergiasRenovables2021()
     system("cls");
     printOtrasEnergiasRenovables();
 }
-
-
 void printMenorValorMesOtrasEnergiasRenovables2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -15225,11 +14923,10 @@ void printMenorValorMesOtrasEnergiasRenovables2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -15241,16 +14938,13 @@ void printMenorValorMesOtrasEnergiasRenovables2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -15279,10 +14973,10 @@ void printMenorValorMesOtrasEnergiasRenovables2022()
                     u=0;
                     N=13;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -15307,14 +15001,11 @@ void printMenorValorMesOtrasEnergiasRenovables2022()
     system("cls");
     printOtrasEnergiasRenovables();
 }
-
-
 void printMenorValorMesOtrasEnergiasRenovables2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -15323,11 +15014,10 @@ void printMenorValorMesOtrasEnergiasRenovables2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -15339,16 +15029,13 @@ void printMenorValorMesOtrasEnergiasRenovables2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -15377,10 +15064,10 @@ void printMenorValorMesOtrasEnergiasRenovables2021_2022()
                     u=0;
                     N=13;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -15405,16 +15092,14 @@ void printMenorValorMesOtrasEnergiasRenovables2021_2022()
     system("cls");
     printOtrasEnergiasRenovables();
 }
-
 
 
 // N=16
 void printMayorValorMesResiduosRenovables2021()
 {
-     char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+     char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -15423,11 +15108,10 @@ void printMayorValorMesResiduosRenovables2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -15439,12 +15123,9 @@ void printMayorValorMesResiduosRenovables2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -15505,14 +15186,11 @@ void printMayorValorMesResiduosRenovables2021()
     system("cls");
     printResiduosRenovables();
 }
-
-
 void printMayorValorMesResiduosRenovables2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -15521,11 +15199,10 @@ void printMayorValorMesResiduosRenovables2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -15537,16 +15214,13 @@ void printMayorValorMesResiduosRenovables2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -15575,10 +15249,10 @@ void printMayorValorMesResiduosRenovables2022()
                     u=0;
                     N=16;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -15603,14 +15277,11 @@ void printMayorValorMesResiduosRenovables2022()
     system("cls");
     printResiduosRenovables();
 }
-
-
 void printMayorValorMesResiduosRenovables2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -15619,11 +15290,10 @@ void printMayorValorMesResiduosRenovables2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -15635,16 +15305,13 @@ void printMayorValorMesResiduosRenovables2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -15673,10 +15340,10 @@ void printMayorValorMesResiduosRenovables2021_2022()
                     u=0;
                     N=16;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -15701,14 +15368,11 @@ void printMayorValorMesResiduosRenovables2021_2022()
     system("cls");
     printResiduosRenovables();
 }
-
-
 void printMenorValorMesResiduosRenovables2021()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -15717,11 +15381,10 @@ void printMenorValorMesResiduosRenovables2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -15733,12 +15396,9 @@ void printMenorValorMesResiduosRenovables2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -15799,14 +15459,11 @@ void printMenorValorMesResiduosRenovables2021()
     system("cls");
     printResiduosRenovables();
 }
-
-
 void printMenorValorMesResiduosRenovables2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -15815,11 +15472,10 @@ void printMenorValorMesResiduosRenovables2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -15831,16 +15487,13 @@ void printMenorValorMesResiduosRenovables2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -15869,10 +15522,10 @@ void printMenorValorMesResiduosRenovables2022()
                     u=0;
                     N=16;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -15897,14 +15550,11 @@ void printMenorValorMesResiduosRenovables2022()
     system("cls");
     printResiduosRenovables();
 }
-
-
 void printMenorValorMesResiduosRenovables2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -15913,11 +15563,10 @@ void printMenorValorMesResiduosRenovables2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -15929,16 +15578,13 @@ void printMenorValorMesResiduosRenovables2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -15967,10 +15613,10 @@ void printMenorValorMesResiduosRenovables2021_2022()
                     u=0;
                     N=16;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -16000,10 +15646,9 @@ void printMenorValorMesResiduosRenovables2021_2022()
 // N=15
 void printMayorValorMesResiduosNoRenovables2021()
 {
-     char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+     char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -16012,11 +15657,10 @@ void printMayorValorMesResiduosNoRenovables2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -16028,12 +15672,9 @@ void printMayorValorMesResiduosNoRenovables2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -16094,14 +15735,11 @@ void printMayorValorMesResiduosNoRenovables2021()
     system("cls");
     printResiduosNoRenovables();
 }
-
-
 void printMayorValorMesResiduosNoRenovables2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -16110,11 +15748,10 @@ void printMayorValorMesResiduosNoRenovables2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -16126,16 +15763,13 @@ void printMayorValorMesResiduosNoRenovables2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -16164,10 +15798,10 @@ void printMayorValorMesResiduosNoRenovables2022()
                     u=0;
                     N=15;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -16192,14 +15826,11 @@ void printMayorValorMesResiduosNoRenovables2022()
     system("cls");
     printResiduosNoRenovables();
 }
-
-
 void printMayorValorMesResiduosNoRenovables2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -16208,11 +15839,10 @@ void printMayorValorMesResiduosNoRenovables2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -16224,16 +15854,13 @@ void printMayorValorMesResiduosNoRenovables2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -16262,10 +15889,10 @@ void printMayorValorMesResiduosNoRenovables2021_2022()
                     u=0;
                     N=15;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -16290,14 +15917,11 @@ void printMayorValorMesResiduosNoRenovables2021_2022()
     system("cls");
     printResiduosNoRenovables();
 }
-
-
 void printMenorValorMesResiduosNoRenovables2021()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -16306,11 +15930,10 @@ void printMenorValorMesResiduosNoRenovables2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -16322,12 +15945,9 @@ void printMenorValorMesResiduosNoRenovables2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -16388,14 +16008,11 @@ void printMenorValorMesResiduosNoRenovables2021()
     system("cls");
     printResiduosNoRenovables();
 }
-
-
 void printMenorValorMesResiduosNoRenovables2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -16404,11 +16021,10 @@ void printMenorValorMesResiduosNoRenovables2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -16420,16 +16036,13 @@ void printMenorValorMesResiduosNoRenovables2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -16458,10 +16071,10 @@ void printMenorValorMesResiduosNoRenovables2022()
                     u=0;
                     N=15;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -16486,14 +16099,11 @@ void printMenorValorMesResiduosNoRenovables2022()
     system("cls");
     printResiduosNoRenovables();
 }
-
-
 void printMenorValorMesResiduosNoRenovables2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -16502,11 +16112,10 @@ void printMenorValorMesResiduosNoRenovables2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -16518,16 +16127,13 @@ void printMenorValorMesResiduosNoRenovables2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -16556,10 +16162,10 @@ void printMenorValorMesResiduosNoRenovables2021_2022()
                     u=0;
                     N=15;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -16589,10 +16195,9 @@ void printMenorValorMesResiduosNoRenovables2021_2022()
 // N=17
 void printMayorValorMesGeneracionTotal2021()
 {
-     char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+     char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -16601,11 +16206,10 @@ void printMayorValorMesGeneracionTotal2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -16617,12 +16221,9 @@ void printMayorValorMesGeneracionTotal2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -16683,14 +16284,11 @@ void printMayorValorMesGeneracionTotal2021()
     system("cls");
     printGeneracionTotal();
 }
-
-
 void printMayorValorMesGeneracionTotal2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -16699,11 +16297,10 @@ void printMayorValorMesGeneracionTotal2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -16715,16 +16312,13 @@ void printMayorValorMesGeneracionTotal2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -16753,10 +16347,10 @@ void printMayorValorMesGeneracionTotal2022()
                     u=0;
                     N=17;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -16781,14 +16375,11 @@ void printMayorValorMesGeneracionTotal2022()
     system("cls");
     printGeneracionTotal();
 }
-
-
 void printMayorValorMesGeneracionTotal2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -16797,11 +16388,10 @@ void printMayorValorMesGeneracionTotal2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -16813,16 +16403,13 @@ void printMayorValorMesGeneracionTotal2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -16851,10 +16438,10 @@ void printMayorValorMesGeneracionTotal2021_2022()
                     u=0;
                     N=17;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -16879,14 +16466,11 @@ void printMayorValorMesGeneracionTotal2021_2022()
     system("cls");
     printGeneracionTotal();
 }
-
-
 void printMenorValorMesGeneracionTotal2021()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -16895,11 +16479,10 @@ void printMenorValorMesGeneracionTotal2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -16911,12 +16494,9 @@ void printMenorValorMesGeneracionTotal2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -16977,14 +16557,11 @@ void printMenorValorMesGeneracionTotal2021()
     system("cls");
     printGeneracionTotal();
 }
-
-
 void printMenorValorMesGeneracionTotal2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -16993,11 +16570,10 @@ void printMenorValorMesGeneracionTotal2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -17009,16 +16585,13 @@ void printMenorValorMesGeneracionTotal2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -17047,10 +16620,10 @@ void printMenorValorMesGeneracionTotal2022()
                     u=0;
                     N=17;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -17075,14 +16648,11 @@ void printMenorValorMesGeneracionTotal2022()
     system("cls");
     printGeneracionTotal();
 }
-
-
 void printMenorValorMesGeneracionTotal2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -17091,11 +16661,10 @@ void printMenorValorMesGeneracionTotal2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -17107,16 +16676,13 @@ void printMenorValorMesGeneracionTotal2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -17145,10 +16711,10 @@ void printMenorValorMesGeneracionTotal2021_2022()
                     u=0;
                     N=17;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -17178,10 +16744,9 @@ void printMenorValorMesGeneracionTotal2021_2022()
 // N=3
 void printMayorValorMesCarbon2021()
 {
-     char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+     char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -17190,11 +16755,10 @@ void printMayorValorMesCarbon2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -17206,12 +16770,9 @@ void printMayorValorMesCarbon2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -17272,14 +16833,11 @@ void printMayorValorMesCarbon2021()
     system("cls");
     printCarbon();
 }
-
-
 void printMayorValorMesCarbon2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -17288,11 +16846,10 @@ void printMayorValorMesCarbon2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -17304,16 +16861,13 @@ void printMayorValorMesCarbon2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -17342,10 +16896,10 @@ void printMayorValorMesCarbon2022()
                     u=0;
                     N=3;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -17370,14 +16924,11 @@ void printMayorValorMesCarbon2022()
     system("cls");
     printCarbon();
 }
-
-
 void printMayorValorMesCarbon2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -17386,11 +16937,10 @@ void printMayorValorMesCarbon2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -17402,16 +16952,13 @@ void printMayorValorMesCarbon2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -17440,10 +16987,10 @@ void printMayorValorMesCarbon2021_2022()
                     u=0;
                     N=3;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -17468,14 +17015,11 @@ void printMayorValorMesCarbon2021_2022()
     system("cls");
     printCarbon();
 }
-
-
 void printMenorValorMesCarbon2021()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -17484,11 +17028,10 @@ void printMenorValorMesCarbon2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -17500,12 +17043,9 @@ void printMenorValorMesCarbon2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -17566,14 +17106,11 @@ void printMenorValorMesCarbon2021()
     system("cls");
     printCarbon();
 }
-
-
 void printMenorValorMesCarbon2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -17582,11 +17119,10 @@ void printMenorValorMesCarbon2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -17598,16 +17134,13 @@ void printMenorValorMesCarbon2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -17636,10 +17169,10 @@ void printMenorValorMesCarbon2022()
                     u=0;
                     N=3;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -17664,14 +17197,11 @@ void printMenorValorMesCarbon2022()
     system("cls");
     printCarbon();
 }
-
-
 void printMenorValorMesCarbon2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -17680,11 +17210,10 @@ void printMenorValorMesCarbon2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -17696,16 +17225,13 @@ void printMenorValorMesCarbon2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -17734,10 +17260,10 @@ void printMenorValorMesCarbon2021_2022()
                     u=0;
                     N=3;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -17767,10 +17293,9 @@ void printMenorValorMesCarbon2021_2022()
 // N=4
 void printMayorValorMesFuelGas2021()
 {
-     char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+     char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -17779,11 +17304,10 @@ void printMayorValorMesFuelGas2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -17795,12 +17319,9 @@ void printMayorValorMesFuelGas2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -17863,10 +17384,9 @@ void printMayorValorMesFuelGas2021()
 }
 void printMayorValorMesFuelGas2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -17875,11 +17395,10 @@ void printMayorValorMesFuelGas2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -17891,16 +17410,13 @@ void printMayorValorMesFuelGas2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -17929,10 +17445,10 @@ void printMayorValorMesFuelGas2022()
                     u=0;
                     N=4;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -17957,14 +17473,11 @@ void printMayorValorMesFuelGas2022()
     system("cls");
     printFuelGas();
 }
-
-
 void printMayorValorMesFuelGas2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -17973,11 +17486,10 @@ void printMayorValorMesFuelGas2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -17989,16 +17501,13 @@ void printMayorValorMesFuelGas2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -18027,10 +17536,10 @@ void printMayorValorMesFuelGas2021_2022()
                     u=0;
                     N=4;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -18055,14 +17564,11 @@ void printMayorValorMesFuelGas2021_2022()
     system("cls");
     printFuelGas();
 }
-
-
 void printMenorValorMesFuelGas2021()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -18071,11 +17577,10 @@ void printMenorValorMesFuelGas2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -18087,12 +17592,9 @@ void printMenorValorMesFuelGas2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -18153,14 +17655,11 @@ void printMenorValorMesFuelGas2021()
     system("cls");
     printFuelGas();
 }
-
-
 void printMenorValorMesFuelGas2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -18169,11 +17668,10 @@ void printMenorValorMesFuelGas2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -18185,16 +17683,13 @@ void printMenorValorMesFuelGas2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -18223,10 +17718,10 @@ void printMenorValorMesFuelGas2022()
                     u=0;
                     N=4;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -18251,14 +17746,11 @@ void printMenorValorMesFuelGas2022()
     system("cls");
     printFuelGas();
 }
-
-
 void printMenorValorMesFuelGas2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -18267,11 +17759,10 @@ void printMenorValorMesFuelGas2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -18283,16 +17774,13 @@ void printMenorValorMesFuelGas2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -18321,10 +17809,10 @@ void printMenorValorMesFuelGas2021_2022()
                     u=0;
                     N=4;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -18354,10 +17842,9 @@ void printMenorValorMesFuelGas2021_2022()
 // N=6
 void printMayorValorMesTurbinaGas2021()
 {
-     char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+     char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -18366,11 +17853,10 @@ void printMayorValorMesTurbinaGas2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -18382,12 +17868,9 @@ void printMayorValorMesTurbinaGas2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -18448,14 +17931,11 @@ void printMayorValorMesTurbinaGas2021()
     system("cls");
     printTurbinaGas();
 }
-
-
 void printMayorValorMesTurbinaGas2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -18464,11 +17944,10 @@ void printMayorValorMesTurbinaGas2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -18480,16 +17959,13 @@ void printMayorValorMesTurbinaGas2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -18518,10 +17994,10 @@ void printMayorValorMesTurbinaGas2022()
                     u=0;
                     N=6;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -18546,14 +18022,11 @@ void printMayorValorMesTurbinaGas2022()
     system("cls");
     printTurbinaGas();
 }
-
-
 void printMayorValorMesTurbinaGas2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -18562,11 +18035,10 @@ void printMayorValorMesTurbinaGas2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -18578,16 +18050,13 @@ void printMayorValorMesTurbinaGas2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -18616,10 +18085,10 @@ void printMayorValorMesTurbinaGas2021_2022()
                     u=0;
                     N=6;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -18644,14 +18113,11 @@ void printMayorValorMesTurbinaGas2021_2022()
     system("cls");
     printTurbinaGas();
 }
-
-
 void printMenorValorMesTurbinaGas2021()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -18660,11 +18126,10 @@ void printMenorValorMesTurbinaGas2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -18676,12 +18141,9 @@ void printMenorValorMesTurbinaGas2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -18742,14 +18204,11 @@ void printMenorValorMesTurbinaGas2021()
     system("cls");
     printTurbinaGas();
 }
-
-
 void printMenorValorMesTurbinaGas2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -18758,11 +18217,10 @@ void printMenorValorMesTurbinaGas2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -18774,16 +18232,13 @@ void printMenorValorMesTurbinaGas2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -18812,10 +18267,10 @@ void printMenorValorMesTurbinaGas2022()
                     u=0;
                     N=6;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -18840,14 +18295,11 @@ void printMenorValorMesTurbinaGas2022()
     system("cls");
     printTurbinaGas();
 }
-
-
 void printMenorValorMesTurbinaGas2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -18856,11 +18308,10 @@ void printMenorValorMesTurbinaGas2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -18872,16 +18323,13 @@ void printMenorValorMesTurbinaGas2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -18910,10 +18358,10 @@ void printMenorValorMesTurbinaGas2021_2022()
                     u=0;
                     N=6;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -18943,10 +18391,9 @@ void printMenorValorMesTurbinaGas2021_2022()
 // N=7
 void printMayorValorMesTurbinaVapor2021()
 {
-     char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+     char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -18955,11 +18402,10 @@ void printMayorValorMesTurbinaVapor2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -18971,12 +18417,9 @@ void printMayorValorMesTurbinaVapor2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -19037,14 +18480,11 @@ void printMayorValorMesTurbinaVapor2021()
     system("cls");
     printTurbinaVapor();
 }
-
-
 void printMayorValorMesTurbinaVapor2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -19053,11 +18493,10 @@ void printMayorValorMesTurbinaVapor2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -19069,16 +18508,13 @@ void printMayorValorMesTurbinaVapor2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -19107,10 +18543,10 @@ void printMayorValorMesTurbinaVapor2022()
                     u=0;
                     N=7;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -19135,14 +18571,11 @@ void printMayorValorMesTurbinaVapor2022()
     system("cls");
     printTurbinaVapor();
 }
-
-
 void printMayorValorMesTurbinaVapor2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -19151,11 +18584,10 @@ void printMayorValorMesTurbinaVapor2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -19167,16 +18599,13 @@ void printMayorValorMesTurbinaVapor2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -19205,10 +18634,10 @@ void printMayorValorMesTurbinaVapor2021_2022()
                     u=0;
                     N=7;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -19233,14 +18662,11 @@ void printMayorValorMesTurbinaVapor2021_2022()
     system("cls");
     printTurbinaVapor();
 }
-
-
 void printMenorValorMesTurbinaVapor2021()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -19249,11 +18675,10 @@ void printMenorValorMesTurbinaVapor2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -19265,12 +18690,9 @@ void printMenorValorMesTurbinaVapor2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -19331,14 +18753,11 @@ void printMenorValorMesTurbinaVapor2021()
     system("cls");
     printTurbinaVapor();
 }
-
-
 void printMenorValorMesTurbinaVapor2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -19347,11 +18766,10 @@ void printMenorValorMesTurbinaVapor2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -19363,16 +18781,13 @@ void printMenorValorMesTurbinaVapor2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -19401,10 +18816,10 @@ void printMenorValorMesTurbinaVapor2022()
                     u=0;
                     N=7;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -19429,14 +18844,11 @@ void printMenorValorMesTurbinaVapor2022()
     system("cls");
     printTurbinaVapor();
 }
-
-
 void printMenorValorMesTurbinaVapor2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -19445,11 +18857,10 @@ void printMenorValorMesTurbinaVapor2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -19461,16 +18872,13 @@ void printMenorValorMesTurbinaVapor2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -19499,10 +18907,10 @@ void printMenorValorMesTurbinaVapor2021_2022()
                     u=0;
                     N=7;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -19532,10 +18940,9 @@ void printMenorValorMesTurbinaVapor2021_2022()
 // N=8
 void printMayorValorMesCicloCombinado2021()
 {
-     char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+     char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -19544,11 +18951,10 @@ void printMayorValorMesCicloCombinado2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -19560,12 +18966,9 @@ void printMayorValorMesCicloCombinado2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -19626,14 +19029,11 @@ void printMayorValorMesCicloCombinado2021()
     system("cls");
     printCicloCombinado();
 }
-
-
 void printMayorValorMesCicloCombinado2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -19642,11 +19042,10 @@ void printMayorValorMesCicloCombinado2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -19658,16 +19057,13 @@ void printMayorValorMesCicloCombinado2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -19696,10 +19092,10 @@ void printMayorValorMesCicloCombinado2022()
                     u=0;
                     N=8;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -19724,14 +19120,11 @@ void printMayorValorMesCicloCombinado2022()
     system("cls");
     printCicloCombinado();
 }
-
-
 void printMayorValorMesCicloCombinado2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -19740,11 +19133,10 @@ void printMayorValorMesCicloCombinado2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -19756,16 +19148,13 @@ void printMayorValorMesCicloCombinado2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -19794,10 +19183,10 @@ void printMayorValorMesCicloCombinado2021_2022()
                     u=0;
                     N=8;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -19822,14 +19211,11 @@ void printMayorValorMesCicloCombinado2021_2022()
     system("cls");
     printCicloCombinado();
 }
-
-
 void printMenorValorMesCicloCombinado2021()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -19838,11 +19224,10 @@ void printMenorValorMesCicloCombinado2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -19854,12 +19239,9 @@ void printMenorValorMesCicloCombinado2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -19920,14 +19302,11 @@ void printMenorValorMesCicloCombinado2021()
     system("cls");
     printCicloCombinado();
 }
-
-
 void printMenorValorMesCicloCombinado2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -19936,11 +19315,10 @@ void printMenorValorMesCicloCombinado2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -19952,16 +19330,13 @@ void printMenorValorMesCicloCombinado2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -19990,10 +19365,10 @@ void printMenorValorMesCicloCombinado2022()
                     u=0;
                     N=8;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -20018,14 +19393,11 @@ void printMenorValorMesCicloCombinado2022()
     system("cls");
     printCicloCombinado();
 }
-
-
 void printMenorValorMesCicloCombinado2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -20034,11 +19406,10 @@ void printMenorValorMesCicloCombinado2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -20050,16 +19421,13 @@ void printMenorValorMesCicloCombinado2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -20088,10 +19456,10 @@ void printMenorValorMesCicloCombinado2021_2022()
                     u=0;
                     N=8;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -20121,10 +19489,9 @@ void printMenorValorMesCicloCombinado2021_2022()
 // N=14
 void printMayorValorMesCogeneracion2021()
 {
-     char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+     char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -20133,11 +19500,10 @@ void printMayorValorMesCogeneracion2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -20149,12 +19515,9 @@ void printMayorValorMesCogeneracion2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -20215,14 +19578,11 @@ void printMayorValorMesCogeneracion2021()
     system("cls");
     printCogeneracion();
 }
-
-
 void printMayorValorMesCogeneracion2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -20231,11 +19591,10 @@ void printMayorValorMesCogeneracion2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -20247,16 +19606,13 @@ void printMayorValorMesCogeneracion2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -20285,10 +19641,10 @@ void printMayorValorMesCogeneracion2022()
                     u=0;
                     N=14;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -20313,14 +19669,11 @@ void printMayorValorMesCogeneracion2022()
     system("cls");
     printCogeneracion();
 }
-
-
 void printMayorValorMesCogeneracion2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -20329,11 +19682,10 @@ void printMayorValorMesCogeneracion2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -20345,16 +19697,13 @@ void printMayorValorMesCogeneracion2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -20383,10 +19732,10 @@ void printMayorValorMesCogeneracion2021_2022()
                     u=0;
                     N=14;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -20411,14 +19760,11 @@ void printMayorValorMesCogeneracion2021_2022()
     system("cls");
     printCogeneracion();
 }
-
-
 void printMenorValorMesCogeneracion2021()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -20427,11 +19773,10 @@ void printMenorValorMesCogeneracion2021()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -20443,12 +19788,9 @@ void printMenorValorMesCogeneracion2021()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
@@ -20509,14 +19851,11 @@ void printMenorValorMesCogeneracion2021()
     system("cls");
     printCogeneracion();
 }
-
-
 void printMenorValorMesCogeneracion2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -20525,11 +19864,10 @@ void printMenorValorMesCogeneracion2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -20541,16 +19879,13 @@ void printMenorValorMesCogeneracion2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -20579,10 +19914,10 @@ void printMenorValorMesCogeneracion2022()
                     u=0;
                     N=14;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=12;i<23;i++)
+                    //PARA EL SEGUNDO AÑO
+                    for (i=12;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
@@ -20607,14 +19942,11 @@ void printMenorValorMesCogeneracion2022()
     system("cls");
     printCogeneracion();
 }
-
-
 void printMenorValorMesCogeneracion2021_2022()
 {
-    char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -20623,11 +19955,10 @@ void printMenorValorMesCogeneracion2021_2022()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -20639,16 +19970,13 @@ void printMenorValorMesCogeneracion2021_2022()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -20677,10 +20005,10 @@ void printMenorValorMesCogeneracion2021_2022()
                     u=0;
                     N=14;
                     float minimo;
-                    minimo = Energias[N].datos[0];
+                    minimo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS AÑOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]<minimo)
                         {
