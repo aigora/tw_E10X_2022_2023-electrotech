@@ -185,27 +185,27 @@ void printNuclear(){
     while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8 && seleccion != 9 && seleccion != 10);
         switch (seleccion){
             case 1:
-                //printMayorValorMesNuclear2021();
+                printMayorValorMesNuclear2021();
             break;
 
             case 2:
-                //printMayorValorMesNuclear2022();
+                printMayorValorMesNuclear2022();
             break;
 
             case 3:
-                //printMayorValorMesNuclear2021_2022();
+                printMayorValorMesNuclear2021_2022();
             break;
 
             case 4:
-                //printMenorValorMesNuclear2021();
+                printMenorValorMesNuclear2021();
             break;
 
             case 5:
-                //printMenorValorMesNuclear2022();
+                printMenorValorMesNuclear2022();
             break;
 
             case 6:
-                 //printMenorValorMesNuclear2021_2022();
+                 printMenorValorMesNuclear2021_2022();
             break;
 
             case 7:
@@ -252,27 +252,27 @@ void printMotoresDiesel(){
      while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8 && seleccion != 9 && seleccion != 10);
         switch (seleccion){
             case 1:
-                //printMayorValorMesMotoresDiesel2021();
+                printMayorValorMesMotoresDiesel2021();
             break;
 
             case 2:
-                //printMayorValorMesMotoresDiesel2022();
+                printMayorValorMesMotoresDiesel2022();
             break;
 
             case 3:
-                //printMayorValorMesMotoresDiesel2021_2022();
+                printMayorValorMesMotoresDiesel2021_2022();
             break;
 
             case 4:
-                //printMenorValorMesMotoresDiesel2021();
+                printMenorValorMesMotoresDiesel2021();
             break;
 
             case 5:
-                //printMenorValorMesMotoresDiesel2022();
+                printMenorValorMesMotoresDiesel2022();
             break;
 
             case 6:
-                 //printPeorValorMesMotoresDiesel2021_2022();
+                 printMenorValorMesMotoresDiesel2021_2022();
             break;
 
             case 7:
@@ -356,19 +356,6 @@ void printHidraulica(){
  altura (energia potencial) de las corrientes de agua en un punto de caude del rio para convertirlo en energia mecanica\
  (debido a una turbina hidraulica) y, posteriormente, en electricidad con un generador.\n\n");
 
- //VOY A TOCAR DESDE AQUI
-
-/* 04/05/2023
-
- printf("Los datos de la energía hidráulica son los siguientes:\n");
-
- Fichero1(1); //Te lee el fichero y almacena los datos...
-
- printf("Los datos de %s son los siguientes", Energia.Energias[0]);
-
- */
-
-
 
         printf("\nSeleccione que mas desea conocer sobre la Energia Hidraulica:\n");
         printf("\n\t1. Mayor Valor de Generacion Mensual 2021 (Mes de Produccion y Dato)\n\t2. Mayor Valor de Generacion Mensual 2022 (Mes de Produccion y Dato)\n\t3. Mayor Valor de Generacion Mensual entre 2021 y 2022 (Mes de Produccion y Dato)\n");
@@ -382,27 +369,27 @@ void printHidraulica(){
     while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8 && seleccion != 9 && seleccion != 10);
         switch (seleccion){
             case 1:
-                //printMayorValorMesHidraulica2021();
+                printMayorValorMesHidraulica2021();
             break;
 
             case 2:
-                //printMayorValorMesHidraulica2022();
+                printMayorValorMesHidraulica2022();
             break;
 
             case 3:
-                //printMayorValorMesHidraulica2021_2022();
+                printMayorValorMesHidraulica2021_2022();
             break;
 
             case 4:
-                //printMenorValorMesHidraulica2021();
+                printMenorValorMesHidraulica2021();
             break;
 
             case 5:
-                //printMenorValorMesHidraulica2022();
+                printMenorValorMesHidraulica2022();
             break;
 
             case 6:
-                 //printMenorValorMesHidraulica2021_2022();
+                 printMenorValorMesHidraulica2021_2022();
             break;
 
             case 7:
@@ -450,27 +437,27 @@ void printHidroeolica(){
    while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8 && seleccion != 9 && seleccion != 10);
         switch (seleccion){
             case 1:
-                //printMayorValorMesHidroeolica2021();
+                printMayorValorMesHidroeolica2021();
             break;
 
             case 2:
-                //printMayorValorMesHidroeolica2022();
+                printMayorValorMesHidroeolica2022();
             break;
 
             case 3:
-                //printMayorValorMesHidroeolica2021_2022();
+                printMayorValorMesHidroeolica2021_2022();
             break;
 
             case 4:
-                //printMenorValorMesHidroeolica2021();
+                printMenorValorMesHidroeolica2021();
             break;
 
             case 5:
-                //printMenorValorMesHidroeolica2022();
+                printMenorValorMesHidroeolica2022();
             break;
 
             case 6:
-                 //printMenorValorMesHidroeolica2021_2022();
+                 printMenorValorMesHidroeolica2021_2022();
             break;
 
             case 7:
@@ -519,27 +506,27 @@ void printEolica(){
    while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8 && seleccion != 9 && seleccion != 10);
         switch (seleccion){
             case 1:
-                //printMayorValorMesEolica2021();
+                printMayorValorMesEolica2021();
             break;
 
             case 2:
-                //printMayorValorMesEolica2022();
+                printMayorValorMesEolica2022();
             break;
 
             case 3:
-                //printMayorValorMesEolica2021_2022();
+                printMayorValorMesEolica2021_2022();
             break;
 
             case 4:
-                //printMenorValorMesEolica2021();
+                printMenorValorMesEolica2021();
             break;
 
             case 5:
-                //printMenorValorMesEolica2022();
+                printMenorValorMesEolica2022();
             break;
 
             case 6:
-                 //printMenorValorMesEolica2021_2022();
+                 printMenorValorMesEolica2021_2022();
             break;
 
             case 7:
@@ -587,27 +574,27 @@ void printSolarFotovoltaica(){
     while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8 && seleccion != 9 && seleccion != 10);
         switch (seleccion){
             case 1:
-                //printMayorValorMesSolarFotovoltaica2021();
+                printMayorValorMesSolarFotovoltaica2021();
             break;
 
             case 2:
-                //printMayorValorMesSolarFotovoltaica2022();
+                printMayorValorMesSolarFotovoltaica2022();
             break;
 
             case 3:
-                //printMayorValorMesSolarFotovoltaica2021_2022();
+                printMayorValorMesSolarFotovoltaica2021_2022();
             break;
 
             case 4:
-                //printMenorValorMesSolarFotovoltaica2021();
+                printMenorValorMesSolarFotovoltaica2021();
             break;
 
             case 5:
-                //printMenorValorMesSolarFotovoltaica2022();
+                printMenorValorMesSolarFotovoltaica2022();
             break;
 
             case 6:
-                 //printMenorValorMesSolarFotovoltaica2021_2022();
+                 printMenorValorMesSolarFotovoltaica2021_2022();
             break;
 
             case 7:
@@ -655,27 +642,27 @@ void printSolarTermica(){
     while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8 && seleccion != 9 && seleccion != 10);
         switch (seleccion){
             case 1:
-                //printMayorValorMesSolarTermica2021();
+                printMayorValorMesSolarTermica2021();
             break;
 
             case 2:
-                //printMayorValorMesSolarTermica2022();
+                printMayorValorMesSolarTermica2022();
             break;
 
             case 3:
-                //printMayorValorMesSolarTermica2021_2022();
+                printMayorValorMesSolarTermica2021_2022();
             break;
 
             case 4:
-                //printMenorValorMesSolarTermica2021();
+                printMenorValorMesSolarTermica2021();
             break;
 
             case 5:
-                //printMenorValorMesSolarTermica2022();
+                printMenorValorMesSolarTermica2022();
             break;
 
             case 6:
-                 //printMenorValorMesSolarTermica2021_2022();
+                 printMenorValorMesSolarTermica2021_2022();
             break;
 
             case 7:
@@ -722,27 +709,27 @@ void printOtrasEnergiasRenovables(){
     while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8 && seleccion != 9 && seleccion != 10);
         switch (seleccion){
             case 1:
-                //printMayorValorMesOtrasRenovables2021();
+                printMayorValorMesOtrasEnergiasRenovables2021();
             break;
 
             case 2:
-                //printMayorValorMesOtrasRenovables2022();
+                printMayorValorMesOtrasEnergiasRenovables2022();
             break;
 
             case 3:
-                //printMayorValorMesOtrasRenovables2021_2022();
+                printMayorValorMesOtrasEnergiasRenovables2021_2022();
             break;
 
             case 4:
-                //printMenorValorMesOtrasRenovables2021();
+                printMenorValorMesOtrasEnergiasRenovables2021();
             break;
 
             case 5:
-                //printMenorValorMesOtrasRenovables2022();
+                printMenorValorMesOtrasEnergiasRenovables2022();
             break;
 
             case 6:
-                 //printMenorValorMesOtrasRenovables2021_2022();
+                 printMenorValorMesOtrasEnergiasRenovables2021_2022();
             break;
 
             case 7:
@@ -825,27 +812,27 @@ void printResiduosRenovables(){
     while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8 && modalidad != 9 && modalidad != 10);
         switch (modalidad){
             case 1:
-                //printMayorValorMesResiduosRenovables2021();
+                printMayorValorMesResiduosRenovables2021();
             break;
 
             case 2:
-                //printMayorValorMesResiduosRenovables2022();
+                printMayorValorMesResiduosRenovables2022();
             break;
 
             case 3:
-                //printMayorValorMesResiduosRenovables2021_2022();
+                printMayorValorMesResiduosRenovables2021_2022();
             break;
 
             case 4:
-                //printMenorValorMesResiduosRenovables2021();
+                printMenorValorMesResiduosRenovables2021();
             break;
 
             case 5:
-                //printMenorValorMesResiduosRenovables2022();
+                printMenorValorMesResiduosRenovables2022();
             break;
 
             case 6:
-                 //printMenorValorMesResiduosRenovables2021_2022();
+                 printMenorValorMesResiduosRenovables2021_2022();
             break;
 
             case 7:
@@ -892,27 +879,27 @@ void printResiduosNoRenovables(){
      while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8 && modalidad != 9 && modalidad != 10);
         switch (modalidad){
             case 1:
-                //printMayorValorMesResiduosNoRenovables2021();
+                printMayorValorMesResiduosNoRenovables2021();
             break;
 
             case 2:
-                //printMayorValorMesResiduosNoRenovables2022();
+                printMayorValorMesResiduosNoRenovables2022();
             break;
 
             case 3:
-                //printMayorValorMesResiduosNoRenovables2021_2022();
+                printMayorValorMesResiduosNoRenovables2021_2022();
             break;
 
             case 4:
-                //printMenorValorMesResiduosNoRenovables2021();
+                printMenorValorMesResiduosNoRenovables2021();
             break;
 
             case 5:
-                //printMenorValorMesResiduosNoRenovables2022();
+                printMenorValorMesResiduosNoRenovables2022();
             break;
 
             case 6:
-                 //printMenorValorMesResiduosNoRenovables2021_2022();
+                 printMenorValorMesResiduosNoRenovables2021_2022();
             break;
 
             case 7:
@@ -956,27 +943,27 @@ void printGeneracionTotal(){
     while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8 && modalidad != 9 && modalidad != 10);
         switch (modalidad){
             case 1:
-                //printMayorValorMesGeneracionTotal2021();
+                printMayorValorMesGeneracionTotal2021();
             break;
 
             case 2:
-                //printMayorValorMesGeneracionTotal2022();
+                printMayorValorMesGeneracionTotal2022();
             break;
 
             case 3:
-                //printMayorValorMesGeneracionTotal2021_2022();
+                printMayorValorMesGeneracionTotal2021_2022();
             break;
 
             case 4:
-                //printMenorValorMesGeneracionTotal2021();
+                printMenorValorMesGeneracionTotal2021();
             break;
 
             case 5:
-                //printMenorValorMesGeneracionTotal2022();
+                printMenorValorMesGeneracionTotal2022();
             break;
 
             case 6:
-                 //printMenorValorMesGeneracionTotal2021_2022();
+                 printMenorValorMesGeneracionTotal2021_2022();
             break;
 
             case 7:
@@ -1074,27 +1061,27 @@ void printCarbon(){
     while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8 && modalidad != 9 && modalidad != 10);
         switch (modalidad){
             case 1:
-                //printMayorValorMesCarbon2021();
+                printMayorValorMesCarbon2021();
             break;
 
             case 2:
-                //printMayorValorMesCarbon2022();
+                printMayorValorMesCarbon2022();
             break;
 
             case 3:
-                //printMayorValorMesCarbon2021_2022();
+                printMayorValorMesCarbon2021_2022();
             break;
 
             case 4:
-                //printMenorValorMesCarbon2021();
+                printMenorValorMesCarbon2021();
             break;
 
             case 5:
-                //printMenorValorMesCarbon2022();
+                printMenorValorMesCarbon2022();
             break;
 
             case 6:
-                 //printMenorValorMesCarbon2021_2022();
+                 printMenorValorMesCarbon2021_2022();
             break;
 
             case 7:
@@ -1144,27 +1131,27 @@ void printFuelGas(){
     while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8 && modalidad != 9 && modalidad != 10);
         switch (modalidad){
             case 1:
-                //printMayorValorMesFuelGas2021();
+                printMayorValorMesFuelGas2021();
             break;
 
             case 2:
-                //printMayorValorMesFuelGas2022();
+                printMayorValorMesFuelGas2022();
             break;
 
             case 3:
-                //printMayorValorMesFuelGas2021_2022();
+                printMayorValorMesFuelGas2021_2022();
             break;
 
             case 4:
-                //printMenorValorMesFuelGas2021();
+                printMenorValorMesFuelGas2021();
             break;
 
             case 5:
-                //printMenorValorMesFuelGas2022();
+                printMenorValorMesFuelGas2022();
             break;
 
             case 6:
-                 //printMenorValorMesFuelGas2021_2022();
+                 printMenorValorMesFuelGas2021_2022();
             break;
 
             case 7:
@@ -1214,27 +1201,27 @@ void printTurbinaGas(){
     while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8 && modalidad != 9 && modalidad != 10);
         switch (modalidad){
             case 1:
-                //printMayorValorMesTurbinaGas2021();
+                printMayorValorMesTurbinaGas2021();
             break;
 
             case 2:
-                //printMayorValorMesTurbinaGas2022();
+                printMayorValorMesTurbinaGas2022();
             break;
 
             case 3:
-                //printMayorValorMesTurbinaGas2021_2022();
+                printMayorValorMesTurbinaGas2021_2022();
             break;
 
             case 4:
-                //printMenorValorMesTurbinaGas2021();
+                printMenorValorMesTurbinaGas2021();
             break;
 
             case 5:
-                //printMenorValorMesTurbinaGas2022();
+                printMenorValorMesTurbinaGas2022();
             break;
 
             case 6:
-                 //printMenorValorMesTurbinaGas2021_2022();
+                 printMenorValorMesTurbinaGas2021_2022();
             break;
 
             case 7:
@@ -1288,27 +1275,27 @@ void printTurbinaVapor(){
     while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8 && modalidad != 9 && modalidad != 10);
         switch (modalidad){
             case 1:
-                //printMayorValorMesTurbinaVapor2021();
+                printMayorValorMesTurbinaVapor2021();
             break;
 
             case 2:
-                //printMayorValorMesTurbinaVapor2022();
+                printMayorValorMesTurbinaVapor2022();
             break;
 
             case 3:
-                //printMayorValorMesTurbinaVapor2021_2022();
+                printMayorValorMesTurbinaVapor2021_2022();
             break;
 
             case 4:
-                //printMenorValorMesTurbinaVapor2021();
+                printMenorValorMesTurbinaVapor2021();
             break;
 
             case 5:
-                //printMenorValorMesTurbinaVapor2022();
+                printMenorValorMesTurbinaVapor2022();
             break;
 
             case 6:
-                 //printMenorValorMesTurbinaVapor2021_2022();
+                 printMenorValorMesTurbinaVapor2021_2022();
             break;
 
             case 7:
@@ -1357,27 +1344,27 @@ void printCicloCombinado(){
     while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8 && modalidad != 9 && modalidad != 10);
         switch (modalidad){
             case 1:
-                //printMayorValorMesCicloCombinado2021();
+                printMayorValorMesCicloCombinado2021();
             break;
 
             case 2:
-                //printMayorValorMesCicloCombinado2022();
+                printMayorValorMesCicloCombinado2022();
             break;
 
             case 3:
-                //printMayorValorMesCicloCombinado2021_2022();
+                printMayorValorMesCicloCombinado2021_2022();
             break;
 
             case 4:
-                //printMenorValorMesCicloCombinado2021();
+                printMenorValorMesCicloCombinado2021();
             break;
 
             case 5:
-                //printMenorValorMesCicloCombinado2022();
+                printMenorValorMesCicloCombinado2022();
             break;
 
             case 6:
-                 //printMenorValorMesCicloCombinado2021_2022();
+                 printMenorValorMesCicloCombinado2021_2022();
             break;
 
             case 7:
@@ -1410,9 +1397,9 @@ void printCogeneracion(){
 
     do{
         printf("\nUsted ha seleccionado la obtencion de energia a partir de la Cogeneracion!\n\n");
-        printf("Como curiosidad usted debe saber... que la Cogeneracion mejora aún más la eficiencia energética aprovechando el calor de\
+        printf("Como curiosidad usted debe saber... que la Cogeneracion mejora aun mas la eficiencia energetica aprovechando el calor de\
  la corriente de salida de la turbina de vapor. Este calor puede ser utilizado, por ejemplo,\
- para  calentar agua de uso industrial,\ o para la generación de agua caliente sanitaria.\
+ para  calentar agua de uso industrial,\ o para la generacion de agua caliente sanitaria.\
  En este tipo de fuente de energia conseguimos rendimientos cercanos al 80%.\n\n");
 
         printf("\nSeleccione que mas desea conocer sobre la obtencion de energia a partir de la Cogeneraciono:\n");
@@ -1427,27 +1414,27 @@ void printCogeneracion(){
     while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8 && modalidad != 9 && modalidad != 10);
         switch (modalidad){
             case 1:
-                //printMayorValorMesCogeneracion2021();
+                printMayorValorMesCogeneracion2021();
             break;
 
             case 2:
-                //printMayorValorMesCogeneracion2022();
+                printMayorValorMesCogeneracion2022();
             break;
 
             case 3:
-                //printMayorValorMesCogeneracion2021_2022();
+                printMayorValorMesCogeneracion2021_2022();
             break;
 
             case 4:
-                //printMenorValorMesCogeneracion2021();
+                printMenorValorMesCogeneracion2021();
             break;
 
             case 5:
-                //printMenorValorMesCogeneracion2022();
+                printMenorValorMesCogeneracion2022();
             break;
 
             case 6:
-                 //printMenorValorMesCogeneracion2021_2022();
+                 printMenorValorMesCogeneracion2021_2022();
             break;
 
             case 7:
@@ -1691,7 +1678,7 @@ void printMotoresDiesel2019_2020(){
             break;
 
             case 6:
-                 //printPeorValorMesMotoresDiesel2019_2020();
+                 //printMenorValorMesMotoresDiesel2019_2020();
             break;
 
             case 7:
@@ -2128,27 +2115,27 @@ void printOtrasEnergiasRenovables2019_2020(){
     while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8 && seleccion != 9 && seleccion != 10);
         switch (seleccion){
             case 1:
-                //printMayorValorMesOtrasRenovables2019();
+                //printMayorValorMesOtrasEnergiasRenovables2019();
             break;
 
             case 2:
-                //printMayorValorMesOtrasRenovables2020();
+                //printMayorValorMesOtrasEnergiasRenovables2020();
             break;
 
             case 3:
-                //printMayorValorMesOtrasRenovables2019_2020();
+                //printMayorValorMesOtrasEnergiasRenovables2019_2020();
             break;
 
             case 4:
-                //printMenorValorMesOtrasRenovables2019();
+                //printMenorValorMesOtrasEnergiasRenovables2019();
             break;
 
             case 5:
-                //printMenorValorMesOtrasRenovables2020();
+                //printMenorValorMesOtrasEnergiasRenovables2020();
             break;
 
             case 6:
-                 //printMenorValorMesOtrasRenovables2019_2020();
+                 //printMenorValorMesOtrasEnergiasRenovables2019_2020();
             break;
 
             case 7:
@@ -2819,9 +2806,9 @@ void printCogeneracion2019_2020(){
 
     do{
         printf("\nUsted ha seleccionado la obtencion de energia a partir de la Cogeneracion!\n\n");
-        printf("Como curiosidad usted debe saber... que la Cogeneracion mejora aún más la eficiencia energética aprovechando el calor de\
+        printf("Como curiosidad usted debe saber... que la Cogeneracion mejora aun mas la eficiencia energetica aprovechando el calor de\
  la corriente de salida de la turbina de vapor. Este calor puede ser utilizado, por ejemplo,\
- para  calentar agua de uso industrial,\ o para la generación de agua caliente sanitaria.\
+ para  calentar agua de uso industrial,\ o para la generacion de agua caliente sanitaria.\
  En este tipo de fuente de energia conseguimos rendimientos cercanos al 80%.\n\n");
 
         printf("\nSeleccione que mas desea conocer sobre la obtencion de energia a partir de la Cogeneraciono:\n");
@@ -3101,7 +3088,7 @@ void printMotoresDiesel2017_2018(){
             break;
 
             case 6:
-                 //printPeorValorMesMotoresDiesel2017_2018();
+                 //printMenorValorMesMotoresDiesel2017_2018();
             break;
 
             case 7:
@@ -3538,27 +3525,27 @@ void printOtrasEnergiasRenovables2017_2018(){
     while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8 && seleccion != 9 && seleccion != 10);
         switch (seleccion){
             case 1:
-                //printMayorValorMesOtrasRenovables2017();
+                //printMayorValorMesOtrasEnergiasRenovables2017();
             break;
 
             case 2:
-                //printMayorValorMesOtrasRenovables2018();
+                //printMayorValorMesOtrasEnergiasRenovables2018();
             break;
 
             case 3:
-                //printMayorValorMesOtrasRenovables2017_2018();
+                //printMayorValorMesOtrasEnergiasRenovables2017_2018();
             break;
 
             case 4:
-                //printMenorValorMesOtrasRenovables2017();
+                //printMenorValorMesOtrasEnergiasRenovables2017();
             break;
 
             case 5:
-                //printMenorValorMesOtrasRenovables2018();
+                //printMenorValorMesOtrasEnergiasRenovables2018();
             break;
 
             case 6:
-                 //printMenorValorMesOtrasRenovables2017_2018();
+                 //printMenorValorMesOtrasEnergiasRenovables2017_2018();
             break;
 
             case 7:
@@ -4228,9 +4215,9 @@ void printCogeneracion2017_2018(){
 
     do{
         printf("\nUsted ha seleccionado la obtencion de energia a partir de la Cogeneracion!\n\n");
-        printf("Como curiosidad usted debe saber... que la Cogeneracion mejora aún más la eficiencia energética aprovechando el calor de\
+        printf("Como curiosidad usted debe saber... que la Cogeneracion mejora aun mas la eficiencia energetica aprovechando el calor de\
  la corriente de salida de la turbina de vapor. Este calor puede ser utilizado, por ejemplo,\
- para  calentar agua de uso industrial,\ o para la generación de agua caliente sanitaria.\
+ para  calentar agua de uso industrial,\ o para la generacion de agua caliente sanitaria.\
  En este tipo de fuente de energia conseguimos rendimientos cercanos al 80%.\n\n");
 
         printf("\nSeleccione que mas desea conocer sobre la obtencion de energia a partir de la Cogeneraciono:\n");
@@ -4793,7 +4780,7 @@ void printMediaAnualNuclear2021()
 
     for(j=0; j<12; j++)
     {
-        suma=Energias[14].datos[j]+suma;  //cogeneracion es la 15
+        suma=Energias[2].datos[j]+suma;  //Nuclear es 2
     }
 
     promedio=suma/12.0;
@@ -7675,12 +7662,12 @@ void printMediaAnualNuclear2019()
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -7692,7 +7679,7 @@ void printMediaAnualNuclear2019()
 
     for(j=0; j<12; j++)
     {
-        suma=Energias[14].datos[j]+suma;  //cogeneracion es la 15
+        suma=Energias[2].datos[j]+suma;  //Nuclear es 2
     }
 
     promedio=suma/12.0;
@@ -7758,12 +7745,12 @@ void printMediaAnualNuclear2020()
 
         k=0;
 
-        char coma, comaalta1, comaalta2; //declaro variables para guardar separadores
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -7842,12 +7829,12 @@ void printMediaAnualHidraulica2019()
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
-        for(x=0; x<24; x++)
+        for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -7926,12 +7913,12 @@ void printMediaAnualHidraulica2020()
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -8010,12 +7997,12 @@ void printMediaAnualHidroeolica2019()
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -8096,12 +8083,12 @@ void printMediaAnualHidroeolica2020()
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -8182,12 +8169,13 @@ void printMediaAnualEolica2019()
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -8266,12 +8254,13 @@ void printMediaAnualEolica2020()
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -8350,12 +8339,12 @@ void printMediaAnualSolarFotovoltaica2019()
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -8434,12 +8423,12 @@ void printMediaAnualSolarFotovoltaica2020()
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -8518,12 +8507,12 @@ void printMediaAnualSolarTermica2019()
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -8598,12 +8587,12 @@ void printMediaAnualSolarTermica2020()
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -8682,12 +8671,12 @@ void printMediaAnualOtrasEnergiasRenovables2019() //ESTA FALTA ¿?
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -8768,12 +8757,12 @@ void printMediaAnualOtrasEnergiasRenovables2020()
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -8853,12 +8842,12 @@ void printMediaAnualCarbon2019()
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -8937,12 +8926,12 @@ void printMediaAnualCarbon2020()
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -9021,12 +9010,12 @@ void printMediaAnualFuelGas2019()
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -9106,15 +9095,14 @@ void printMediaAnualFuelGas2020()
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
-
 
     }
 
@@ -9191,12 +9179,12 @@ void printMediaAnualTurbinaGas2019()
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -9279,12 +9267,12 @@ void printMediaAnualTurbinaGas2020()
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -9363,12 +9351,12 @@ void printMediaAnualTurbinaVapor2019()
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -9448,12 +9436,12 @@ void printMediaAnualTurbinaVapor2020()
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -9533,12 +9521,12 @@ void printMediaAnualCicloCombinado2019()
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -9620,12 +9608,12 @@ void printMediaAnualCicloCombinado2020()
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -9706,12 +9694,12 @@ void printMediaAnualMotoresDiesel2019()
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -9792,12 +9780,12 @@ void printMediaAnualMotoresDiesel2020()
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -9879,12 +9867,12 @@ void printMediaAnualResiduosNoRenovables2019() //es la no renovables
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -9967,12 +9955,12 @@ void printMediaAnualResiduosNoRenovables2020()
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -10054,12 +10042,12 @@ void printMediaAnualResiduosRenovables2019()
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -10139,12 +10127,12 @@ void printMediaAnualResiduosRenovables2020()
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -10226,12 +10214,12 @@ void printMediaAnualGeneracionTotal2019()
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -10312,12 +10300,12 @@ void printMediaAnualGeneracionTotal2020()
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -10398,12 +10386,12 @@ void printMediaAnualCogeneracion2019()
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -10484,12 +10472,12 @@ void printMediaAnualCogeneracion2020()
 
         k=0;
 
-        char coma, comaalta1, comaalta2;
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
 
 
         for(x=0; x<24; x++) //aqui recojo 24 datos
         {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
             k++;
         }
 
@@ -10639,7 +10627,16 @@ void printMayorValorMesNuclear2021()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printNuclear();
 }
+
+
 void printMayorValorMesNuclear2022()
 {
 char aux0, aux1, aux2, x;
@@ -10728,7 +10725,16 @@ char aux0, aux1, aux2, x;
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printNuclear();
 }
+
+
 void printMayorValorMesNuclear2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -10817,7 +10823,16 @@ void printMayorValorMesNuclear2021_2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printNuclear();
 }
+
+
 void printMenorValorMesNuclear2021()
 {
     char aux0, aux1, aux2, x;
@@ -10906,7 +10921,16 @@ void printMenorValorMesNuclear2021()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printNuclear();
 }
+
+
 void printMenorValorMesNuclear2022()
 {
     char aux0, aux1, aux2, x;
@@ -10995,7 +11019,16 @@ void printMenorValorMesNuclear2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printNuclear();
 }
+
+
 void printMenorValorMesNuclear2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -11084,6 +11117,13 @@ void printMenorValorMesNuclear2021_2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printNuclear();
 }
 
 // N=5
@@ -11175,7 +11215,16 @@ void printMayorValorMesMotoresDiesel2021()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printMotoresDiesel();
 }
+
+
 void printMayorValorMesMotoresDiesel2022()
 {
     char aux0, aux1, aux2, x;
@@ -11264,7 +11313,16 @@ void printMayorValorMesMotoresDiesel2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printMotoresDiesel();
 }
+
+
 void printMayorValorMesMotoresDiesel2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -11353,7 +11411,16 @@ void printMayorValorMesMotoresDiesel2021_2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printMotoresDiesel();
 }
+
+
 void printMenorValorMesMotoresDiesel2021()
 {
     char aux0, aux1, aux2, x;
@@ -11442,7 +11509,16 @@ void printMenorValorMesMotoresDiesel2021()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printMotoresDiesel();
 }
+
+
 void printMenorValorMesMotoresDiesel2022()
 {
     char aux0, aux1, aux2, x;
@@ -11531,7 +11607,16 @@ void printMenorValorMesMotoresDiesel2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printMotoresDiesel();
 }
+
+
 void printMenorValorMesMotoresDiesel2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -11620,6 +11705,13 @@ void printMenorValorMesMotoresDiesel2021_2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printMotoresDiesel();
 }
 
 // N=0
@@ -11711,7 +11803,16 @@ void printMayorValorMesHidraulica2021()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printHidraulica();
 }
+
+
 void printMayorValorMesHidraulica2022()
 {
     char aux0, aux1, aux2, x;
@@ -11800,7 +11901,16 @@ void printMayorValorMesHidraulica2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printHidraulica();
 }
+
+
 void printMayorValorMesHidraulica2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -11889,7 +11999,16 @@ void printMayorValorMesHidraulica2021_2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printHidraulica();
 }
+
+
 void printMenorValorMesHidraulica2021()
 {
     char aux0, aux1, aux2, x;
@@ -11978,7 +12097,16 @@ void printMenorValorMesHidraulica2021()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printHidraulica();
 }
+
+
 void printMenorValorMesHidraulica2022()
 {
     char aux0, aux1, aux2, x;
@@ -12067,7 +12195,16 @@ void printMenorValorMesHidraulica2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printHidraulica();
 }
+
+
 void printMenorValorMesHidraulica2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -12156,6 +12293,13 @@ void printMenorValorMesHidraulica2021_2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printHidraulica();
 }
 
 // N=9
@@ -12247,6 +12391,13 @@ void printMayorValorMesHidroeolica2021()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printHidroeolica();
 }
 void printMayorValorMesHidroeolica2022()
 {
@@ -12336,7 +12487,16 @@ void printMayorValorMesHidroeolica2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printHidroeolica();
 }
+
+
 void printMayorValorMesHidroeolica2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -12425,7 +12585,17 @@ void printMayorValorMesHidroeolica2021_2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printHidroeolica();
+
 }
+
+
 void printMenorValorMesHidroeolica2021()
 {
     char aux0, aux1, aux2, x;
@@ -12514,7 +12684,16 @@ void printMenorValorMesHidroeolica2021()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printHidroeolica();
 }
+
+
 void printMenorValorMesHidroeolica2022()
 {
     char aux0, aux1, aux2, x;
@@ -12603,7 +12782,16 @@ void printMenorValorMesHidroeolica2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printHidroeolica();
 }
+
+
 void printMenorValorMesHidroeolica2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -12692,6 +12880,13 @@ void printMenorValorMesHidroeolica2021_2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printHidroeolica();
 }
 
 // N=10
@@ -12783,7 +12978,16 @@ void printMayorValorMesEolica2021()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printEolica();
 }
+
+
 void printMayorValorMesEolica2022()
 {
     char aux0, aux1, aux2, x;
@@ -12872,7 +13076,16 @@ void printMayorValorMesEolica2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printEolica();
 }
+
+
 void printMayorValorMesEolica2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -12961,7 +13174,16 @@ void printMayorValorMesEolica2021_2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printEolica();
 }
+
+
 void printMenorValorMesEolica2021()
 {
     char aux0, aux1, aux2, x;
@@ -13050,7 +13272,16 @@ void printMenorValorMesEolica2021()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printEolica();
 }
+
+
 void printMenorValorMesEolica2022()
 {
     char aux0, aux1, aux2, x;
@@ -13139,7 +13370,16 @@ void printMenorValorMesEolica2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printEolica();
 }
+
+
 void printMenorValorMesEolica2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -13228,6 +13468,13 @@ void printMenorValorMesEolica2021_2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printEolica();
 }
 
 // N=11
@@ -13319,7 +13566,16 @@ void printMayorValorMesSolarFotovoltaica2021()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printSolarFotovoltaica();
 }
+
+
 void printMayorValorMesSolarFotovoltaica2022()
 {
     char aux0, aux1, aux2, x;
@@ -13408,7 +13664,16 @@ void printMayorValorMesSolarFotovoltaica2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printSolarFotovoltaica();
 }
+
+
 void printMayorValorMesSolarFotovoltaica2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -13497,7 +13762,16 @@ void printMayorValorMesSolarFotovoltaica2021_2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printSolarFotovoltaica();
 }
+
+
 void printMenorValorMesSolarFotovoltaica2021()
 {
     char aux0, aux1, aux2, x;
@@ -13586,7 +13860,16 @@ void printMenorValorMesSolarFotovoltaica2021()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printSolarFotovoltaica();
 }
+
+
 void printMenorValorMesSolarFotovoltaica2022()
 {
     char aux0, aux1, aux2, x;
@@ -13675,7 +13958,16 @@ void printMenorValorMesSolarFotovoltaica2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printSolarFotovoltaica();
 }
+
+
 void printMenorValorMesSolarFotovoltaica2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -13764,7 +14056,15 @@ void printMenorValorMesSolarFotovoltaica2021_2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printSolarFotovoltaica();
 }
+
 
 // N=12
 void printMayorValorMesSolarTermica2021()
@@ -13855,7 +14155,16 @@ void printMayorValorMesSolarTermica2021()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printSolarTermica();
 }
+
+
 void printMayorValorMesSolarTermica2022()
 {
     char aux0, aux1, aux2, x;
@@ -13944,7 +14253,16 @@ void printMayorValorMesSolarTermica2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printSolarTermica();
 }
+
+
 void printMayorValorMesSolarTermica2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -14033,7 +14351,16 @@ void printMayorValorMesSolarTermica2021_2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printSolarTermica();
 }
+
+
 void printMenorValorMesSolarTermica2021()
 {
     char aux0, aux1, aux2, x;
@@ -14122,7 +14449,16 @@ void printMenorValorMesSolarTermica2021()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printSolarTermica();
 }
+
+
 void printMenorValorMesSolarTermica2022()
 {
     char aux0, aux1, aux2, x;
@@ -14211,7 +14547,16 @@ void printMenorValorMesSolarTermica2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printSolarTermica();
 }
+
+
 void printMenorValorMesSolarTermica2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -14300,7 +14645,15 @@ void printMenorValorMesSolarTermica2021_2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printSolarTermica();
 }
+
 
 // N=13
 void printMayorValorMesOtrasEnergiasRenovables2021()
@@ -14391,7 +14744,16 @@ void printMayorValorMesOtrasEnergiasRenovables2021()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printOtrasEnergiasRenovables();
 }
+
+
 void printMayorValorMesOtrasEnergiasRenovables2022()
 {
     char aux0, aux1, aux2, x;
@@ -14480,7 +14842,16 @@ void printMayorValorMesOtrasEnergiasRenovables2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printOtrasEnergiasRenovables();
 }
+
+
 void printMayorValorMesOtrasEnergiasRenovables2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -14569,7 +14940,16 @@ void printMayorValorMesOtrasEnergiasRenovables2021_2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printOtrasEnergiasRenovables();
 }
+
+
 void printMenorValorMesOtrasEnergiasRenovables2021()
 {
     char aux0, aux1, aux2, x;
@@ -14658,7 +15038,16 @@ void printMenorValorMesOtrasEnergiasRenovables2021()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printOtrasEnergiasRenovables();
 }
+
+
 void printMenorValorMesOtrasEnergiasRenovables2022()
 {
     char aux0, aux1, aux2, x;
@@ -14747,7 +15136,16 @@ void printMenorValorMesOtrasEnergiasRenovables2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printOtrasEnergiasRenovables();
 }
+
+
 void printMenorValorMesOtrasEnergiasRenovables2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -14836,7 +15234,16 @@ void printMenorValorMesOtrasEnergiasRenovables2021_2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printOtrasEnergiasRenovables();
 }
+
+
 
 // N=16
 void printMayorValorMesResiduosRenovables2021()
@@ -14927,7 +15334,16 @@ void printMayorValorMesResiduosRenovables2021()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printResiduosRenovables();
 }
+
+
 void printMayorValorMesResiduosRenovables2022()
 {
     char aux0, aux1, aux2, x;
@@ -15016,7 +15432,16 @@ void printMayorValorMesResiduosRenovables2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printResiduosRenovables();
 }
+
+
 void printMayorValorMesResiduosRenovables2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -15105,7 +15530,16 @@ void printMayorValorMesResiduosRenovables2021_2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printResiduosRenovables();
 }
+
+
 void printMenorValorMesResiduosRenovables2021()
 {
     char aux0, aux1, aux2, x;
@@ -15194,7 +15628,16 @@ void printMenorValorMesResiduosRenovables2021()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printResiduosRenovables();
 }
+
+
 void printMenorValorMesResiduosRenovables2022()
 {
     char aux0, aux1, aux2, x;
@@ -15283,7 +15726,16 @@ void printMenorValorMesResiduosRenovables2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printResiduosRenovables();
 }
+
+
 void printMenorValorMesResiduosRenovables2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -15372,7 +15824,15 @@ void printMenorValorMesResiduosRenovables2021_2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printResiduosRenovables();
 }
+
 
 // N=15
 void printMayorValorMesResiduosNoRenovables2021()
@@ -15463,7 +15923,16 @@ void printMayorValorMesResiduosNoRenovables2021()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printResiduosNoRenovables();
 }
+
+
 void printMayorValorMesResiduosNoRenovables2022()
 {
     char aux0, aux1, aux2, x;
@@ -15552,7 +16021,16 @@ void printMayorValorMesResiduosNoRenovables2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printResiduosNoRenovables();
 }
+
+
 void printMayorValorMesResiduosNoRenovables2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -15641,7 +16119,16 @@ void printMayorValorMesResiduosNoRenovables2021_2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printResiduosNoRenovables();
 }
+
+
 void printMenorValorMesResiduosNoRenovables2021()
 {
     char aux0, aux1, aux2, x;
@@ -15730,7 +16217,16 @@ void printMenorValorMesResiduosNoRenovables2021()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printResiduosNoRenovables();
 }
+
+
 void printMenorValorMesResiduosNoRenovables2022()
 {
     char aux0, aux1, aux2, x;
@@ -15819,7 +16315,16 @@ void printMenorValorMesResiduosNoRenovables2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printResiduosNoRenovables();
 }
+
+
 void printMenorValorMesResiduosNoRenovables2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -15908,7 +16413,15 @@ void printMenorValorMesResiduosNoRenovables2021_2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printResiduosNoRenovables();
 }
+
 
 // N=17
 void printMayorValorMesGeneracionTotal2021()
@@ -15999,7 +16512,16 @@ void printMayorValorMesGeneracionTotal2021()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printGeneracionTotal();
 }
+
+
 void printMayorValorMesGeneracionTotal2022()
 {
     char aux0, aux1, aux2, x;
@@ -16088,7 +16610,16 @@ void printMayorValorMesGeneracionTotal2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printGeneracionTotal();
 }
+
+
 void printMayorValorMesGeneracionTotal2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -16177,7 +16708,16 @@ void printMayorValorMesGeneracionTotal2021_2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printGeneracionTotal();
 }
+
+
 void printMenorValorMesGeneracionTotal2021()
 {
     char aux0, aux1, aux2, x;
@@ -16266,7 +16806,16 @@ void printMenorValorMesGeneracionTotal2021()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printGeneracionTotal();
 }
+
+
 void printMenorValorMesGeneracionTotal2022()
 {
     char aux0, aux1, aux2, x;
@@ -16355,7 +16904,16 @@ void printMenorValorMesGeneracionTotal2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printGeneracionTotal();
 }
+
+
 void printMenorValorMesGeneracionTotal2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -16444,7 +17002,15 @@ void printMenorValorMesGeneracionTotal2021_2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printGeneracionTotal();
 }
+
 
 // N=3
 void printMayorValorMesCarbon2021()
@@ -16535,7 +17101,16 @@ void printMayorValorMesCarbon2021()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printCarbon();
 }
+
+
 void printMayorValorMesCarbon2022()
 {
     char aux0, aux1, aux2, x;
@@ -16624,7 +17199,16 @@ void printMayorValorMesCarbon2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printCarbon();
 }
+
+
 void printMayorValorMesCarbon2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -16713,7 +17297,16 @@ void printMayorValorMesCarbon2021_2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printCarbon();
 }
+
+
 void printMenorValorMesCarbon2021()
 {
     char aux0, aux1, aux2, x;
@@ -16802,7 +17395,16 @@ void printMenorValorMesCarbon2021()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printCarbon();
 }
+
+
 void printMenorValorMesCarbon2022()
 {
     char aux0, aux1, aux2, x;
@@ -16891,7 +17493,16 @@ void printMenorValorMesCarbon2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printCarbon();
 }
+
+
 void printMenorValorMesCarbon2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -16980,7 +17591,15 @@ void printMenorValorMesCarbon2021_2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printCarbon();
 }
+
 
 // N=4
 void printMayorValorMesFuelGas2021()
@@ -17071,6 +17690,13 @@ void printMayorValorMesFuelGas2021()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printFuelGas();
 }
 void printMayorValorMesFuelGas2022()
 {
@@ -17160,7 +17786,16 @@ void printMayorValorMesFuelGas2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printFuelGas();
 }
+
+
 void printMayorValorMesFuelGas2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -17249,7 +17884,16 @@ void printMayorValorMesFuelGas2021_2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printFuelGas();
 }
+
+
 void printMenorValorMesFuelGas2021()
 {
     char aux0, aux1, aux2, x;
@@ -17338,7 +17982,16 @@ void printMenorValorMesFuelGas2021()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printFuelGas();
 }
+
+
 void printMenorValorMesFuelGas2022()
 {
     char aux0, aux1, aux2, x;
@@ -17427,7 +18080,16 @@ void printMenorValorMesFuelGas2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printFuelGas();
 }
+
+
 void printMenorValorMesFuelGas2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -17516,7 +18178,15 @@ void printMenorValorMesFuelGas2021_2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printFuelGas();
 }
+
 
 // N=6
 void printMayorValorMesTurbinaGas2021()
@@ -17607,7 +18277,16 @@ void printMayorValorMesTurbinaGas2021()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printTurbinaGas();
 }
+
+
 void printMayorValorMesTurbinaGas2022()
 {
     char aux0, aux1, aux2, x;
@@ -17696,7 +18375,16 @@ void printMayorValorMesTurbinaGas2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printTurbinaGas();
 }
+
+
 void printMayorValorMesTurbinaGas2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -17785,7 +18473,16 @@ void printMayorValorMesTurbinaGas2021_2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printTurbinaGas();
 }
+
+
 void printMenorValorMesTurbinaGas2021()
 {
     char aux0, aux1, aux2, x;
@@ -17874,7 +18571,16 @@ void printMenorValorMesTurbinaGas2021()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printTurbinaGas();
 }
+
+
 void printMenorValorMesTurbinaGas2022()
 {
     char aux0, aux1, aux2, x;
@@ -17963,7 +18669,16 @@ void printMenorValorMesTurbinaGas2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printTurbinaGas();
 }
+
+
 void printMenorValorMesTurbinaGas2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -18052,7 +18767,15 @@ void printMenorValorMesTurbinaGas2021_2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printTurbinaGas();
 }
+
 
 // N=7
 void printMayorValorMesTurbinaVapor2021()
@@ -18143,7 +18866,16 @@ void printMayorValorMesTurbinaVapor2021()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printTurbinaVapor();
 }
+
+
 void printMayorValorMesTurbinaVapor2022()
 {
     char aux0, aux1, aux2, x;
@@ -18232,7 +18964,16 @@ void printMayorValorMesTurbinaVapor2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printTurbinaVapor();
 }
+
+
 void printMayorValorMesTurbinaVapor2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -18321,7 +19062,16 @@ void printMayorValorMesTurbinaVapor2021_2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printTurbinaVapor();
 }
+
+
 void printMenorValorMesTurbinaVapor2021()
 {
     char aux0, aux1, aux2, x;
@@ -18410,7 +19160,16 @@ void printMenorValorMesTurbinaVapor2021()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printTurbinaVapor();
 }
+
+
 void printMenorValorMesTurbinaVapor2022()
 {
     char aux0, aux1, aux2, x;
@@ -18499,7 +19258,16 @@ void printMenorValorMesTurbinaVapor2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printTurbinaVapor();
 }
+
+
 void printMenorValorMesTurbinaVapor2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -18588,7 +19356,15 @@ void printMenorValorMesTurbinaVapor2021_2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printTurbinaVapor();
 }
+
 
 // N=8
 void printMayorValorMesCicloCombinado2021()
@@ -18679,7 +19455,16 @@ void printMayorValorMesCicloCombinado2021()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printCicloCombinado();
 }
+
+
 void printMayorValorMesCicloCombinado2022()
 {
     char aux0, aux1, aux2, x;
@@ -18768,7 +19553,16 @@ void printMayorValorMesCicloCombinado2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printCicloCombinado();
 }
+
+
 void printMayorValorMesCicloCombinado2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -18857,7 +19651,16 @@ void printMayorValorMesCicloCombinado2021_2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printCicloCombinado();
 }
+
+
 void printMenorValorMesCicloCombinado2021()
 {
     char aux0, aux1, aux2, x;
@@ -18946,7 +19749,16 @@ void printMenorValorMesCicloCombinado2021()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printCicloCombinado();
 }
+
+
 void printMenorValorMesCicloCombinado2022()
 {
     char aux0, aux1, aux2, x;
@@ -19035,7 +19847,16 @@ void printMenorValorMesCicloCombinado2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printCicloCombinado();
 }
+
+
 void printMenorValorMesCicloCombinado2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -19124,7 +19945,15 @@ void printMenorValorMesCicloCombinado2021_2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printCicloCombinado();
 }
+
 
 // N=14
 void printMayorValorMesCogeneracion2021()
@@ -19215,7 +20044,16 @@ void printMayorValorMesCogeneracion2021()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printCogeneracion();
 }
+
+
 void printMayorValorMesCogeneracion2022()
 {
     char aux0, aux1, aux2, x;
@@ -19304,7 +20142,16 @@ void printMayorValorMesCogeneracion2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printCogeneracion();
 }
+
+
 void printMayorValorMesCogeneracion2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -19393,7 +20240,16 @@ void printMayorValorMesCogeneracion2021_2022()
 
                     printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printCogeneracion();
 }
+
+
 void printMenorValorMesCogeneracion2021()
 {
     char aux0, aux1, aux2, x;
@@ -19482,7 +20338,16 @@ void printMenorValorMesCogeneracion2021()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printCogeneracion();
 }
+
+
 void printMenorValorMesCogeneracion2022()
 {
     char aux0, aux1, aux2, x;
@@ -19571,7 +20436,16 @@ void printMenorValorMesCogeneracion2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printCogeneracion();
 }
+
+
 void printMenorValorMesCogeneracion2021_2022()
 {
     char aux0, aux1, aux2, x;
@@ -19660,4 +20534,10 @@ void printMenorValorMesCogeneracion2021_2022()
 
                     printf("\n\tEl valor minimo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, minimo);
             }
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printCogeneracion();
 }
