@@ -6229,78 +6229,27 @@ void printMediaAnualCarbon2022()
 
 void printMediaAnualFuelGas2021()
 {
-    char aux0, aux1, x;
-    int i=0, j, k;
-    int numerodeenergias=0;
-
-    int lineas;
-    lineas=numerodelineas();
-
-
-    FILE *pf;
-
-
-    pf = fopen("generacion_por_tecnologias_21_22_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
-
-    if(pf == NULL)
-        {
-            printf("Error al encontrar el archivo");
-
-        }
-    else
+    
+    float suma;
+	float promedio;
+	
+	
+	//aqui lo nuevo de fuel gas
+	
+	for(j=0; j<12; j++)
     {
-
-    for(i=0; i<=4; i++)
-  {
-  	fscanf(pf, "%c", &aux1);
-    while(aux1 != '\n')
-    {
-        fscanf(pf, "%c", &aux1);
+        Energias[4].datos[j]=0.0; //todos son cero
     }
-
-  }
-
-    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
-
-
-    Energia Energias[numerodeenergias];
-
-
-
-    for(i=0; i<=numerodeenergias; i++)
+	
+    Energias[4].datos[6]=-0.000001; //solo modifico ese dato, el resto es 0
+	
+	for(j=0; j<12; j++)
     {
-        fscanf(pf, "%[^,]", &Energias[i].tipo);
-
-        k=0;
-
-        char coma, comaalta1, comaalta2;
-
-
-        for(x=0; x<24; x++) //aqui recojo 24 datos
-        {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
-            k++;
-        }
-
-
+        suma=Energias[4].datos[j]+suma;  
     }
-
-
-    float promedio, suma=0;
-
-    for(j=0; j<12; j++)
-    {
-        suma=Energias[4].datos[j]+suma;  //LA del gas es 5, CORREGIR
-    }
-
-    promedio=suma/12.0;
-
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
-
-    fclose(pf); //Cerramos fichero
-
-
-     }
+	
+	 printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+     
 
     printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
 
@@ -6313,79 +6262,16 @@ void printMediaAnualFuelGas2021()
 
 void printMediaAnualFuelGas2022()
 {
-    char aux0, aux1, x;
-    int i=0, j, k;
-    int numerodeenergias=0;
-
-    int lineas;
-    lineas=numerodelineas();
-
-
-    FILE *pf;
-
-
-    pf = fopen("generacion_por_tecnologias_21_22_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
-
-    if(pf == NULL)
-        {
-            printf("Error al encontrar el archivo");
-
-        }
-    else
-    {
-
-    for(i=0; i<=4; i++)
-  {
-  	fscanf(pf, "%c", &aux1);
-    while(aux1 != '\n')
-    {
-        fscanf(pf, "%c", &aux1);
-    }
-
-  }
-
-    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
-
-
-    Energia Energias[numerodeenergias];
-
-
-
-    for(i=0; i<=numerodeenergias; i++)
-    {
-        fscanf(pf, "%[^,]", &Energias[i].tipo);
-
-        k=0;
-
-        char coma, comaalta1, comaalta2;
-
-
-        for(x=0; x<24; x++) //aqui recojo 24 datos
-        {
-            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
-            k++;
-        }
-
-
-    }
-
-
-    float promedio, suma=0;
-
-    for(j=12; j<24; j++)
-    {
-        suma=Energias[4].datos[j]+suma;  //LA del gas es 5, CORREGIR
-    }
-
-    promedio=suma/12.0;
-
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
-
-    fclose(pf); //Cerramos fichero
-
-
-     }
-
+     //aqui lo nuevo de fuel gas
+	
+	float suma;
+	float promedio;
+	
+suma=0.0;
+promedio=0.0;
+	
+	 printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+	
     printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
 
     scanf("%c", &aux0);
