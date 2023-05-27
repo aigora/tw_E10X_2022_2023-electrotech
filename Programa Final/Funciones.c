@@ -1627,11 +1627,11 @@ void printNuclear2019_2020(){
             break;
 
             case 7:
-                 //printMediaAnualNuclear2021();
+                 printMediaAnualNuclear2019();
             break;
 
             case 8:
-                 //printMediaAnualNuclear2022();
+                 printMediaAnualNuclear2020();
             break;
 
             case 9:
@@ -1695,11 +1695,11 @@ void printMotoresDiesel2019_2020(){
             break;
 
             case 7:
-                 //printMediaAnualMotoresDiesel2019();
+                 printMediaAnualMotoresDiesel2019();
             break;
 
             case 8:
-                 //printMediaAnualMotoresDiesel2020();
+                 printMediaAnualMotoresDiesel2020();
             break;
 
             case 9:
@@ -1812,11 +1812,11 @@ void printHidraulica2019_2020(){
             break;
 
             case 7:
-                 //printMediaAnualHidraulica2019();
+                 printMediaAnualHidraulica2019();
             break;
 
             case 8:
-                 //printMediaAnualHidraulica2020();
+                 printMediaAnualHidraulica2020();
             break;
 
             case 9:
@@ -1880,11 +1880,11 @@ void printHidroeolica2019_2020(){
             break;
 
             case 7:
-                 //printMediaAnualHidroeolica2019();
+                 printMediaAnualHidroeolica2019();
             break;
 
             case 8:
-                 //printMediaAnualHidroeolica2020();
+                 printMediaAnualHidroeolica2020();
             break;
 
             case 9:
@@ -1949,11 +1949,11 @@ void printEolica2019_2020(){
             break;
 
             case 7:
-                 //printMediaAnualEolica2019();
+                 printMediaAnualEolica2019();
             break;
 
             case 8:
-                 //printMediaAnualEolica2020();
+                 printMediaAnualEolica2020();
             break;
 
             case 9:
@@ -2017,11 +2017,11 @@ void printSolarFotovoltaica2019_2020(){
             break;
 
             case 7:
-                 //printMediaAnualSolarFotovoltaica2019();
+                 printMediaAnualSolarFotovoltaica2019();
             break;
 
             case 8:
-                 //printMediaAnualSolarFotovoltaica2020();
+                 printMediaAnualSolarFotovoltaica2020();
             break;
 
             case 9:
@@ -2085,11 +2085,11 @@ void printSolarTermica2019_2020(){
             break;
 
             case 7:
-                 //printMediaAnualSolarTermica2019();
+                 printMediaAnualSolarTermica2019();
             break;
 
             case 8:
-                 //printMediaAnualSolarTermica2020();
+                 printMediaAnualSolarTermica2020();
             break;
 
             case 9:
@@ -2152,11 +2152,11 @@ void printOtrasEnergiasRenovables2019_2020(){
             break;
 
             case 7:
-                 //printMediaAnualOtrasRenovables2019();
+                 printMediaAnualOtrasEnergiasRenovables2019();
             break;
 
             case 8:
-                 //printMediaAnualOtrasRenovables2020();
+                 printMediaAnualOtrasEnergiasRenovables2019();
             break;
 
             case 9:
@@ -2256,11 +2256,11 @@ void printResiduosRenovables2019_2020(){
             break;
 
             case 7:
-                 //printMediaAnualResiduosRenovables2019();
+                 printMediaAnualResiduosRenovables2019();
             break;
 
             case 8:
-                 //printMediaAnualResiduosRenovables2020();
+                 printMediaAnualResiduosRenovables2020();
             break;
 
             case 9:
@@ -2323,11 +2323,11 @@ void printResiduosNoRenovables2019_2020(){
             break;
 
             case 7:
-                 //printMediaAnualResiduosNoRenovables2019();
+                 printMediaAnualResiduosNoRenovables2019();
             break;
 
             case 8:
-                 //printMediaAnualResiduosNoRenovables2020();
+                 printMediaAnualResiduosNoRenovables2020();
             break;
 
             case 9:
@@ -2389,11 +2389,11 @@ void printGeneracionTotal2019_2020(){
             break;
 
             case 7:
-                 //printMediaAnualGeneracionTotal2019();
+                 printMediaAnualGeneracionTotal2019();
             break;
 
             case 8:
-                 //printMediaAnualGeneracionTotal2020();
+                 printMediaAnualGeneracionTotal2020();
             break;
 
             case 9:
@@ -2507,11 +2507,11 @@ void printCarbon2019_2020(){
             break;
 
             case 7:
-                 //printMediaAnualCarbon2019();
+                 printMediaAnualCarbon2019();
             break;
 
             case 8:
-                 //printMediaAnualCarbon2020();
+                 printMediaAnualCarbon2020();
             break;
 
             case 9:
@@ -2577,11 +2577,11 @@ void printFuelGas2019_2020(){
             break;
 
             case 7:
-                 //printMediaAnualFuelGas2019();
+                 printMediaAnualFuelGas2019();
             break;
 
             case 8:
-                 //printMediaAnualFuelGas2020();
+                 printMediaAnualFuelGas2020();
             break;
 
             case 9:
@@ -2647,11 +2647,11 @@ void printTurbinaGas2019_2020(){
             break;
 
             case 7:
-                 //printMediaAnualTurbinaGas2019();
+                 printMediaAnualTurbinaGas2019();
             break;
 
             case 8:
-                 //printMediaAnualTurbinaGas2020();
+                 printMediaAnualTurbinaGas2020();
             break;
 
             case 9:
@@ -2721,11 +2721,11 @@ void printTurbinaVapor2019_2020(){
             break;
 
             case 7:
-                 //printMediaAnualTurbinaVapor2019();
+                 printMediaAnualTurbinaVapor2019();
             break;
 
             case 8:
-                 //printMediaAnualTurbinaVapor2020();
+                 printMediaAnualTurbinaVapor2020();
             break;
 
             case 9:
@@ -2790,11 +2790,11 @@ void printCicloCombinado2019_2020(){
             break;
 
             case 7:
-                 //printMediaAnualCicloCombinado2019();
+                 printMediaAnualCicloCombinado2019();
             break;
 
             case 8:
-                 //printMediaAnualCicloCombinado2020();
+                 printMediaAnualCicloCombinado2020();
             break;
 
             case 9:
@@ -2860,11 +2860,11 @@ void printCogeneracion2019_2020(){
             break;
 
             case 7:
-                 //printMediaAnualCogeneracion2019();
+                 printMediaAnualCogeneracion2019();
             break;
 
             case 8:
-                 //printMediaAnualCogeneracion2020();
+                 printMediaAnualCogeneracion2020();
             break;
 
             case 9:
@@ -3037,11 +3037,11 @@ void printNuclear2017_2018(){
             break;
 
             case 7:
-                 //printMediaAnualNuclear2021();
+                 //printMediaAnualNuclear2017();
             break;
 
             case 8:
-                 //printMediaAnualNuclear2022();
+                 //printMediaAnualNuclear2018();
             break;
 
             case 9:
@@ -3562,11 +3562,11 @@ void printOtrasEnergiasRenovables2017_2018(){
             break;
 
             case 7:
-                 //printMediaAnualOtrasRenovables2017();
+                 //printMediaAnualOtrasEnergiasRenovables2017();
             break;
 
             case 8:
-                 //printMediaAnualOtrasRenovables2018();
+                 //printMediaAnualOtrasEnergiasRenovables2018();
             break;
 
             case 9:
@@ -7622,3 +7622,2901 @@ void printMediaAnualCogeneracion2022()
     printCogeneracion();
 }
 
+
+
+
+
+//Año 2019-2020
+
+void printMediaAnualNuclear2019()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    //int numerodefilas=0; quitar
+    int numerodeenergias=0;
+    int lineas;
+
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[14].datos[j]+suma;  //cogeneracion es la 15
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printNuclear2019_2020();
+
+}
+
+void printMediaAnualNuclear2020()
+{
+
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2; //declaro variables para guardar separadores
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=12; j<23; j++)
+    {
+        suma=Energias[2].datos[j]+suma;  //LA NUCLEAR ES LA 2
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printNuclear2019_2020();
+
+}
+
+
+
+void printMediaAnualHidraulica2019()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+    int lineas;
+
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5;
+
+
+    Energia Energias[numerodeenergias];
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++)
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[0].datos[j]+suma;
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf);
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printHidraulica2019_2020();
+
+
+}
+
+void printMediaAnualHidraulica2020()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+    float promedio, suma=0;
+
+    for(j=12; j<23; j++)
+    {
+        suma=Energias[0].datos[j]+suma;  //hidraulica esta guardada en la 0
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printHidraulica2019_2020();
+
+}
+
+
+
+void printMediaAnualHidroeolica2019()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+    int lineas;
+
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[9].datos[j]+suma;  //LA hidroeolica es la , en el vector es 10
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printHidroeolica2019_2020();
+
+}
+
+
+void printMediaAnualHidroeolica2020()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=12; j<23; j++)
+    {
+        suma=Energias[9].datos[j]+suma;  //LA hidroelica es la , en el vector es 10
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printHidroeolica2019_2020();
+
+}
+
+
+void printMediaAnualEolica2019()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[10].datos[j]+suma;  //LA eolica es la 11
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printEolica2019_2020();
+
+}
+
+void printMediaAnualEolica2020()
+{
+    char aux0, aux1,  x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        //printf("%c", aux1); //este printf es para comprobar que copia los caracteres
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+    float promedio, suma=0;
+
+    for(j=12; j<23; j++)
+    {
+        suma=Energias[10].datos[j]+suma;  //LA eolica es la 11
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printEolica2019_2020();
+
+}
+
+void printMediaAnualSolarFotovoltaica2019()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+    }
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[11].datos[j]+suma;  //LA FOTO ES 12
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printSolarFotovoltaica2019_2020();
+
+}
+
+
+void printMediaAnualSolarFotovoltaica2020()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=12; j<23; j++)
+    {
+        suma=Energias[11].datos[j]+suma;  //LA FOTO ES 12
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printSolarFotovoltaica2019_2020();
+
+}
+
+void printMediaAnualSolarTermica2019()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[12].datos[j]+suma;  //LA solar termica es la 13
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printSolarTermica2019_2020();
+
+}
+
+void printMediaAnualSolarTermica2020()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+    FILE *pf;
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+    float promedio, suma=0;
+
+    for(j=12; j<23; j++)
+    {
+        suma=Energias[12].datos[j]+suma;  //LA solar termica es la 13
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printSolarTermica2019_2020();
+
+
+}
+
+void printMediaAnualOtrasEnergiasRenovables2019() //ESTA FALTA ¿?
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[13].datos[j]+suma;  //LAs otras son la 14
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printOtrasEnergiasRenovables2019_2020();
+
+
+}
+
+void printMediaAnualOtrasEnergiasRenovables2020()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        //printf("%c", aux1); //este printf es para comprobar que copia los caracteres
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+    float promedio, suma=0;
+
+    for(j=12; j<23; j++)
+    {
+        suma=Energias[13].datos[j]+suma;  //LAs otras son la 14
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printOtrasEnergiasRenovables2019_2020();
+
+
+}
+
+void printMediaAnualCarbon2019()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        //printf("%c", aux1); //este printf es para comprobar que copia los caracteres
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[3].datos[j]+suma;  //LA carbon ES LA 4
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printCarbon2019_2020();
+
+}
+
+void printMediaAnualCarbon2020()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=12; j<23; j++)
+    {
+        suma=Energias[3].datos[j]+suma;  //LA carbon ES LA 4
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printCarbon2019_2020();
+
+}
+
+void printMediaAnualFuelGas2019()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[4].datos[j]+suma;  //LA del gas es 5, CORREGIR
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printFuelGas2019_2020();
+
+}
+
+void printMediaAnualFuelGas2020()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=12; j<23; j++)
+    {
+        suma=Energias[4].datos[j]+suma;
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printFuelGas2019_2020();
+
+}
+
+void printMediaAnualTurbinaGas2019()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[6].datos[j]+suma;  //LA TURBINA GAS ES LA 7
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printTurbinaGas2019_2020();
+
+
+}
+
+
+void printMediaAnualTurbinaGas2020()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        //printf("%c", aux1); //este printf es para comprobar que copia los caracteres
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+    }
+
+    float promedio, suma=0;
+
+    for(j=12; j<23; j++)
+    {
+        suma=Energias[6].datos[j]+suma;  //LA TURBINA GAS ES LA 7
+
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printTurbinaGas2019_2020();
+
+}
+
+void printMediaAnualTurbinaVapor2019()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[7].datos[j]+suma;  //LA TURBINA VAPOR ES LA 8
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printTurbinaVapor2019_2020();
+
+}
+
+void printMediaAnualTurbinaVapor2020()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        //printf("%c", aux1); //este printf es para comprobar que copia los caracteres
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=12; j<23; j++)
+    {
+        suma=Energias[7].datos[j]+suma;  //LA TURBINA VAPOR ES LA 8
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printTurbinaVapor2019_2020();
+
+}
+
+void printMediaAnualCicloCombinado2019()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[8].datos[j]+suma;  //CICLO COMBINADO ES LA 9
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printCicloCombinado2019_2020();
+
+}
+
+
+void printMediaAnualCicloCombinado2020()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=12; j<23; j++)
+    {
+        suma=Energias[8].datos[j]+suma;  //CICLO COMBINADO ES LA 9
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printCicloCombinado2019_2020();
+
+
+}
+
+
+void printMediaAnualMotoresDiesel2019()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[5].datos[j]+suma;  //MOTORES DIESEL ES LA 6
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printMotoresDiesel2019_2020();
+
+}
+
+void printMediaAnualMotoresDiesel2020()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=12; j<23; j++)
+    {
+        suma=Energias[5].datos[j]+suma;  //MOTORES DIESEL ES LA 6
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printMotoresDiesel2019_2020();
+
+}
+
+
+void printMediaAnualResiduosNoRenovables2019() //es la no renovables
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[15].datos[j]+suma;  //residuos no renovables 16
+    }
+
+    promedio=suma/12.0;
+
+   printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printResiduosNoRenovables2019_2020();
+
+
+}
+
+
+void printMediaAnualResiduosNoRenovables2020()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=12; j<23; j++)
+    {
+        suma=Energias[15].datos[j]+suma;  //residuos no renovables 17
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printResiduosNoRenovables2019_2020();
+
+
+}
+
+void printMediaAnualResiduosRenovables2019()
+{
+ char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[16].datos[j]+suma;  //residuos renovables 17
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printResiduosRenovables2019_2020();
+}
+
+void printMediaAnualResiduosRenovables2020()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=12; j<23; j++)
+    {
+        suma=Energias[16].datos[j]+suma;  //residuos no renovables 17
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printResiduosRenovables2019_2020();
+
+
+}
+
+void printMediaAnualGeneracionTotal2019()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=0; j<24; j++)
+    {
+        suma=Energias[17].datos[j]+suma;  //GENERACION TOTAL ES LA 18
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa generacion total del 2021 fue de %f GWh y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printGeneracionTotal2019_2020();
+
+
+}
+
+void printMediaAnualGeneracionTotal2020()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=0; j<23; j++)
+    {
+        suma=Energias[17].datos[j]+suma;  //GENERACION TOTAL ES LA 18
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa generacion total del 2022 fue de %f GWh y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printGeneracionTotal2019_2020();
+
+}
+
+
+void printMediaAnualCogeneracion2019()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[14].datos[j]+suma;  //cogeneracion es la 15
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printCogeneracion2019_2020();
+
+
+}
+
+void printMediaAnualCogeneracion2020()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+    pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=12; j<23; j++)
+    {
+        suma=Energias[14].datos[j]+suma;  //cogeneracion es la 15
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printCogeneracion2019_2020();
+}
