@@ -1,4 +1,4 @@
-//FUNCI”N QUE LEE EL FICHERO Y HACE EL M¡XIMO 2021
+//FUNCI√ìN QUE LEE EL FICHERO Y HACE EL M√ÅXIMO 2021
 
 #include <stdio.h>
 
@@ -10,17 +10,16 @@ typedef struct
 typedef struct
 {
     char tipo[20];
-    float datos[23]; //porque hay dos aÒos, es decir 24 meses
+    float datos[24]; //porque hay dos a√±os, es decir 24 meses
 }Energia;  //vector de estructuras (LO TENGO QUE DECLARAR EN LA FUNCION VOID)
 
 int numerodelineas();
 
 int main()
 {
-     char aux0, aux1, aux2, x;
-    int contador=0, i=0, j, lineas;
-    //int numerodefilas=0;
-    int numerodeenergias=0, numerodefechas=0;
+    char aux0, aux1, x;
+    int i=0, lineas;
+    int numerodeenergias=0;
 
     lineas=numerodelineas();
     FILE *pf;
@@ -29,11 +28,10 @@ int main()
         if(pf == NULL)
             {
                 printf("Error al encontrar el archivo");
-                return (-1);
             }
         else
             {
-                for(i=0; i<=3; i++)
+                for(i=0; i<4; i++)
                   {
                     fscanf(pf, "%c", &aux1);
                     while(aux1 != '\n')
@@ -45,16 +43,13 @@ int main()
                 //AQUI TENGO QUE LEER LAS FECHAS
                 char coma1, barra;//auxiliares para almacenar lo que no me interesa
 
-                numerodefechas=lineas-4; //le restamos las 4 primeras filas
+                fecha vfecha[24];
 
-                fecha vfecha[23];
-
-                float prueba1, prueba2;
-                char aux4[10];
+                char aux4[100];
 
                 fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
 
-                int n=0;
+                int n;
 
                     for(n=0;n<24;n++)
                         {
@@ -81,12 +76,12 @@ int main()
                 }
                     int i, N, u;
                     u=0;
-                    N=2;
+                    N=0;
                     float maximo;
-                    maximo = Energias[N].datos[0];
+                    maximo = Energias[N].datos[12];
 
-                    //PARA EL PRIMER A—O
-                    for (i=0;i<23;i++)
+                    //PARA LOS DOS A√ëOS
+                    for (i=0;i<24;i++)
                     {
                         if (Energias[N].datos[i]>maximo)
                         {
@@ -140,7 +135,7 @@ int numerodelineas()
         return numerodefilas;
 }
 /*
-    VALORES QUE TOMA LA N PARA LOS DATOS DE CADA ENERGÕA
+    VALORES QUE TOMA LA N PARA LOS DATOS DE CADA ENERG√çA
 0 hidraulica
 1 turbinacion bombeo
 2 nuclear
