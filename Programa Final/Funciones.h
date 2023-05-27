@@ -1,8 +1,3 @@
-void menuPrincipal();
-int numerodelineas();
-
-//de la funcion iniciar sesion
-
 typedef struct
 {
 	char nombre[100];
@@ -12,18 +7,16 @@ typedef struct
 usuario datos[100];
 
 int reconocerfichero(usuario datos[], int *numusuarios);
-
 void iniciarsesion(char printnombre[], int *numusuarios,usuario datos[]); //porque aqui hay una coma
-
 void registrar(char printnombre[], int *numusuarios,usuario datos[]);
 
-//hasta aqui
+
+void menuPrincipal();
+int numerodelineas();
 
 void printEnergias();
 void printTiposEnergias();
 void printTiposEnergiasNoRenovables();
-void printNuclear();
-void printMediaAnualNuclear2021();
 void printNuclear();
 void printMayorValorMesNuclear2021();
 void printMayorValorMesNuclear2022();
