@@ -13782,7 +13782,7 @@ void printMenorValorMesSolarFotovoltaica2021()
                 }
                     int i, N, u;
                     u=0;
-                    N=;
+                    N=11;
                     float minimo;
                     minimo = Energias[N].datos[0];
 
@@ -20032,3 +20032,4 @@ void printMenorValorMesCogeneracion2021_2022()
     system("cls");
     printCogeneracion();
 }
+
