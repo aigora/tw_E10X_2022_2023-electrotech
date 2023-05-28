@@ -19915,87 +19915,9 @@ void printMenorValorMesCarbon2021_2022()
 // N=4
 void printMayorValorMesFuelGas2021()
 {
-     char aux0, aux1, x;
-    int i=0, lineas;
-    int numerodeenergias=0;
-
-    lineas=numerodelineas();
-    FILE *pf;
-
-        pf = fopen("generacion_por_tecnologias_21_22_puntos.csv", "r");
-        if(pf == NULL)
-            {
-                printf("Error al encontrar el archivo");
-            }
-        else
-            {
-                for(i=0; i<4; i++)
-                  {
-                    fscanf(pf, "%c", &aux1);
-                    while(aux1 != '\n')
-                        {
-                            fscanf(pf, "%c", &aux1);
-                        }
-                  }
-
-                //AQUI TENGO QUE LEER LAS FECHAS
-                char coma1, barra;//auxiliares para almacenar lo que no me interesa
-
-                fecha vfecha[24];
-
-                char aux4[100];
-
-                fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
-
-                int n=0;
-
-                    for(n=0;n<24;n++)
-                        {
-                            fscanf(pf, "%c %f %c %f", &coma1, &vfecha[n].m, &barra, &vfecha[n].a);
-                        }
-
-                numerodeenergias=lineas-5; //le restamos las 5 primeras filas
-
-                Energia Energias[numerodeenergias];
-
-                for(i=0; i<=numerodeenergias; i++)
-                {
-                    fscanf(pf, "%[^,]", &Energias[i].tipo);
-
-                    int k=0;
-
-                    char coma, comaalta1, comaalta2;
-
-                    for(x=0; x<24; x++) //aqui recojo 24 datos
-                    {
-                        fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
-                        k++;
-                    }
-                }
-                    int i, N, u;
-                    u=0;
-                    N=4;
-                    float maximo;
-                    maximo = Energias[N].datos[0];
-
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<12;i++)
-                    {
-                        if (Energias[N].datos[i]>maximo)
-                        {
-                            maximo=Energias[N].datos[i];
-                        }
-                    }
-
-                    i=0;
-                        while (Energias[N].datos[i] != maximo)
-                        {
-                            u++;//contador para el mes
-                            i++;
-                        }
-
-                    printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
-            }
+     char aux0;
+    float maximo = 0.0;
+    printf("\n\tNo hay una fecha determinada, puesto que el valor maximo es de %f GWh. \n", maximo);
 
     printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
 
@@ -20006,87 +19928,9 @@ void printMayorValorMesFuelGas2021()
 }
 void printMayorValorMesFuelGas2022()
 {
-    char aux0, aux1, x;
-    int i=0, lineas;
-    int numerodeenergias=0;
-
-    lineas=numerodelineas();
-    FILE *pf;
-
-        pf = fopen("generacion_por_tecnologias_21_22_puntos.csv", "r");
-        if(pf == NULL)
-            {
-                printf("Error al encontrar el archivo");
-            }
-        else
-            {
-                for(i=0; i<4; i++)
-                  {
-                    fscanf(pf, "%c", &aux1);
-                    while(aux1 != '\n')
-                        {
-                            fscanf(pf, "%c", &aux1);
-                        }
-                  }
-
-                //AQUI TENGO QUE LEER LAS FECHAS
-                char coma1, barra;//auxiliares para almacenar lo que no me interesa
-
-                fecha vfecha[24];
-
-                char aux4[100];
-
-                fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
-
-                int n;
-
-                    for(n=0;n<24;n++)
-                        {
-                            fscanf(pf, "%c %f %c %f", &coma1, &vfecha[n].m, &barra, &vfecha[n].a);
-                        }
-
-                numerodeenergias=lineas-5; //le restamos las 5 primeras filas
-
-                Energia Energias[numerodeenergias];
-
-                for(i=0; i<=numerodeenergias; i++)
-                {
-                    fscanf(pf, "%[^,]", &Energias[i].tipo);
-
-                    int k=0;
-
-                    char coma, comaalta1, comaalta2;
-
-                    for(x=0; x<24; x++) //aqui recojo 24 datos
-                    {
-                        fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
-                        k++;
-                    }
-                }
-                    int i, N, u;
-                    u=0;
-                    N=4;
-                    float maximo;
-                    maximo = Energias[N].datos[12];
-
-                    //PARA EL SEGUNDO AÑO
-                    for (i=12;i<24;i++)
-                    {
-                        if (Energias[N].datos[i]>maximo)
-                        {
-                            maximo=Energias[N].datos[i];
-                        }
-                    }
-
-                    i=0;
-                        while (Energias[N].datos[i] != maximo)
-                        {
-                            u++;//contador para el mes
-                            i++;
-                        }
-
-                    printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
-            }
+    char aux0;
+    float maximo = 0.0;
+    printf("\n\tNo hay una fecha determinada, puesto que el valor maximo es de %f GWh. \n", maximo);
 
     printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
 
@@ -20097,87 +19941,9 @@ void printMayorValorMesFuelGas2022()
 }
 void printMayorValorMesFuelGas2021_2022()
 {
-    char aux0, aux1, x;
-    int i=0, lineas;
-    int numerodeenergias=0;
-
-    lineas=numerodelineas();
-    FILE *pf;
-
-        pf = fopen("generacion_por_tecnologias_21_22_puntos.csv", "r");
-        if(pf == NULL)
-            {
-                printf("Error al encontrar el archivo");
-            }
-        else
-            {
-                for(i=0; i<4; i++)
-                  {
-                    fscanf(pf, "%c", &aux1);
-                    while(aux1 != '\n')
-                        {
-                            fscanf(pf, "%c", &aux1);
-                        }
-                  }
-
-                //AQUI TENGO QUE LEER LAS FECHAS
-                char coma1, barra;//auxiliares para almacenar lo que no me interesa
-
-                fecha vfecha[24];
-
-                char aux4[100];
-
-                fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
-
-                int n;
-
-                    for(n=0;n<24;n++)
-                        {
-                            fscanf(pf, "%c %f %c %f", &coma1, &vfecha[n].m, &barra, &vfecha[n].a);
-                        }
-
-                numerodeenergias=lineas-5; //le restamos las 5 primeras filas
-
-                Energia Energias[numerodeenergias];
-
-                for(i=0; i<=numerodeenergias; i++)
-                {
-                    fscanf(pf, "%[^,]", &Energias[i].tipo);
-
-                    int k=0;
-
-                    char coma, comaalta1, comaalta2;
-
-                    for(x=0; x<24; x++) //aqui recojo 24 datos
-                    {
-                        fscanf(pf, "%c %c %f %c", &coma, &comaalta1, &Energias[i].datos[k], &comaalta2);
-                        k++;
-                    }
-                }
-                    int i, N, u;
-                    u=0;
-                    N=4;
-                    float maximo;
-                    maximo = Energias[N].datos[12];
-
-                    //PARA LOS DOS AÑOS
-                    for (i=0;i<24;i++)
-                    {
-                        if (Energias[N].datos[i]>maximo)
-                        {
-                            maximo=Energias[N].datos[i];
-                        }
-                    }
-
-                    i=0;
-                        while (Energias[N].datos[i] != maximo)
-                        {
-                            u++;//contador para el mes
-                            i++;
-                        }
-
-                    printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
-            }
+    char aux0;
+    float maximo = 0.0;
+    printf("\n\tNo hay una fecha determinada, puesto que el valor maximo es de %f GWh. \n", maximo);
 
     printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
 
