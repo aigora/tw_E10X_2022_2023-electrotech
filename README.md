@@ -1,12 +1,12 @@
 # [BASE DE DATOS]
 
-[Hemos desarrollado una base de datos, que comienza con un Menu de inicio dividido en 5 secciones, estas son: 
+[Hemos desarrollado una base de datos, que comienza con un Inicio de Sesión o Registro donde se podrá obtener más informacion acerca de ello en la Wiki.
+A continuaciín, accedemos a un Menú de inicio dividido en 5 secciones, estas son: 
 1. Almacenamiento de los datos de diferentes tipos de energias en el periodo de tiempo: 2021-2022
-2. Almacenamiento de los datos de diferentes tipos de energias en el periodo de tiempo:2019-2020
-3. Almacenamiento de los datos de diferentes tipos de energias en el periodo de tiempo:2017-2018
-4. Eleccion de forma Aleatoria de los datos de distintos tipos de Energias 
-5. Comparacion de datos de las energias en distintos periodos de tiempo (Mensuales y Anuales)
-6. Salir de la Base de datos] 
+2. Almacenamiento de los datos de diferentes tipos de energias en el periodo de tiempo: 2019-2020
+3. Almacenamiento de los datos de diferentes tipos de energias en el periodo de tiempo: 2017-2018
+4. Eleccion de forma Aleatoria de los datos de distintos tipos de Energias.
+5. Salir de la Base de datos] 
 
 
 ## Integrantes del equipo
@@ -39,4 +39,9 @@ void printMediaAnualEnergia2021();
 
 void printMediaAnualEnergia2022();]
 
-En la wiki del trabajo, puedes encontrar con mas detalle el uso de cada funcion.
+Dichas funciones las tenemos, también, implementadas para los años 2019-2020 y 2017-2018.
+
+
+También, se ha desarrollado e implementado una opción aletaoria para la selección del año y de la fuente de energía de la que se desea obtener datos.
+
+En la wiki del trabajo, puedes encontrar con más detalle el uso de cada funcion.
