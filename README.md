@@ -44,4 +44,12 @@ Dichas funciones las tenemos, también, implementadas para los años 2019-2020 y
 
 También, se ha desarrollado e implementado una opción aleatoria para la selección del año y de la fuente de energía de la que se desea obtener datos.
 
+void printAleatorioAnualidad();
+
+void printAleatorioEnergia();
+
+void printAleatorioEnergia2019_2020();
+
+void printAleatorioEnergia2017_2018();
+
 En la wiki del trabajo, puedes encontrar con más detalle el uso de cada funcion.]
