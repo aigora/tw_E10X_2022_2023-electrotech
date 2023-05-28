@@ -37,11 +37,11 @@ void printMenorValorMesEnergia2021_2022();
 
 void printMediaAnualEnergia2021(); 
 
-void printMediaAnualEnergia2022();]
+void printMediaAnualEnergia2022();
 
 Dichas funciones las tenemos, también, implementadas para los años 2019-2020 y 2017-2018.
 
 
-También, se ha desarrollado e implementado una opción aletaoria para la selección del año y de la fuente de energía de la que se desea obtener datos.
+También, se ha desarrollado e implementado una opción aleatoria para la selección del año y de la fuente de energía de la que se desea obtener datos.
 
-En la wiki del trabajo, puedes encontrar con más detalle el uso de cada funcion.
+En la wiki del trabajo, puedes encontrar con más detalle el uso de cada funcion.]
