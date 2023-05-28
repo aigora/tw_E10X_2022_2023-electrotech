@@ -564,4 +564,3 @@ void printAleatorioEnergia();
 void printAleatorioEnergia2019_2020();
 void printAleatorioEnergia2017_2018();
 
-
