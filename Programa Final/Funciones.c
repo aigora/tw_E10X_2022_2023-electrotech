@@ -3181,27 +3181,27 @@ void printNuclear2017_2018(){
     while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8 && seleccion != 9 && seleccion != 10);
         switch (seleccion){
             case 1:
-                 //printMayorValorMesNuclear2017();
+                 printMayorValorMesNuclear2017();
             break;
 
             case 2:
-                //printMayorValorMesNuclear2018();
+                printMayorValorMesNuclear2018();
             break;
 
             case 3:
-                //printMayorValorMesNuclear2017_2018();
+                printMayorValorMesNuclear2017_2018();
             break;
 
             case 4:
-                //printMenorValorMesNuclear2017();
+                printMenorValorMesNuclear2017();
             break;
 
             case 5:
-                //printMenorValorMesNuclear2018();
+                printMenorValorMesNuclear2018();
             break;
 
             case 6:
-                 //printMenorValorMesNuclear2017_2018();
+                 printMenorValorMesNuclear2017_2018();
             break;
 
             case 7:
@@ -3249,27 +3249,27 @@ void printMotoresDiesel2017_2018(){
      while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8 && seleccion != 9 && seleccion != 10);
         switch (seleccion){
             case 1:
-                //printMayorValorMesMotoresDiesel2017();
+                printMayorValorMesMotoresDiesel2017();
             break;
 
             case 2:
-                //printMayorValorMesMotoresDiesel2018();
+                printMayorValorMesMotoresDiesel2018();
             break;
 
             case 3:
-                //printMayorValorMesMotoresDiesel2017_2018();
+                printMayorValorMesMotoresDiesel2017_2018();
             break;
 
             case 4:
-                //printMenorValorMesMotoresDiesel2017();
+                printMenorValorMesMotoresDiesel2017();
             break;
 
             case 5:
-                //printMenorValorMesMotoresDiesel2018();
+                printMenorValorMesMotoresDiesel2018();
             break;
 
             case 6:
-                 //printMenorValorMesMotoresDiesel2017_2018();
+                 printMenorValorMesMotoresDiesel2017_2018();
             break;
 
             case 7:
@@ -3366,27 +3366,27 @@ void printHidraulica2017_2018(){
     while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8 && seleccion != 9 && seleccion != 10);
         switch (seleccion){
             case 1:
-                //printMayorValorMesHidraulica2017();
+                printMayorValorMesHidraulica2017();
             break;
 
             case 2:
-                //printMayorValorMesHidraulica2018();
+                printMayorValorMesHidraulica2018();
             break;
 
             case 3:
-                //printMayorValorMesHidraulica2017_2018();
+                printMayorValorMesHidraulica2017_2018();
             break;
 
             case 4:
-                //printMenorValorMesHidraulica2017();
+                printMenorValorMesHidraulica2017();
             break;
 
             case 5:
-                //printMenorValorMesHidraulica2018();
+                printMenorValorMesHidraulica2018();
             break;
 
             case 6:
-                 //printMenorValorMesHidraulica2017_2018();
+                 printMenorValorMesHidraulica2017_2018();
             break;
 
             case 7:
@@ -3434,27 +3434,27 @@ void printHidroeolica2017_2018(){
    while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8 && seleccion != 9 && seleccion != 10);
         switch (seleccion){
             case 1:
-                //printMayorValorMesHidroeolica2017();
+                printMayorValorMesHidroeolica2017();
             break;
 
             case 2:
-                //printMayorValorMesHidroeolica2018();
+                printMayorValorMesHidroeolica2018();
             break;
 
             case 3:
-                //printMayorValorMesHidroeolica2017_2018();
+                printMayorValorMesHidroeolica2017_2018();
             break;
 
             case 4:
-                //printMenorValorMesHidroeolica2017();
+                printMenorValorMesHidroeolica2017();
             break;
 
             case 5:
-                //printMenorValorMesHidroeolica2018();
+                printMenorValorMesHidroeolica2018();
             break;
 
             case 6:
-                 //printMenorValorMesHidroeolica2017_2018();
+                 printMenorValorMesHidroeolica2017_2018();
             break;
 
             case 7:
@@ -3503,27 +3503,27 @@ void printEolica2017_2018(){
    while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8 && seleccion != 9 && seleccion != 10);
         switch (seleccion){
             case 1:
-                //printMayorValorMesEolica2017();
+                printMayorValorMesEolica2017();
             break;
 
             case 2:
-                //rintMayorValorMesEolica2018();
+                printMayorValorMesEolica2018();
             break;
 
             case 3:
-                //printMayorValorMesEolica2017_2018();
+                printMayorValorMesEolica2017_2018();
             break;
 
             case 4:
-                //printMenorValorMesEolica2017();
+                printMenorValorMesEolica2017();
             break;
 
             case 5:
-                //printMenorValorMesEolica2018();
+                printMenorValorMesEolica2018();
             break;
 
             case 6:
-                 //printMenorValorMesEolica2017_2018();
+                 printMenorValorMesEolica2017_2018();
             break;
 
             case 7:
@@ -3571,27 +3571,27 @@ void printSolarFotovoltaica2017_2018(){
     while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8 && seleccion != 9 && seleccion != 10);
         switch (seleccion){
             case 1:
-                //printMayorValorMesSolarFotovoltaica2017();
+                printMayorValorMesSolarFotovoltaica2017();
             break;
 
             case 2:
-                //printMayorValorMesSolarFotovoltaica2018();
+                printMayorValorMesSolarFotovoltaica2018();
             break;
 
             case 3:
-                //printMayorValorMesSolarFotovoltaica2017_2018();
+                printMayorValorMesSolarFotovoltaica2017_2018();
             break;
 
             case 4:
-                //printMenorValorMesSolarFotovoltaica2017();
+                printMenorValorMesSolarFotovoltaica2017();
             break;
 
             case 5:
-                //printMenorValorMesSolarFotovoltaica2018();
+                printMenorValorMesSolarFotovoltaica2018();
             break;
 
             case 6:
-                 //printMenorValorMesSolarFotovoltaica2017_2018();
+                printMenorValorMesSolarFotovoltaica2017_2018();
             break;
 
             case 7:
@@ -3639,27 +3639,27 @@ void printSolarTermica2017_2018(){
     while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8 && seleccion != 9 && seleccion != 10);
         switch (seleccion){
             case 1:
-                //printMayorValorMesSolarTermica2017();
+                printMayorValorMesSolarTermica2017();
             break;
 
             case 2:
-                //printMayorValorMesSolarTermica2018();
+                printMayorValorMesSolarTermica2018();
             break;
 
             case 3:
-                //printMayorValorMesSolarTermica2017_2018();
+                printMayorValorMesSolarTermica2017_2018();
             break;
 
             case 4:
-                //printMenorValorMesSolarTermica2017();
+                printMenorValorMesSolarTermica2017();
             break;
 
             case 5:
-                //printMenorValorMesSolarTermica2018();
+                printMenorValorMesSolarTermica2018();
             break;
 
             case 6:
-                 //printMenorValorMesSolarTermica2017_2018();
+                 printMenorValorMesSolarTermica2017_2018();
             break;
 
             case 7:
@@ -3706,27 +3706,27 @@ void printOtrasEnergiasRenovables2017_2018(){
     while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7 && seleccion != 8 && seleccion != 9 && seleccion != 10);
         switch (seleccion){
             case 1:
-                //printMayorValorMesOtrasEnergiasRenovables2017();
+                printMayorValorMesOtrasEnergiasRenovables2017();
             break;
 
             case 2:
-                //printMayorValorMesOtrasEnergiasRenovables2018();
+                printMayorValorMesOtrasEnergiasRenovables2018();
             break;
 
             case 3:
-                //printMayorValorMesOtrasEnergiasRenovables2017_2018();
+                printMayorValorMesOtrasEnergiasRenovables2017_2018();
             break;
 
             case 4:
-                //printMenorValorMesOtrasEnergiasRenovables2017();
+                printMenorValorMesOtrasEnergiasRenovables2017();
             break;
 
             case 5:
-                //printMenorValorMesOtrasEnergiasRenovables2018();
+                printMenorValorMesOtrasEnergiasRenovables2018();
             break;
 
             case 6:
-                 //printMenorValorMesOtrasEnergiasRenovables2017_2018();
+                 printMenorValorMesOtrasEnergiasRenovables2017_2018();
             break;
 
             case 7:
@@ -3809,27 +3809,27 @@ a traves de procesos de combustion o gasificacion\n\n");
     while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8 && modalidad != 9 && modalidad != 10);
         switch (modalidad){
             case 1:
-                //printMayorValorMesResiduosRenovables2017();
+                printMayorValorMesResiduosRenovables2017();
             break;
 
             case 2:
-                //printMayorValorMesResiduosRenovables2018();
+                printMayorValorMesResiduosRenovables2018();
             break;
 
             case 3:
-                //printMayorValorMesResiduosRenovables2017_2018();
+                printMayorValorMesResiduosRenovables2017_2018();
             break;
 
             case 4:
-                //printMenorValorMesResiduosRenovables2017();
+                printMenorValorMesResiduosRenovables2017();
             break;
 
             case 5:
-                //printMenorValorMesResiduosRenovables2018();
+                printMenorValorMesResiduosRenovables2018();
             break;
 
             case 6:
-                 //printMenorValorMesResiduosRenovables2017_2018();
+                 printMenorValorMesResiduosRenovables2017_2018();
             break;
 
             case 7:
@@ -3876,27 +3876,27 @@ void printResiduosNoRenovables2017_2018(){
      while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8 && modalidad != 9 && modalidad != 10);
         switch (modalidad){
             case 1:
-                //printMayorValorMesResiduosNoRenovables2017();
+                printMayorValorMesResiduosNoRenovables2017();
             break;
 
             case 2:
-                //printMayorValorMesResiduosNoRenovables2018();
+                printMayorValorMesResiduosNoRenovables2018();
             break;
 
             case 3:
-                //printMayorValorMesResiduosNoRenovables2017_2018();
+                printMayorValorMesResiduosNoRenovables2017_2018();
             break;
 
             case 4:
-                //printMenorValorMesResiduosNoRenovables2017();
+                printMenorValorMesResiduosNoRenovables2017();
             break;
 
             case 5:
-                //printMenorValorMesResiduosNoRenovables2018();
+                printMenorValorMesResiduosNoRenovables2018();
             break;
 
             case 6:
-                 //printMenorValorMesResiduosNoRenovables2017_2018();
+                 printMenorValorMesResiduosNoRenovables2017_2018();
             break;
 
             case 7:
@@ -3942,27 +3942,27 @@ void printGeneracionTotal2017_2018(){
     while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8 && modalidad != 9 && modalidad != 10);
         switch (modalidad){
             case 1:
-                //printMayorValorMesGeneracionTotal2017();
+                printMayorValorMesGeneracionTotal2017();
             break;
 
             case 2:
-                //printMayorValorMesGeneracionTotal2018();
+                printMayorValorMesGeneracionTotal2018();
             break;
 
             case 3:
-                //printMayorValorMesGeneracionTotal2017_2018();
+                printMayorValorMesGeneracionTotal2017_2018();
             break;
 
             case 4:
-                //printMenorValorMesGeneracionTotal2017();
+                printMenorValorMesGeneracionTotal2017();
             break;
 
             case 5:
-                //printMenorValorMesGeneracionTotal2018();
+                printMenorValorMesGeneracionTotal2018();
             break;
 
             case 6:
-                 //printMenorValorMesGeneracionTotal2017_2018();
+                 printMenorValorMesGeneracionTotal2017_2018();
             break;
 
             case 7:
@@ -4060,27 +4060,27 @@ void printCarbon2017_2018(){
     while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8 && modalidad != 9 && modalidad != 10);
         switch (modalidad){
             case 1:
-                //printMayorValorMesCarbon2017();
+                printMayorValorMesCarbon2017();
             break;
 
             case 2:
-                //printMayorValorMesCarbon2018();
+                printMayorValorMesCarbon2018();
             break;
 
             case 3:
-                //printMayorValorMesCarbon2017_2018();
+                printMayorValorMesCarbon2017_2018();
             break;
 
             case 4:
-                //printMenorValorMesCarbon2017();
+                printMenorValorMesCarbon2017();
             break;
 
             case 5:
-                //printMenorValorMesCarbon2018();
+                printMenorValorMesCarbon2018();
             break;
 
             case 6:
-                 //printMenorValorMesCarbon2017_2018();
+                 printMenorValorMesCarbon2017_2018();
             break;
 
             case 7:
@@ -4130,27 +4130,27 @@ void printFuelGas2017_2018(){
     while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8 && modalidad != 9 && modalidad != 10);
         switch (modalidad){
             case 1:
-                //printMayorValorMesFuelGas2017();
+                printMayorValorMesFuelGas2017();
             break;
 
             case 2:
-                //printMayorValorMesFuelGas2018();
+                printMayorValorMesFuelGas2018();
             break;
 
             case 3:
-                //printMayorValorMesFuelGas2017_2018();
+                printMayorValorMesFuelGas2017_2018();
             break;
 
             case 4:
-                //printMenorValorMesFuelGas2017();
+                printMenorValorMesFuelGas2017();
             break;
 
             case 5:
-                //printMenorValorMesFuelGas2018();
+                printMenorValorMesFuelGas2018();
             break;
 
             case 6:
-                 //printMenorValorMesFuelGas2017_2018();
+                 printMenorValorMesFuelGas2017_2018();
             break;
 
             case 7:
@@ -4200,27 +4200,27 @@ void printTurbinaGas2017_2018(){
     while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8 && modalidad != 9 && modalidad != 10);
         switch (modalidad){
             case 1:
-                //printMayorValorMesTurbinaGas2017();
+                printMayorValorMesTurbinaGas2017();
             break;
 
             case 2:
-                //printMayorValorMesTurbinaGas2018();
+                printMayorValorMesTurbinaGas2018();
             break;
 
             case 3:
-                //printMayorValorMesTurbinaGas2017_2018();
+                printMayorValorMesTurbinaGas2017_2018();
             break;
 
             case 4:
-                //printMenorValorMesTurbinaGas2017();
+                printMenorValorMesTurbinaGas2017();
             break;
 
             case 5:
-                //printMenorValorMesTurbinaGas2018();
+                printMenorValorMesTurbinaGas2018();
             break;
 
             case 6:
-                 //printMenorValorMesTurbinaGas2017_2018();
+                 printMenorValorMesTurbinaGas2017_2018();
             break;
 
             case 7:
@@ -4274,27 +4274,27 @@ void printTurbinaVapor2017_2018(){
     while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8 && modalidad != 9 && modalidad != 10);
         switch (modalidad){
             case 1:
-                //printMayorValorMesTurbinaVapor2017();
+                printMayorValorMesTurbinaVapor2017();
             break;
 
             case 2:
-                //printMayorValorMesTurbinaVapor2018();
+                printMayorValorMesTurbinaVapor2018();
             break;
 
             case 3:
-                //printMayorValorMesTurbinaVapor2017_2018();
+                printMayorValorMesTurbinaVapor2017_2018();
             break;
 
             case 4:
-                //printMenorValorMesTurbinaVapor2017();
+                printMenorValorMesTurbinaVapor2017();
             break;
 
             case 5:
-                //printMenorValorMesTurbinaVapor2018();
+                printMenorValorMesTurbinaVapor2018();
             break;
 
             case 6:
-                 //printMenorValorMesTurbinaVapor2017_2018();
+                 printMenorValorMesTurbinaVapor2017_2018();
             break;
 
             case 7:
@@ -4343,27 +4343,27 @@ void printCicloCombinado2017_2018(){
     while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8 && modalidad != 9 && modalidad != 10);
         switch (modalidad){
             case 1:
-                //printMayorValorMesCicloCombinado2017();
+                printMayorValorMesCicloCombinado2017();
             break;
 
             case 2:
-                //printMayorValorMesCicloCombinado2018();
+                printMayorValorMesCicloCombinado2018();
             break;
 
             case 3:
-                //printMayorValorMesCicloCombinado2017_2018();
+                printMayorValorMesCicloCombinado2017_2018();
             break;
 
             case 4:
-                //printMenorValorMesCicloCombinado2017();
+                printMenorValorMesCicloCombinado2017();
             break;
 
             case 5:
-                //printMenorValorMesCicloCombinado2018();
+                printMenorValorMesCicloCombinado2018();
             break;
 
             case 6:
-                //printMenorValorMesCicloCombinado2017_2018();
+                printMenorValorMesCicloCombinado2017_2018();
             break;
 
             case 7:
@@ -4413,27 +4413,27 @@ void printCogeneracion2017_2018(){
     while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7 && modalidad != 8 && modalidad != 9 && modalidad != 10);
         switch (modalidad){
             case 1:
-                //printMayorValorMesCogeneracion2017();
+                printMayorValorMesCogeneracion2017();
             break;
 
             case 2:
-                //printMayorValorMesCogeneracion2018();
+                printMayorValorMesCogeneracion2018();
             break;
 
             case 3:
-                //printMayorValorMesCogeneracion2017_2018();
+                printMayorValorMesCogeneracion2017_2018();
             break;
 
             case 4:
-                //printMenorValorMesCogeneracion2017();
+                printMenorValorMesCogeneracion2017();
             break;
 
             case 5:
-                //printMenorValorMesCogeneracion2018();
+                printMenorValorMesCogeneracion2018();
             break;
 
             case 6:
-                 //printMenorValorMesCogeneracion2017_2018();
+                 printMenorValorMesCogeneracion2017_2018();
             break;
 
             case 7:
@@ -4460,6 +4460,8 @@ void printCogeneracion2017_2018(){
 } //Cierre printCogeneracion2017_2018
 
 // Terminacion Año 2017-2018
+
+//Inicio Aleatoriedad
 
 void printAleatorioAnualidad(){
     int numero_aleatorioAnual;
@@ -29150,87 +29152,9 @@ void printMenorValorMesCarbon2019_2020()
 // N=4
 void printMayorValorMesFuelGas2019()
 {
-     char aux0, aux1, x;
-    int i=0, lineas;
-    int numerodeenergias=0;
-
-    lineas=numerodelineas();
-    FILE *pf;
-
-        pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r");
-        if(pf == NULL)
-            {
-                printf("Error al encontrar el archivo");
-            }
-        else
-            {
-                for(i=0; i<4; i++)
-                  {
-                    fscanf(pf, "%c", &aux1);
-                    while(aux1 != '\n')
-                        {
-                            fscanf(pf, "%c", &aux1);
-                        }
-                  }
-
-                //AQUI TENGO QUE LEER LAS FECHAS
-                char coma1, barra;//auxiliares para almacenar lo que no me interesa
-
-                fecha vfecha[24];
-
-                char aux4[100];
-
-                fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
-
-                int n=0;
-
-                    for(n=0;n<24;n++)
-                        {
-                            fscanf(pf, "%c %f %c %f", &coma1, &vfecha[n].m, &barra, &vfecha[n].a);
-                        }
-
-                numerodeenergias=lineas-5; //le restamos las 5 primeras filas
-
-                Energia Energias[numerodeenergias];
-
-                for(i=0; i<=numerodeenergias; i++)
-                {
-                    fscanf(pf, "%[^,]", &Energias[i].tipo);
-
-                    int k=0;
-
-                    char coma, comaalta1, comaalta2, comaalta3, comaalta4;
-
-                    for(x=0; x<24; x++) //aqui recojo 24 datos
-                    {
-                        fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
-                        k++;
-                    }
-                }
-                    int i, N, u;
-                    u=0;
-                    N=4;
-                    float maximo;
-                    maximo = Energias[N].datos[0];
-
-                    //PARA EL PRIMER AÑO
-                    for (i=0;i<12;i++)
-                    {
-                        if (Energias[N].datos[i]>maximo)
-                        {
-                            maximo=Energias[N].datos[i];
-                        }
-                    }
-
-                    i=0;
-                        while (Energias[N].datos[i] != maximo)
-                        {
-                            u++;//contador para el mes
-                            i++;
-                        }
-
-                    printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
-            }
+     char aux0;
+    float maximo = 0.000001;
+    printf("\n\tNo hay una fecha determinada, puesto que el valor maximo es de %f GWh. \n", maximo);
 
     printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
 
@@ -29243,87 +29167,9 @@ void printMayorValorMesFuelGas2019()
 
 void printMayorValorMesFuelGas2020()
 {
-    char aux0, aux1, x;
-    int i=0, lineas;
-    int numerodeenergias=0;
-
-    lineas=numerodelineas();
-    FILE *pf;
-
-        pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r");
-        if(pf == NULL)
-            {
-                printf("Error al encontrar el archivo");
-            }
-        else
-            {
-                for(i=0; i<4; i++)
-                  {
-                    fscanf(pf, "%c", &aux1);
-                    while(aux1 != '\n')
-                        {
-                            fscanf(pf, "%c", &aux1);
-                        }
-                  }
-
-                //AQUI TENGO QUE LEER LAS FECHAS
-                char coma1, barra;//auxiliares para almacenar lo que no me interesa
-
-                fecha vfecha[24];
-
-                char aux4[100];
-
-                fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
-
-                int n;
-
-                    for(n=0;n<24;n++)
-                        {
-                            fscanf(pf, "%c %f %c %f", &coma1, &vfecha[n].m, &barra, &vfecha[n].a);
-                        }
-
-                numerodeenergias=lineas-5; //le restamos las 5 primeras filas
-
-                Energia Energias[numerodeenergias];
-
-                for(i=0; i<=numerodeenergias; i++)
-                {
-                    fscanf(pf, "%[^,]", &Energias[i].tipo);
-
-                    int k=0;
-
-                    char coma, comaalta1, comaalta2, comaalta3, comaalta4;
-
-                    for(x=0; x<24; x++) //aqui recojo 24 datos
-                    {
-                        fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
-                        k++;
-                    }
-                }
-                    int i, N, u;
-                    u=0;
-                    N=4;
-                    float maximo;
-                    maximo = Energias[N].datos[12];
-
-                    //PARA EL SEGUNDO AÑO
-                    for (i=12;i<24;i++)
-                    {
-                        if (Energias[N].datos[i]>maximo)
-                        {
-                            maximo=Energias[N].datos[i];
-                        }
-                    }
-
-                    i=0;
-                        while (Energias[N].datos[i] != maximo)
-                        {
-                            u++;//contador para el mes
-                            i++;
-                        }
-
-                    printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
-            }
+    char aux0;
+    float maximo = 0.000001;
+    printf("\n\tNo hay una fecha determinada, puesto que el valor maximo es de %f GWh. \n", maximo);
 
     printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
 
@@ -29336,87 +29182,9 @@ void printMayorValorMesFuelGas2020()
 
 void printMayorValorMesFuelGas2019_2020()
 {
-    char aux0, aux1, x;
-    int i=0, lineas;
-    int numerodeenergias=0;
-
-    lineas=numerodelineas();
-    FILE *pf;
-
-        pf = fopen("generacion_por_tecnologias_19_20_puntos.csv", "r");
-        if(pf == NULL)
-            {
-                printf("Error al encontrar el archivo");
-            }
-        else
-            {
-                for(i=0; i<4; i++)
-                  {
-                    fscanf(pf, "%c", &aux1);
-                    while(aux1 != '\n')
-                        {
-                            fscanf(pf, "%c", &aux1);
-                        }
-                  }
-
-                //AQUI TENGO QUE LEER LAS FECHAS
-                char coma1, barra;//auxiliares para almacenar lo que no me interesa
-
-                fecha vfecha[24];
-
-                char aux4[100];
-
-                fscanf(pf, "%[^,]", &aux4);//para que lea la palabra antes hasta la coma
-
-                int n;
-
-                    for(n=0;n<24;n++)
-                        {
-                            fscanf(pf, "%c %f %c %f", &coma1, &vfecha[n].m, &barra, &vfecha[n].a);
-                        }
-
-                numerodeenergias=lineas-5; //le restamos las 5 primeras filas
-
-                Energia Energias[numerodeenergias];
-
-                for(i=0; i<=numerodeenergias; i++)
-                {
-                    fscanf(pf, "%[^,]", &Energias[i].tipo);
-
-                    int k=0;
-
-                    char coma, comaalta1, comaalta2, comaalta3, comaalta4;
-
-                    for(x=0; x<24; x++) //aqui recojo 24 datos
-                    {
-                        fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
-                        k++;
-                    }
-                }
-                    int i, N, u;
-                    u=0;
-                    N=4;
-                    float maximo;
-                    maximo = Energias[N].datos[12];
-
-                    //PARA LOS DOS AÑOS
-                    for (i=0;i<24;i++)
-                    {
-                        if (Energias[N].datos[i]>maximo)
-                        {
-                            maximo=Energias[N].datos[i];
-                        }
-                    }
-
-                    i=0;
-                        while (Energias[N].datos[i] != maximo)
-                        {
-                            u++;//contador para el mes
-                            i++;
-                        }
-
-                    printf("\n\tEl valor maximo se produjo en la fecha del %.0f/%.0f con un valor de %f GWh. \n", vfecha[u].m, vfecha[u].a, maximo);
-            }
+    char aux0;
+    float maximo = 0.000001;
+    printf("\n\tNo hay una fecha determinada, puesto que el valor maximo es de %f GWh. \n", maximo);
 
     printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
 
@@ -38675,8 +38443,6 @@ void printMayorValorMesFuelGas2017()
 
     printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
 
-    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
-
     scanf("%c", &aux0);
 
     system("cls");
@@ -38689,6 +38455,7 @@ void printMayorValorMesFuelGas2018()
     char aux0;
     float maximo = 0.000001;
     printf("\n\tNo hay una fecha determinada, puesto que el valor maximo es de %f GWh. \n", maximo);
+
     printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
 
     scanf("%c", &aux0);
@@ -38703,6 +38470,7 @@ void printMayorValorMesFuelGas2017_2018()
     char aux0;
     float maximo = 0.000001;
     printf("\n\tNo hay una fecha determinada, puesto que el valor maximo es de %f GWh. \n", maximo);
+
 	printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
 
     scanf("%c", &aux0);
@@ -40164,7 +39932,7 @@ void printMayorValorMesCicloCombinado2017()
 
                     int k=0;
 
-                    char coma, comaalta1, comaalta2, 
+                    char coma, comaalta1, comaalta2,
 comaalta3, comaalta4;
 
                     for(x=0; x<24; x++) //aqui recojo 24 datos
