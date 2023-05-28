@@ -3205,11 +3205,11 @@ void printNuclear2017_2018(){
             break;
 
             case 7:
-                 //printMediaAnualNuclear2017();
+                 printMediaAnualNuclear2017();
             break;
 
             case 8:
-                 //printMediaAnualNuclear2018();
+                 printMediaAnualNuclear2018();
             break;
 
             case 9:
@@ -3273,11 +3273,11 @@ void printMotoresDiesel2017_2018(){
             break;
 
             case 7:
-                 //printMediaAnualMotoresDiesel2017();
+                 printMediaAnualMotoresDiesel2017();
             break;
 
             case 8:
-                 //printMediaAnualMotoresDiesel2018();
+                 printMediaAnualMotoresDiesel2018();
             break;
 
             case 9:
@@ -3310,27 +3310,27 @@ void printTiposEnergiasRenovables2017_2018(){
     while (modalidad !=  1 && modalidad != 2 && modalidad != 3 && modalidad != 4 && modalidad != 5 && modalidad != 6 && modalidad != 7);
         switch (modalidad){
             case 1:
-                //printHidraulica2017_2018();
+                printHidraulica2017_2018();
             break;
 
             case 2:
-                //printHidroeolica2017_2018();
+                printHidroeolica2017_2018();
             break;
 
             case 3:
-                //printEolica2017_2018();
+                printEolica2017_2018();
             break;
 
             case 4:
-                //printSolarFotovoltaica2017_2018();
+                printSolarFotovoltaica2017_2018();
             break;
 
             case 5:
-                //printSolarTermica2017_2018();
+                printSolarTermica2017_2018();
             break;
 
             case 6:
-                //printOtrasEnergiasRenovables2017_2018();
+                printOtrasEnergiasRenovables2017_2018();
             break;
 
             case 7:
@@ -3390,11 +3390,11 @@ void printHidraulica2017_2018(){
             break;
 
             case 7:
-                 //printMediaAnualHidraulica2017();
+                 printMediaAnualHidraulica2017();
             break;
 
             case 8:
-                 //printMediaAnualHidraulica2018();
+                 printMediaAnualHidraulica2018();
             break;
 
             case 9:
@@ -3458,11 +3458,11 @@ void printHidroeolica2017_2018(){
             break;
 
             case 7:
-                 //printMediaAnualHidroeolica2017();
+                 printMediaAnualHidroeolica2017();
             break;
 
             case 8:
-                 //printMediaAnualHidroeolica2018();
+                 printMediaAnualHidroeolica2018();
             break;
 
             case 9:
@@ -3527,11 +3527,11 @@ void printEolica2017_2018(){
             break;
 
             case 7:
-                 //printMediaAnualEolica2017();
+                 printMediaAnualEolica2017();
             break;
 
             case 8:
-                 //printMediaAnualEolica2018();
+                 printMediaAnualEolica2018();
             break;
 
             case 9:
@@ -3595,11 +3595,11 @@ void printSolarFotovoltaica2017_2018(){
             break;
 
             case 7:
-                 //printMediaAnualSolarFotovoltaica2017();
+                 printMediaAnualSolarFotovoltaica2017();
             break;
 
             case 8:
-                 //printMediaAnualSolarFotovoltaica2018();
+                 printMediaAnualSolarFotovoltaica2018();
             break;
 
             case 9:
@@ -3663,11 +3663,11 @@ void printSolarTermica2017_2018(){
             break;
 
             case 7:
-                 //printMediaAnualSolarTermica2017();
+                 printMediaAnualSolarTermica2017();
             break;
 
             case 8:
-                 //printMediaAnualSolarTermica2018();
+                 printMediaAnualSolarTermica2018();
             break;
 
             case 9:
@@ -3730,11 +3730,11 @@ void printOtrasEnergiasRenovables2017_2018(){
             break;
 
             case 7:
-                 //printMediaAnualOtrasEnergiasRenovables2017();
+                 printMediaAnualOtrasEnergiasRenovables2017();
             break;
 
             case 8:
-                 //printMediaAnualOtrasEnergiasRenovables2018();
+                 printMediaAnualOtrasEnergiasRenovables2018();
             break;
 
             case 9:
@@ -3833,11 +3833,11 @@ a traves de procesos de combustion o gasificacion\n\n");
             break;
 
             case 7:
-                 //printMediaAnualResiduosRenovables2017();
+                 printMediaAnualResiduosRenovables2017();
             break;
 
             case 8:
-                 //printMediaAnualResiduosRenovables2018();
+                 printMediaAnualResiduosRenovables2018();
             break;
 
             case 9:
@@ -3900,11 +3900,11 @@ void printResiduosNoRenovables2017_2018(){
             break;
 
             case 7:
-                 //printMediaAnualResiduosNoRenovables2017();
+                 printMediaAnualResiduosNoRenovables2017();
             break;
 
             case 8:
-                 //printMediaAnualResiduosNoRenovables2018();
+                 printMediaAnualResiduosNoRenovables2018();
             break;
 
             case 9:
@@ -3966,11 +3966,11 @@ void printGeneracionTotal2017_2018(){
             break;
 
             case 7:
-                 //printMediaAnualGeneracionTotal2017();
+                 printMediaAnualGeneracionTotal2017();
             break;
 
             case 8:
-                 //printMediaAnualGeneracionTotal2018();
+                 printMediaAnualGeneracionTotal2018();
             break;
 
             case 9:
@@ -4003,27 +4003,27 @@ void printCombustiblesFosiles2017_2018(){
     while (seleccion !=  1 && seleccion != 2 && seleccion != 3 && seleccion != 4 && seleccion != 5 && seleccion != 6 && seleccion != 7);
         switch (seleccion){
             case 1:
-                //printCarbon2017_2018();
+                printCarbon2017_2018();
             break;
 
             case 2:
-                //printFuelGas2017_2018();
+                printFuelGas2017_2018();
             break;
 
             case 3:
-                //printTurbinaGas2017_2018();
+                printTurbinaGas2017_2018();
             break;
 
             case 4:
-                //printTurbinaVapor2017_2018();
+                printTurbinaVapor2017_2018();
             break;
 
             case 5:
-                //printCicloCombinado2017_2018();
+                printCicloCombinado2017_2018();
             break;
 
             case 6:
-                //printCogeneracion2017_2018();
+                printCogeneracion2017_2018();
             break;
 
             case 7:
@@ -4084,11 +4084,11 @@ void printCarbon2017_2018(){
             break;
 
             case 7:
-                 //printMediaAnualCarbon2017();
+                 printMediaAnualCarbon2017();
             break;
 
             case 8:
-                 //printMediaAnualCarbon2018();
+                 printMediaAnualCarbon2018();
             break;
 
             case 9:
@@ -4154,11 +4154,11 @@ void printFuelGas2017_2018(){
             break;
 
             case 7:
-                 //printMediaAnualFuelGas2017();
+                 printMediaAnualFuelGas2017();
             break;
 
             case 8:
-                 //printMediaAnualFuelGas2018();
+                 printMediaAnualFuelGas2018();
             break;
 
             case 9:
@@ -4224,11 +4224,11 @@ void printTurbinaGas2017_2018(){
             break;
 
             case 7:
-                 //printMediaAnualTurbinaGas2017();
+                 printMediaAnualTurbinaGas2017();
             break;
 
             case 8:
-                 //printMediaAnualTurbinaGas2018();
+                 printMediaAnualTurbinaGas2018();
             break;
 
             case 9:
@@ -4298,11 +4298,11 @@ void printTurbinaVapor2017_2018(){
             break;
 
             case 7:
-                 //printMediaAnualTurbinaVapor2017();
+                 printMediaAnualTurbinaVapor2017();
             break;
 
             case 8:
-                 //printMediaAnualTurbinaVapor2018();
+                 printMediaAnualTurbinaVapor2018();
             break;
 
             case 9:
@@ -4367,11 +4367,11 @@ void printCicloCombinado2017_2018(){
             break;
 
             case 7:
-                 //printMediaAnualCicloCombinado2017();
+                 printMediaAnualCicloCombinado2017();
             break;
 
             case 8:
-                 //printMediaAnualCicloCombinado2018();
+                 printMediaAnualCicloCombinado2018();
             break;
 
             case 9:
@@ -4437,11 +4437,11 @@ void printCogeneracion2017_2018(){
             break;
 
             case 7:
-                 //printMediaAnualCogeneracion2017();
+                 printMediaAnualCogeneracion2017();
             break;
 
             case 8:
-                 //printMediaAnualCogeneracion2018();
+                 printMediaAnualCogeneracion2018();
             break;
 
             case 9:
@@ -4547,7 +4547,7 @@ void printAleatorioAnualidad(){
 
 }
 
-
+//INICIO ALEATORIEDAD
 
 void printAleatorioEnergia(){
     int numero_aleatorioEnergia;
@@ -4964,7 +4964,7 @@ void printMediaAnualNuclear2021()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -5046,7 +5046,7 @@ void printMediaAnualNuclear2022()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -5130,7 +5130,7 @@ void printMediaAnualHidraulica2021()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf);
 
@@ -5214,7 +5214,7 @@ void printMediaAnualHidraulica2022()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -5299,7 +5299,7 @@ void printMediaAnualHidroeolica2021()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -5385,7 +5385,7 @@ void printMediaAnualHidroeolica2022()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -5470,7 +5470,7 @@ void printMediaAnualEolica2021()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -5554,7 +5554,7 @@ void printMediaAnualEolica2022()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -5637,7 +5637,7 @@ void printMediaAnualSolarFotovoltaica2021()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -5723,7 +5723,7 @@ void printMediaAnualSolarFotovoltaica2022()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -5806,7 +5806,7 @@ void printMediaAnualSolarTermica2021()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -5886,7 +5886,7 @@ void printMediaAnualSolarTermica2022()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -5970,7 +5970,7 @@ void printMediaAnualOtrasEnergiasRenovables2021() //ESTA FALTA ¿?
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -6056,7 +6056,7 @@ void printMediaAnualOtrasEnergiasRenovables2022()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -6141,7 +6141,7 @@ void printMediaAnualCarbon2021()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -6226,7 +6226,7 @@ void printMediaAnualCarbon2022()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -6273,7 +6273,7 @@ void printMediaAnualFuelGas2021()
 
     promedio = suma / 12;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
 
     printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
@@ -6302,7 +6302,7 @@ void printMediaAnualFuelGas2022()
     suma=0.0;
 
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
 
@@ -6382,7 +6382,7 @@ void printMediaAnualTurbinaGas2021()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -6469,7 +6469,7 @@ void printMediaAnualTurbinaGas2022()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -6553,7 +6553,7 @@ void printMediaAnualTurbinaVapor2021()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -6639,7 +6639,7 @@ void printMediaAnualTurbinaVapor2022()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -6724,7 +6724,7 @@ void printMediaAnualCicloCombinado2021()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -6810,7 +6810,7 @@ void printMediaAnualCicloCombinado2022()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -6897,7 +6897,7 @@ void printMediaAnualMotoresDiesel2021()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -6983,7 +6983,7 @@ void printMediaAnualMotoresDiesel2022()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -7070,7 +7070,7 @@ void printMediaAnualResiduosNoRenovables2021() //es la no renovables
 
     promedio=suma/12.0;
 
-   printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+   printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -7158,7 +7158,7 @@ void printMediaAnualResiduosNoRenovables2022()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -7245,7 +7245,7 @@ void printMediaAnualResiduosRenovables2021()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -7330,7 +7330,7 @@ void printMediaAnualResiduosRenovables2022()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -7417,7 +7417,7 @@ void printMediaAnualGeneracionTotal2021()
 
     promedio=suma/12.0;
 
-    printf("\nLa generacion total del 2021 fue de %f GWh y el promedio es %f", suma, promedio);
+    printf("\nLa generacion total del 2021 fue de %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -7503,7 +7503,7 @@ void printMediaAnualGeneracionTotal2022()
 
     promedio=suma/12.0;
 
-    printf("\nLa generacion total del 2022 fue de %f GWh y el promedio es %f", suma, promedio);
+    printf("\nLa generacion total del 2022 fue de %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -7589,7 +7589,7 @@ void printMediaAnualCogeneracion2021()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -7675,7 +7675,7 @@ void printMediaAnualCogeneracion2022()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -7765,7 +7765,7 @@ void printMediaAnualNuclear2019()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -7847,7 +7847,7 @@ void printMediaAnualNuclear2020()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -7931,7 +7931,7 @@ void printMediaAnualHidraulica2019()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf);
 
@@ -8015,7 +8015,7 @@ void printMediaAnualHidraulica2020()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -8100,7 +8100,7 @@ void printMediaAnualHidroeolica2019()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -8186,7 +8186,7 @@ void printMediaAnualHidroeolica2020()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -8272,7 +8272,7 @@ void printMediaAnualEolica2019()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -8357,7 +8357,7 @@ void printMediaAnualEolica2020()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -8440,7 +8440,7 @@ void printMediaAnualSolarFotovoltaica2019()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -8526,7 +8526,7 @@ void printMediaAnualSolarFotovoltaica2020()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -8609,7 +8609,7 @@ void printMediaAnualSolarTermica2019()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -8689,7 +8689,7 @@ void printMediaAnualSolarTermica2020()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -8773,7 +8773,7 @@ void printMediaAnualOtrasEnergiasRenovables2019() //ESTA FALTA ¿?
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -8859,7 +8859,7 @@ void printMediaAnualOtrasEnergiasRenovables2020()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -8944,7 +8944,7 @@ void printMediaAnualCarbon2019()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -9029,7 +9029,7 @@ void printMediaAnualCarbon2020()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -9076,7 +9076,7 @@ void printMediaAnualFuelGas2019()
 
     promedio = suma / 12;
 
-	 printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+	 printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
 
     printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
@@ -9105,7 +9105,7 @@ void printMediaAnualFuelGas2020()
     suma=0.0;
 
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
 
@@ -9185,7 +9185,7 @@ void printMediaAnualTurbinaGas2019()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -9272,7 +9272,7 @@ void printMediaAnualTurbinaGas2020()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -9356,7 +9356,7 @@ void printMediaAnualTurbinaVapor2019()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -9442,7 +9442,7 @@ void printMediaAnualTurbinaVapor2020()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -9527,7 +9527,7 @@ void printMediaAnualCicloCombinado2019()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -9613,7 +9613,7 @@ void printMediaAnualCicloCombinado2020()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -9700,7 +9700,7 @@ void printMediaAnualMotoresDiesel2019()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -9786,7 +9786,7 @@ void printMediaAnualMotoresDiesel2020()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -9873,7 +9873,7 @@ void printMediaAnualResiduosNoRenovables2019() //es la no renovables
 
     promedio=suma/12.0;
 
-   printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+   printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -9961,7 +9961,7 @@ void printMediaAnualResiduosNoRenovables2020()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -10048,7 +10048,7 @@ void printMediaAnualResiduosRenovables2019()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -10133,7 +10133,7 @@ void printMediaAnualResiduosRenovables2020()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -10220,7 +10220,7 @@ void printMediaAnualGeneracionTotal2019()
 
     promedio=suma/12.0;
 
-    printf("\nLa generacion total del 2021 fue de %f GWh y el promedio es %f", suma, promedio);
+    printf("\nLa generacion total del 2019 fue de %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -10306,7 +10306,7 @@ void printMediaAnualGeneracionTotal2020()
 
     promedio=suma/12.0;
 
-    printf("\nLa generacion total del 2022 fue de %f GWh y el promedio es %f", suma, promedio);
+    printf("\nLa generacion total del 2020 fue de %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -10392,7 +10392,7 @@ void printMediaAnualCogeneracion2019()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -10478,7 +10478,7 @@ void printMediaAnualCogeneracion2020()
 
     promedio=suma/12.0;
 
-    printf("\nLa suma es %f y el promedio es %f", suma, promedio);
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
 
     fclose(pf); //Cerramos fichero
 
@@ -10493,7 +10493,2808 @@ void printMediaAnualCogeneracion2020()
     printCogeneracion2019_2020();
 }
 
+//FIN AÑO 2019-2020
 
+//INICIO AÑO 2017-2018
+
+void printMediaAnualNuclear2017()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    //int numerodefilas=0; quitar
+    int numerodeenergias=0;
+    int lineas;
+
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[2].datos[j]+suma;  //Nuclear es 2
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printNuclear2017_2018();
+
+}
+
+void printMediaAnualNuclear2018()
+{
+
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=12; j<24; j++)
+    {
+        suma=Energias[2].datos[j]+suma;  //LA NUCLEAR ES LA 2
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printNuclear2017_2018();
+
+}
+
+
+
+void printMediaAnualHidraulica2017()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+    int lineas;
+
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5;
+
+
+    Energia Energias[numerodeenergias];
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[0].datos[j]+suma;
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf);
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printHidraulica2017_2018();
+
+
+}
+
+void printMediaAnualHidraulica2018()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+
+    }
+
+    float promedio, suma=0;
+
+    for(j=12; j<24; j++)
+    {
+        suma=Energias[0].datos[j]+suma;  //hidraulica esta guardada en la 0
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printHidraulica2017_2018();
+
+}
+
+
+
+void printMediaAnualHidroeolica2017()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+    int lineas;
+
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[9].datos[j]+suma;  //LA hidroeolica es la , en el vector es 10
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printHidroeolica2017_2018();
+
+}
+
+
+void printMediaAnualHidroeolica2018()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=12; j<24; j++)
+    {
+        suma=Energias[9].datos[j]+suma;  //LA hidroelica es la , en el vector es 10
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printHidroeolica2017_2018();
+
+}
+
+
+void printMediaAnualEolica2017()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+
+    }
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[10].datos[j]+suma;  //LA eolica es la 11
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printEolica2017_2018();
+
+}
+
+void printMediaAnualEolica2018()
+{
+    char aux0, aux1,  x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        //printf("%c", aux1); //este printf es para comprobar que copia los caracteres
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+
+    }
+
+    float promedio, suma=0;
+
+    for(j=12; j<24; j++)
+    {
+        suma=Energias[10].datos[j]+suma;  //LA eolica es la 11
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printEolica2017_2018();
+
+}
+
+void printMediaAnualSolarFotovoltaica2017()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+    }
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[11].datos[j]+suma;  //LA FOTO ES 12
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printSolarFotovoltaica2017_2018();
+
+}
+
+
+void printMediaAnualSolarFotovoltaica2018()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=12; j<24; j++)
+    {
+        suma=Energias[11].datos[j]+suma;  //LA FOTO ES 12
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printSolarFotovoltaica2017_2018();
+
+}
+
+void printMediaAnualSolarTermica2017()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+
+    }
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[12].datos[j]+suma;  //LA solar termica es la 13
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printSolarTermica2017_2018();
+
+}
+
+void printMediaAnualSolarTermica2018()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+    FILE *pf;
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+
+    }
+
+    float promedio, suma=0;
+
+    for(j=12; j<24; j++)
+    {
+        suma=Energias[12].datos[j]+suma;  //LA solar termica es la 13
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printSolarTermica2017_2018();
+
+
+}
+
+void printMediaAnualOtrasEnergiasRenovables2017() //ESTA FALTA ¿?
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+
+    }
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[13].datos[j]+suma;  //LAs otras son la 14
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printOtrasEnergiasRenovables2017_2018();
+
+
+}
+
+void printMediaAnualOtrasEnergiasRenovables2018()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        //printf("%c", aux1); //este printf es para comprobar que copia los caracteres
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+
+    }
+
+    float promedio, suma=0;
+
+    for(j=12; j<24; j++)
+    {
+        suma=Energias[13].datos[j]+suma;  //LAs otras son la 14
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printOtrasEnergiasRenovables2017_2018();
+
+
+}
+
+void printMediaAnualCarbon2017()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        //printf("%c", aux1); //este printf es para comprobar que copia los caracteres
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+
+    }
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[3].datos[j]+suma;  //LA carbon ES LA 4
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printCarbon2017_2018();
+
+}
+
+void printMediaAnualCarbon2018()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=12; j<24; j++)
+    {
+        suma=Energias[3].datos[j]+suma;  //LA carbon ES LA 4
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printCarbon2017_2018();
+
+}
+
+void printMediaAnualFuelGas2017()
+{
+    char aux0;
+    float suma;
+	float promedio;
+	int j;
+	int numerodeenergias=0;
+
+	int lineas;
+    lineas=numerodelineas();
+
+	numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+    Energia Energias[numerodeenergias];
+
+
+
+	for(j=0; j<12; j++)
+    {
+        Energias[4].datos[j]=0.0; //todos son cero
+    }
+
+    Energias[4].datos[6]=-0.000001; //solo modifico ese dato, el resto es 0
+
+	for(j=0; j<12; j++)
+    {
+        suma=Energias[4].datos[j]+suma;
+    }
+
+    promedio = suma / 12;
+
+	 printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printFuelGas2017_2018();
+
+}
+
+void printMediaAnualFuelGas2018()
+{
+    char aux0;
+    float suma;
+	float promedio = 0.0;
+	int numerodeenergias=0;
+
+	int lineas;
+    lineas=numerodelineas();
+
+	numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+    Energia Energias[numerodeenergias];
+
+    suma=-0.000001;
+
+
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printFuelGas2017_2018();
+
+}
+
+void printMediaAnualTurbinaGas2017()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[6].datos[j]+suma;  //LA TURBINA GAS ES LA 7
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printTurbinaGas2017_2018();
+
+
+}
+
+
+void printMediaAnualTurbinaGas2018()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        //printf("%c", aux1); //este printf es para comprobar que copia los caracteres
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+    }
+
+    float promedio, suma=0;
+
+    for(j=12; j<24; j++)
+    {
+        suma=Energias[6].datos[j]+suma;  //LA TURBINA GAS ES LA 7
+
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printTurbinaGas2017_2018();
+
+}
+
+void printMediaAnualTurbinaVapor2017()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+
+    }
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[7].datos[j]+suma;  //LA TURBINA VAPOR ES LA 8
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printTurbinaVapor2017_2018();
+
+}
+
+void printMediaAnualTurbinaVapor2018()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        //printf("%c", aux1); //este printf es para comprobar que copia los caracteres
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=12; j<24; j++)
+    {
+        suma=Energias[7].datos[j]+suma;  //LA TURBINA VAPOR ES LA 8
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printTurbinaVapor2017_2018();
+
+}
+
+void printMediaAnualCicloCombinado2017()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[8].datos[j]+suma;  //CICLO COMBINADO ES LA 9
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printCicloCombinado2017_2018();
+
+}
+
+
+void printMediaAnualCicloCombinado2018()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=12; j<24; j++)
+    {
+        suma=Energias[8].datos[j]+suma;  //CICLO COMBINADO ES LA 9
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printCicloCombinado2017_2018();
+
+
+}
+
+
+void printMediaAnualMotoresDiesel2017()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[5].datos[j]+suma;  //MOTORES DIESEL ES LA 6
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printMotoresDiesel2017_2018();
+
+}
+
+void printMediaAnualMotoresDiesel2018()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=12; j<24; j++)
+    {
+        suma=Energias[5].datos[j]+suma;  //MOTORES DIESEL ES LA 6
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printMotoresDiesel2017_2018();
+
+}
+
+
+void printMediaAnualResiduosNoRenovables2017() //es la no renovables
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[15].datos[j]+suma;  //residuos no renovables 16
+    }
+
+    promedio=suma/12.0;
+
+   printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printResiduosNoRenovables2017_2018();
+
+
+}
+
+
+void printMediaAnualResiduosNoRenovables2018()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=12; j<24; j++)
+    {
+        suma=Energias[15].datos[j]+suma;  //residuos no renovables 17
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printResiduosNoRenovables2017_2018();
+
+
+}
+
+void printMediaAnualResiduosRenovables2017()
+{
+ char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[16].datos[j]+suma;  //residuos renovables 17
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printResiduosRenovables2017_2018();
+}
+
+void printMediaAnualResiduosRenovables2018()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=12; j<24; j++)
+    {
+        suma=Energias[16].datos[j]+suma;  //residuos no renovables 17
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printResiduosRenovables2017_2018();
+
+
+}
+
+void printMediaAnualGeneracionTotal2017()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=0; j<24; j++)
+    {
+        suma=Energias[17].datos[j]+suma;  //GENERACION TOTAL ES LA 18
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa generacion total del 2017 fue de %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printGeneracionTotal2017_2018();
+
+
+}
+
+void printMediaAnualGeneracionTotal2018()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+    FILE *pf;
+
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=0; j<24; j++)
+    {
+        suma=Energias[17].datos[j]+suma;  //GENERACION TOTAL ES LA 18
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa generacion total del 2018 fue de %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printGeneracionTotal2017_2018();
+
+}
+
+
+void printMediaAnualCogeneracion2017()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=0; j<12; j++)
+    {
+        suma=Energias[14].datos[j]+suma;  //cogeneracion es la 15
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printCogeneracion2017_2018();
+
+
+}
+
+void printMediaAnualCogeneracion2018()
+{
+    char aux0, aux1, x;
+    int i=0, j, k;
+    int numerodeenergias=0;
+
+    int lineas;
+    lineas=numerodelineas();
+
+
+    FILE *pf;
+
+    pf = fopen("generacion_por_tecnologias_17_18_puntos.csv", "r"); //abrimos un fichero que se llama pf para almacenar los datos
+
+    if(pf == NULL)
+        {
+            printf("Error al encontrar el archivo");
+
+        }
+    else
+    {
+
+    for(i=0; i<=4; i++)
+  {
+  	fscanf(pf, "%c", &aux1);
+    while(aux1 != '\n')
+    {
+        fscanf(pf, "%c", &aux1);
+    }
+
+  }
+
+
+    numerodeenergias=lineas-5; //le restamos las 5 primeras filas
+
+
+    Energia Energias[numerodeenergias];
+
+
+
+    for(i=0; i<=numerodeenergias; i++)
+    {
+
+        fscanf(pf, "%[^,]", &Energias[i].tipo);
+
+        k=0;
+
+        char coma, comaalta1, comaalta2, comaalta3, comaalta4;
+
+
+        for(x=0; x<24; x++) //aqui recojo 24 datos
+        {
+            fscanf(pf, "%c %c %c %f %c %c", &coma, &comaalta1, &comaalta3, &Energias[i].datos[k], &comaalta2, &comaalta4);
+            k++;
+        }
+
+
+    }
+
+
+    float promedio, suma=0;
+
+    for(j=12; j<24; j++)
+    {
+        suma=Energias[14].datos[j]+suma;  //cogeneracion es la 15
+    }
+
+    promedio=suma/12.0;
+
+    printf("\nLa suma es %f GWh y el promedio es %f GWh", suma, promedio);
+
+    fclose(pf); //Cerramos fichero
+
+
+     }
+
+    printf("\n\n\t\t(Pulse una tecla para volver atras)\n");
+
+    scanf("%c", &aux0);
+
+    system("cls");
+    printCogeneracion2017_2018();
+}
+
+//FIN AÑO 2017-2018
 
 //-----------------------------MAXIMOS Y MÍNIMOS DEL PAR DE AÑOS 2021-2022-------------------------
 
