@@ -4,7 +4,6 @@ typedef struct
 	char contrasena[100];
 }usuario;
 
-usuario datos[100];
 
 int reconocerfichero(usuario datos[], int *numusuarios);
 void iniciarsesion(char printnombre[], int *numusuarios,usuario datos[]); //porque aqui hay una coma
