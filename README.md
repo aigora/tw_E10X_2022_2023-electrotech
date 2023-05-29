@@ -1,7 +1,7 @@
 # [BASE DE DATOS]
 
 [Hemos desarrollado una base de datos, que comienza con un Inicio de Sesión o Registro donde se podrá obtener más informacion acerca de ello en la Wiki.
-A continuaciín, accedemos a un Menú de inicio dividido en 5 secciones, estas son: 
+A continuación, accedemos a un Menú de inicio dividido en 5 secciones, estas son: 
 1. Almacenamiento de los datos de diferentes tipos de energias en el periodo de tiempo: 2021-2022
 2. Almacenamiento de los datos de diferentes tipos de energias en el periodo de tiempo: 2019-2020
 3. Almacenamiento de los datos de diferentes tipos de energias en el periodo de tiempo: 2017-2018
